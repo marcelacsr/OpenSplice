@@ -1,0 +1,4 @@
+<map id="org.omg.dds.topic.PublicationBuiltinTopicData" name="org.omg.dds.topic.PublicationBuiltinTopicData">
+<area shape="rect" id="node9" href="$a00293.html" title="{org.opensplice.dds.topic.\lPublicationBuiltinTopicDataImpl\n||+ PublicationBuiltinTopicDataImpl()\l+ clone()\l+ copyFrom()\l+ getBaseTypeName()\l+ getDeadline()\l+ getDestinationOrder()\l+ getDurability()\l+ getDurabilityService()\l+ getEnvironment()\l+ getEquivalentTypeName()\land 18 more...\l}" alt="" coords="40,465,267,741"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="221,5,416,91"/>
+</map>

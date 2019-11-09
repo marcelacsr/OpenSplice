@@ -1,0 +1,10 @@
+<map id="DDS.IEntity" name="DDS.IEntity">
+<area shape="rect" id="node3" href="$a00082.html" title="A IDataReader allows the application: to declare data it wishes to receive (i.e., make a subscription..." alt="" coords="5,199,216,475"/>
+<area shape="rect" id="node7" href="$a00084.html" title="IDataWriter allows the application to set the value of the sample to be published under a given ITopi..." alt="" coords="240,173,453,501"/>
+<area shape="rect" id="node11" href="$a00086.html" title="All the DCPS IEntity objects are attached to a IDomainParticipant. A IDomainParticipant represents th..." alt="" coords="477,191,680,484"/>
+<area shape="rect" id="node13" href="$a00095.html" title="The IPublisher acts on behalf of one or more IDataWriter objects that belong to it. When it is informed of a change to the data associated with one of its IDataWriter objects, it decides when it is appropriate to actually process the sample&#45;update message. In making this decision, it considers the PublisherQos and the DataWriterQos. " alt="" coords="704,208,896,467"/>
+<area shape="rect" id="node15" href="$a00100.html" title="A ISubscriber is the object responsible for the actual reception of the data resulting from its subsc..." alt="" coords="920,199,1101,475"/>
+<area shape="rect" id="node17" href="$a00102.html" title="ITopic is the most basic description of the data to be published and subscribed. " alt="" coords="1125,269,1328,406"/>
+<area shape="rect" id="node5" href="$a00155.html" title="A DataReader allows the application to access published sample data. " alt="" coords="33,549,188,808"/>
+<area shape="rect" id="node9" href="$a00156.html" title="The specialized DataWriter for the fictional type Space::Foo &#160;" alt="" coords="225,549,468,808"/>
+</map>

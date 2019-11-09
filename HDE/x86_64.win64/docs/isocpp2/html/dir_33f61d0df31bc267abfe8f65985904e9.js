@@ -1,0 +1,36 @@
+var dir_33f61d0df31bc267abfe8f65985904e9 =
+[
+    [ "AnyDataReader.hpp", "a00487.html", null ],
+    [ "AnyDataReaderImpl.hpp", "a00502.html", null ],
+    [ "CoherentAccess.hpp", "a00490.html", null ],
+    [ "CoherentAccessImpl.hpp", "a00503.html", null ],
+    [ "DataReader.hpp", "a00498.html", null ],
+    [ "DataReaderImpl.hpp", "a00504.html", "a00504" ],
+    [ "ddssub.hpp", "a00501.html", null ],
+    [ "discovery.hpp", "a00451.html", null ],
+    [ "find.hpp", "a00459.html", null ],
+    [ "GenerationCount.hpp", "a00505.html", null ],
+    [ "GenerationCountImpl.hpp", "a00507.html", null ],
+    [ "LoanedSamples.hpp", "a00508.html", null ],
+    [ "LoanedSamplesImpl.hpp", "a00510.html", "a00510" ],
+    [ "Manipulators.hpp", "a00511.html", [
+      [ "ContentFilterManipulatorFunctor", "a00093.html", "a00093" ],
+      [ "InstanceManipulatorFunctor", "a00145.html", "a00145" ],
+      [ "MaxSamplesManipulatorFunctor", "a00167.html", "a00167" ],
+      [ "NextInstanceManipulatorFunctor", "a00174.html", "a00174" ],
+      [ "StateFilterManipulatorFunctor", "a00244.html", "a00244" ]
+    ] ],
+    [ "Query.hpp", "a00512.html", null ],
+    [ "QueryImpl.hpp", "a00514.html", null ],
+    [ "Rank.hpp", "a00515.html", null ],
+    [ "RankImpl.hpp", "a00517.html", null ],
+    [ "Sample.hpp", "a00518.html", null ],
+    [ "SampleImpl.hpp", "a00520.html", null ],
+    [ "SampleInfo.hpp", "a00521.html", null ],
+    [ "SampleInfoImpl.hpp", "a00523.html", null ],
+    [ "SamplesHolder.hpp", "a00524.html", null ],
+    [ "SharedSamples.hpp", "a00525.html", null ],
+    [ "SharedSamplesImpl.hpp", "a00527.html", null ],
+    [ "Subscriber.hpp", "a00528.html", null ],
+    [ "SubscriberImpl.hpp", "a00530.html", null ]
+];

@@ -1,0 +1,5 @@
+<map id="org.omg.dds.core.policy.PolicyFactory" name="org.omg.dds.core.policy.PolicyFactory">
+<area shape="rect" id="node5" href="$a00282.html" title="OpenSplice&#45;specific extension of org.omg.dds.core.policy.PolicyFactory that supports an extra set of ..." alt="" coords="5,480,208,669"/>
+<area shape="rect" id="node2" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="9,5,204,91"/>
+<area shape="rect" id="node7" href="$a00283.html" title="{org.opensplice.dds.core.policy.\lPolicyFactoryImpl\n||+ PolicyFactoryImpl()\l+ DataRepresentation()\l+ Deadline()\l+ DestinationOrder()\l+ Durability()\l+ DurabilityService()\l+ EntityFactory()\l+ getEnvironment()\l+ GroupData()\l+ History()\land 22 more...\l}" alt="" coords="5,718,208,994"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="dds::core::xtypes::Annotation" name="dds::core::xtypes::Annotation">
+<area shape="rect" id="node5" href="$a00077.html" title="{dds::core::xtypes::\lBitBoundAnnotation\n||+ BitBoundAnnotation()\l}" alt="" coords="5,507,163,610"/>
+<area shape="rect" id="node7" href="$a00079.html" title="{dds::core::xtypes::\lBitsetAnnotation\n||+ BitsetAnnotation()\l}" alt="" coords="187,507,325,610"/>
+<area shape="rect" id="node9" href="$a00129.html" title="{dds::core::xtypes::\lExtensibilityAnnotation\n||+ ExtensibilityAnnotation()\l+ extensibility_kind()\l}" alt="" coords="349,499,523,619"/>
+<area shape="rect" id="node11" href="$a00139.html" title="{dds::core::xtypes::\lIdAnnotation\n||+ IdAnnotation()\l+ id()\l}" alt="" coords="547,499,677,619"/>
+<area shape="rect" id="node13" href="$a00153.html" title="{dds::core::xtypes::\lKeyAnnotation\n||+ KeyAnnotation()\l}" alt="" coords="701,507,832,610"/>
+<area shape="rect" id="node15" href="$a00170.html" title="{dds::core::xtypes::\lMustUnderstandAnnotation\n||+ MustUnderstandAnnotation()\l}" alt="" coords="856,507,1056,610"/>
+<area shape="rect" id="node17" href="$a00172.html" title="{dds::core::xtypes::\lNestedAnnotation\n||+ NestedAnnotation()\l}" alt="" coords="1080,507,1227,610"/>
+<area shape="rect" id="node19" href="$a00242.html" title="{dds::core::xtypes::\lSharedAnnotation\n||+ SharedAnnotation()\l}" alt="" coords="1251,507,1395,610"/>
+<area shape="rect" id="node21" href="$a00294.html" title="{dds::core::xtypes::\lVerbatimAnnotation\n||+ VerbatimAnnotation()\l+ verbatim_text()\l}" alt="" coords="1419,499,1573,619"/>
+<area shape="rect" id="node2" href="$a00221.html" title="Base class for reference&#45;counted objects." alt="" coords="695,6,839,282"/>
+</map>

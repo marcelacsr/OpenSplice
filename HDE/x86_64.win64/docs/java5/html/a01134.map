@@ -1,0 +1,5 @@
+<map id="org.omg.dds.core.status.PublicationMatchedStatus" name="org.omg.dds.core.status.PublicationMatchedStatus">
+<area shape="rect" id="node9" href="$a00297.html" title="{org.opensplice.dds.core.status.\lPublicationMatchedStatusImpl\n||+ PublicationMatchedStatusImpl()\l+ getCurrentCount()\l+ getCurrentCountChange()\l+ getEnvironment()\l+ getLastSubscriptionHandle()\l+ getTotalCount()\l+ getTotalCountChange()\l}" alt="" coords="23,529,241,735"/>
+<area shape="rect" id="node2" href="$a00364.html" title="Status is the abstract root class for all communication status objects." alt="" coords="49,139,215,259"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="117,5,312,91"/>
+</map>

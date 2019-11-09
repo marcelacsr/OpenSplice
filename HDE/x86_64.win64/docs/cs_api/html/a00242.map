@@ -1,0 +1,8 @@
+<map id="DDS.CMDataWriterBuiltinTopicData" name="DDS.CMDataWriterBuiltinTopicData">
+<area shape="rect" id="node2" href="$a00060.html" title="Represents a globally unique identifier to be used as key for the builtin topics. ..." alt="" coords="5,364,152,449"/>
+<area shape="rect" id="node4" href="$a00133.html" title="{DDS.ResourceLimitsQosPolicy\n|+ MaxInstances\l+ MaxSamples\l+ MaxSamplesPerInstance\l|}" alt="" coords="176,347,381,467"/>
+<area shape="rect" id="node6" href="$a00153.html" title="{DDS.WriterDataLifecycleQos\lPolicy\n|+ AutoDisposeUnregisteredInstances\l|}" alt="" coords="405,355,645,458"/>
+<area shape="rect" id="node8" href="$a00076.html" title="Duration represents a time interval. " alt="" coords="453,5,597,229"/>
+<area shape="rect" id="node11" href="$a00120.html" title="Proprietary QoS Policy for specifying internal product information which is used by a number of propr..." alt="" coords="669,364,856,449"/>
+<area shape="rect" id="node13" href="$a00079.html" title="{DDS.HistoryQosPolicy\n|+ Depth\l+ Kind\l|}" alt="" coords="880,355,1037,458"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="org.opensplice.dds.core.policy.ShareImpl" name="org.opensplice.dds.core.policy.ShareImpl">
+<area shape="rect" id="node2" href="$a00309.html" title="{org.opensplice.dds.core.policy.\lQosPolicyImpl\n||+ QosPolicyImpl()\l+ equals()\l+ getEnvironment()\l+ getPolicyClass()\l+ hashCode()\l}" alt="" coords="325,587,528,759"/>
+<area shape="rect" id="node4" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="216,177,381,279"/>
+<area shape="rect" id="node17" href="$a00169.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.DataReader Entities." alt="" coords="5,391,179,494"/>
+<area shape="rect" id="node20" href="$a00174.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.Subscriber Entities." alt="" coords="203,391,368,494"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="379,5,573,91"/>
+<area shape="rect" id="node12" href="$a00358.html" title="DDS implementations are rooted in this class, a concrete subclass of which can be instantiated based ..." alt="" coords="411,142,613,314"/>
+<area shape="rect" id="node10" href="$a00269.html" title="{org.opensplice.dds.core.\lOsplServiceEnvironment\n||+ OsplServiceEnvironment()\l+ OsplServiceEnvironment()\l+ getEnvironmentValue()\l+ getSPI()\l}" alt="" coords="443,365,629,520"/>
+<area shape="rect" id="node15" href="$a00361.html" title="This QosPolicy allows sharing of entities by multiple processes or threads." alt="" coords="99,613,301,733"/>
+</map>

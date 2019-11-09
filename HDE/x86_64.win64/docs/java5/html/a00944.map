@@ -1,0 +1,4 @@
+<map id="org.omg.dds.core.StatusCondition&lt; ENTITY extends Entity&lt;?,?&gt; &gt;" name="org.omg.dds.core.StatusCondition&lt; ENTITY extends Entity&lt;?,?&gt; &gt;">
+<area shape="rect" id="node2" href="$a00089.html" title="A Condition is a root interface for all the conditions that may be attached to a org.omg.dds.core.WaitSet." alt="" coords="24,139,205,224"/>
+<area shape="rect" id="node4" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="17,5,212,91"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="org.omg.dds.core.DDSException" name="org.omg.dds.core.DDSException">
+<area shape="rect" id="node7" href="$a00073.html" title="The target object was previously closed and therefore cannot process the operation." alt="" coords="5,325,189,480"/>
+<area shape="rect" id="node9" href="$a00186.html" title="{org.omg.dds.core.Illegal\lOperationException\n||# IllegalOperationException()\l# IllegalOperationException()\l# IllegalOperationException()\l# IllegalOperationException()\l}" alt="" coords="213,325,403,480"/>
+<area shape="rect" id="node11" href="$a00188.html" title="{org.omg.dds.core.Immutable\lPolicyException\n||# ImmutablePolicyException()\l# ImmutablePolicyException()\l# ImmutablePolicyException()\l# ImmutablePolicyException()\l}" alt="" coords="427,325,621,480"/>
+<area shape="rect" id="node13" href="$a00190.html" title="{org.omg.dds.core.Inconsistent\lPolicyException\n||# InconsistentPolicyException()\l# InconsistentPolicyException()\l# InconsistentPolicyException()\l# InconsistentPolicyException()\l}" alt="" coords="645,325,851,480"/>
+<area shape="rect" id="node15" href="$a00257.html" title="{org.omg.dds.core.NotEnabled\lException\n||# NotEnabledException()\l# NotEnabledException()\l# NotEnabledException()\l# NotEnabledException()\l}" alt="" coords="875,325,1069,480"/>
+<area shape="rect" id="node17" href="$a00270.html" title="{org.omg.dds.core.OutOfResources\lException\n||# OutOfResourcesException()\l# OutOfResourcesException()\l# OutOfResourcesException()\l# OutOfResourcesException()\l}" alt="" coords="1093,325,1317,480"/>
+<area shape="rect" id="node19" href="$a00287.html" title="{org.omg.dds.core.Precondition\lNotMetException\n||# PreconditionNotMetException()\l# PreconditionNotMetException()\l# PreconditionNotMetException()\l# PreconditionNotMetException()\l}" alt="" coords="1341,325,1555,480"/>
+<area shape="rect" id="node21" href="$a00125.html" title="{org.opensplice.dds.core.\lDDSExceptionImpl\n||+ DDSExceptionImpl()\l+ getEnvironment()\l+ printStackTrace()\l+ toString()\l}" alt="" coords="1579,325,1741,480"/>
+<area shape="rect" id="node4" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="856,5,1051,91"/>
+</map>

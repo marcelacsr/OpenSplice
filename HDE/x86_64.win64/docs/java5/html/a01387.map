@@ -1,0 +1,9 @@
+<map id="org.omg.dds.type.typeobject.CollectionType" name="org.omg.dds.type.typeobject.CollectionType">
+<area shape="rect" id="node12" href="$a00081.html" title="{org.omg.dds.type.typeobject.\lArrayType\n||+ getBound()\l}" alt="" coords="5,603,195,706"/>
+<area shape="rect" id="node14" href="$a00231.html" title="{org.omg.dds.type.typeobject.\lMapType\n||+ getBound()\l+ getKeyElementType()\l}" alt="" coords="219,595,408,715"/>
+<area shape="rect" id="node16" href="$a00355.html" title="{org.omg.dds.type.typeobject.\lSequenceType\n||+ getBound()\l}" alt="" coords="432,603,621,706"/>
+<area shape="rect" id="node18" href="$a00370.html" title="{org.omg.dds.type.typeobject.\lStringType\n||+ getBound()\l}" alt="" coords="645,603,835,706"/>
+<area shape="rect" id="node2" href="$a00412.html" title="Objects of this type are immutable." alt="" coords="311,291,529,394"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="388,5,583,91"/>
+<area shape="rect" id="node8" href="$a00420.html" title="A marker interface." alt="" coords="457,139,647,242"/>
+</map>

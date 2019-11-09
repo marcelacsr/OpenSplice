@@ -1,0 +1,4 @@
+<map id="org.opensplice.dds.core.Condition&lt; T extends DDS.Condition &gt;" name="org.opensplice.dds.core.Condition&lt; T extends DDS.Condition &gt;">
+<area shape="rect" id="node2" href="$a00089.html" title="A Condition is a root interface for all the conditions that may be attached to a org.omg.dds.core.WaitSet." alt="" coords="40,139,221,224"/>
+<area shape="rect" id="node4" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="33,5,228,91"/>
+</map>

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Module: qos</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Module: qos</h1>
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        
+            
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description">QoS for Node.js</div>
+        
+
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line25">line 25</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Classes</h3>
+
+        <dl>
+            <dt><a href="module-qos-QoS.html">QoS</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-qos-QoSProvider.html">QoSProvider</a></dt>
+            <dd></dd>
+        </dl>
+    
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Members</h3>
+
+        
+            
+<h4 class="name" id=".DestinationOrderKind"><span class="type-signature">(static) </span>DestinationOrderKind<span class="type-signature"> :number</span></h4>
+
+
+
+
+<div class="description">
+    Destination Order Kind - Specifies the type of destination order
+Applies to Topic, DataReader, DataWriter
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line845">line 845</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id=".DurabilityKind"><span class="type-signature">(static) </span>DurabilityKind<span class="type-signature"> :number</span></h4>
+
+
+
+
+<div class="description">
+    Durability QoS - Specifies the type of durability
+Applies to Topic, DataReader, DataWriter
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line792">line 792</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id=".HistoryKind"><span class="type-signature">(static) </span>HistoryKind<span class="type-signature"> :number</span></h4>
+
+
+
+
+<div class="description">
+    History QoS - Specifies the number of samples to be stored
+Applies to Topic, DataReader, DataWriter
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line804">line 804</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id=".LivelinessKind"><span class="type-signature">(static) </span>LivelinessKind<span class="type-signature"> :number</span></h4>
+
+
+
+
+<div class="description">
+    Liveliness QoS - Specifies the type of liveliness
+Applies to Topic, DataReader, DataWriter
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line824">line 824</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id=".OwnershipKind"><span class="type-signature">(static) </span>OwnershipKind<span class="type-signature"> :number</span></h4>
+
+
+
+
+<div class="description">
+    Ownership QoS - Specifies the type of ownership
+Applies to Topic, DataReader, DataWriter
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line814">line 814</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id=".PresentationAccessScopeKind"><span class="type-signature">(static) </span>PresentationAccessScopeKind<span class="type-signature"> :number</span></h4>
+
+
+
+
+<div class="description">
+    Presentation QoS - Specifies the type of presentation
+Applies to Publisher, Subscriber
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line855">line 855</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id=".ReliabilityKind"><span class="type-signature">(static) </span>ReliabilityKind<span class="type-signature"> :number</span></h4>
+
+
+
+
+<div class="description">
+    Reliability QoS - Specifies the type of reliability
+Applies to Topic, DataReader, DataWriter
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line835">line 835</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="~errorHandler"><span class="type-signature">(inner) </span>errorHandler<span class="signature">(err)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    Throws an error
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>err</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">error message</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="qos.js.html">qos.js</a>, <a href="qos.js.html#line37">line 37</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-dcps.html">dcps</a></li><li><a href="module-ddsc99.html">ddsc99</a></li><li><a href="module-ddserr.html">ddserr</a></li><li><a href="module-libs.html">libs</a></li><li><a href="module-qos.html">qos</a></li><li><a href="module-qosc99.html">qosc99</a></li><li><a href="module-vortexdds.html">vortexdds</a></li></ul><h3>Classes</h3><ul><li><a href="module-dcps-Condition.html">Condition</a></li><li><a href="module-dcps-Entity.html">Entity</a></li><li><a href="module-dcps-GuardCondition.html">GuardCondition</a></li><li><a href="module-dcps-Participant.html">Participant</a></li><li><a href="module-dcps-Publisher.html">Publisher</a></li><li><a href="module-dcps-QueryCondition.html">QueryCondition</a></li><li><a href="module-dcps-ReadCondition.html">ReadCondition</a></li><li><a href="module-dcps-Reader.html">Reader</a></li><li><a href="module-dcps-StatusCondition.html">StatusCondition</a></li><li><a href="module-dcps-Subscriber.html">Subscriber</a></li><li><a href="module-dcps-Topic.html">Topic</a></li><li><a href="module-dcps-TopicDescriptor.html">TopicDescriptor</a></li><li><a href="module-dcps-Waitset.html">Waitset</a></li><li><a href="module-dcps-Writer.html">Writer</a></li><li><a href="module-ddserr-DDSError.html">DDSError</a></li><li><a href="module-qos-QoS.html">QoS</a></li><li><a href="module-qos-QoSProvider.html">QoSProvider</a></li></ul><h3>Global</h3><ul><li><a href="global.html#getTopicTypeSupportsForIDL">getTopicTypeSupportsForIDL</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Wed Nov 28 2018 11:13:44 GMT+0000 (GMT Standard Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

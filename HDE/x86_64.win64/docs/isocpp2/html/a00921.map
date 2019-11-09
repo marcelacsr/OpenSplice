@@ -1,0 +1,11 @@
+<map id="dds::core::xtypes::detail::Annotation" name="dds::core::xtypes::detail::Annotation">
+<area shape="rect" id="node3" href="$a00076.html" title="{dds::core::xtypes::\ldetail::BitBoundAnnotation\n||}" alt="" coords="5,158,181,261"/>
+<area shape="rect" id="node5" href="$a00078.html" title="{dds::core::xtypes::\ldetail::BitsetAnnotation\n||}" alt="" coords="205,158,363,261"/>
+<area shape="rect" id="node7" href="$a00128.html" title="{dds::core::xtypes::\ldetail::ExtensibilityAnnotation\n||}" alt="" coords="387,158,581,261"/>
+<area shape="rect" id="node9" href="$a00138.html" title="{dds::core::xtypes::\ldetail::IdAnnotation\n||}" alt="" coords="605,158,739,261"/>
+<area shape="rect" id="node11" href="$a00152.html" title="{dds::core::xtypes::\ldetail::KeyAnnotation\n||}" alt="" coords="763,158,909,261"/>
+<area shape="rect" id="node13" href="$a00169.html" title="{dds::core::xtypes::\ldetail::MustUnderstandAnnotation\n||}" alt="" coords="933,158,1152,261"/>
+<area shape="rect" id="node15" href="$a00171.html" title="{dds::core::xtypes::\ldetail::NestedAnnotation\n||}" alt="" coords="1176,158,1341,261"/>
+<area shape="rect" id="node17" href="$a00241.html" title="{dds::core::xtypes::\ldetail::SharedAnnotation\n||}" alt="" coords="1365,158,1528,261"/>
+<area shape="rect" id="node19" href="$a00293.html" title="{dds::core::xtypes::\ldetail::VerbatimAnnotation\n||}" alt="" coords="1552,158,1725,261"/>
+</map>

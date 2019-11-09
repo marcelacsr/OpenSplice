@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00080.html" title="Base class for all Conditions that maybe attached to an IWaitSet. " alt="" coords="5,59,120,88"/>
+<area shape="rect" id="node3" href="$a00089.html" title="An IGuardCondition object is a specific ICondition whose TriggerValue is completely under the control..." alt="" coords="169,5,319,35"/>
+<area shape="rect" id="node5" href="$a00098.html" title="IReadCondition objects allow an IDataReader to specify the data samples it is interested in ..." alt="" coords="172,59,316,88"/>
+<area shape="rect" id="node9" href="$a00099.html" title="Specialized class of ICondition, which allows accesss and to be triggered on the related communicatio..." alt="" coords="168,112,320,141"/>
+<area shape="rect" id="node7" href="$a00097.html" title="IQueryCondition objects are specialized IReadCondition objects that allow the application to specify ..." alt="" coords="368,59,517,88"/>
+</map>

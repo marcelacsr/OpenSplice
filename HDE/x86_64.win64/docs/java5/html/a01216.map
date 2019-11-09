@@ -1,0 +1,5 @@
+<map id="org.omg.dds.sub.QueryCondition&lt; TYPE &gt;" name="org.omg.dds.sub.QueryCondition&lt; TYPE &gt;">
+<area shape="rect" id="node2" href="$a00314.html" title="ReadCondition objects are conditions specifically dedicated to read operations and attached to one or..." alt="" coords="19,273,227,445"/>
+<area shape="rect" id="node6" href="$a00089.html" title="A Condition is a root interface for all the conditions that may be attached to a org.omg.dds.core.WaitSet." alt="" coords="109,139,291,224"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="103,5,297,91"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="org.omg.dds.core.Duration" name="org.omg.dds.core.Duration">
+<area shape="rect" id="node9" href="$a00154.html" title="{org.opensplice.dds.core.\lDurationImpl\n|+ INFINITE_NANOSECONDS\l+ INFINITE_SECONDS\l|+ DurationImpl()\l+ DurationImpl()\l+ add()\l+ add()\l+ compareTo()\l+ convert()\l+ equals()\l+ getDuration()\l+ getEnvironment()\l+ getRemainder()\land 7 more...\l}" alt="" coords="137,445,340,739"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="307,5,501,91"/>
+</map>

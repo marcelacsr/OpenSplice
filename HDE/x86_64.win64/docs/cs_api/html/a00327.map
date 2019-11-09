@@ -1,0 +1,4 @@
+<map id="DDS.IQueryCondition" name="DDS.IQueryCondition">
+<area shape="rect" id="node2" href="$a00098.html" title="IReadCondition objects allow an IDataReader to specify the data samples it is interested in ..." alt="" coords="5,139,181,277"/>
+<area shape="rect" id="node4" href="$a00080.html" title="Base class for all Conditions that maybe attached to an IWaitSet. " alt="" coords="25,5,161,91"/>
+</map>

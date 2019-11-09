@@ -1,0 +1,11 @@
+<map id="org.omg.dds.core.policy.QosPolicy.ForPublisher" name="org.omg.dds.core.policy.QosPolicy.ForPublisher">
+<area shape="rect" id="node9" href="$a00161.html" title="Controls the behavior of the org.omg.dds.core.Entity when acting as a factory for other entities..." alt="" coords="15,504,236,624"/>
+<area shape="rect" id="node13" href="$a00177.html" title="User data not known by the middleware, but distributed by means of built&#45;in topics." alt="" coords="269,504,435,624"/>
+<area shape="rect" id="node17" href="$a00278.html" title="This policy allows the introduction of a logical partition concept inside the &quot;physical&quot; partition in..." alt="" coords="459,487,624,641"/>
+<area shape="rect" id="node21" href="$a00289.html" title="Specifies how the samples representing changes to data instances are presented to the subscribing app..." alt="" coords="648,443,813,685"/>
+<area shape="rect" id="node2" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="364,139,529,242"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="432,5,627,91"/>
+<area shape="rect" id="node11" href="$a00162.html" title="{org.opensplice.dds.core.policy.\lEntityFactoryImpl\n||+ EntityFactoryImpl()\l+ EntityFactoryImpl()\l+ equals()\l+ getPolicyClass()\l+ hashCode()\l+ isAutoEnableCreatedEntities()\l+ toString()\l+ withAutoEnableCreatedEntities()\l}" alt="" coords="5,751,227,975"/>
+<area shape="rect" id="node15" href="$a00178.html" title="{org.opensplice.dds.core.policy.\lGroupDataImpl\n||+ GroupDataImpl()\l+ GroupDataImpl()\l+ equals()\l+ getPolicyClass()\l+ getValue()\l+ hashCode()\l+ withValue()\l}" alt="" coords="251,759,453,966"/>
+<area shape="rect" id="node19" href="$a00279.html" title="{org.opensplice.dds.core.policy.\lPartitionImpl\n||+ PartitionImpl()\l+ PartitionImpl()\l+ PartitionImpl()\l+ equals()\l+ getName()\l+ getPolicyClass()\l+ hashCode()\l+ withName()\l+ withName()\l+ withName()\l}" alt="" coords="477,733,680,992"/>
+</map>

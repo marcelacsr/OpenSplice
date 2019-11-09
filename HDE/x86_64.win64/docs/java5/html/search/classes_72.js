@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['readcondition_3c_20type_20_3e',['ReadCondition&lt; TYPE &gt;',['../a00314.html',1,'org::omg::dds::sub']]],
+  ['readconditionimpl_3c_20type_20_3e',['ReadConditionImpl&lt; TYPE &gt;',['../a00315.html',1,'org::opensplice::dds::sub']]],
+  ['readerdatalifecycle',['ReaderDataLifecycle',['../a00317.html',1,'org::omg::dds::core::policy']]],
+  ['readerdatalifecycle',['ReaderDataLifecycle',['../a00316.html',1,'org::opensplice::dds::core::policy']]],
+  ['readerdatalifecycleimpl',['ReaderDataLifecycleImpl',['../a00318.html',1,'org::opensplice::dds::core::policy']]],
+  ['readerlifespan',['ReaderLifespan',['../a00319.html',1,'org::opensplice::dds::core::policy']]],
+  ['readerlifespanimpl',['ReaderLifespanImpl',['../a00320.html',1,'org::opensplice::dds::core::policy']]],
+  ['reflectiondatareader_3c_20type_2c_20out_5ftype_20_3e',['ReflectionDataReader&lt; TYPE, OUT_TYPE &gt;',['../a00321.html',1,'org::opensplice::dds::sub']]],
+  ['reflectiondatawriter_3c_20type_20_3e',['ReflectionDataWriter&lt; TYPE &gt;',['../a00322.html',1,'org::opensplice::dds::pub']]],
+  ['reliability',['Reliability',['../a00323.html',1,'org::omg::dds::core::policy']]],
+  ['reliability',['Reliability',['../a00324.html',1,'org::opensplice::dds::core::policy']]],
+  ['reliabilityimpl',['ReliabilityImpl',['../a00325.html',1,'org::opensplice::dds::core::policy']]],
+  ['requesteddeadlinemissedevent_3c_20type_20_3e',['RequestedDeadlineMissedEvent&lt; TYPE &gt;',['../a00326.html',1,'org::omg::dds::core::event']]],
+  ['requesteddeadlinemissedeventimpl_3c_20type_20_3e',['RequestedDeadlineMissedEventImpl&lt; TYPE &gt;',['../a00327.html',1,'org::opensplice::dds::core::event']]],
+  ['requesteddeadlinemissedstatus',['RequestedDeadlineMissedStatus',['../a00328.html',1,'org::omg::dds::core::status']]],
+  ['requesteddeadlinemissedstatusimpl',['RequestedDeadlineMissedStatusImpl',['../a00329.html',1,'org::opensplice::dds::core::status']]],
+  ['requestedincompatibleqosevent_3c_20type_20_3e',['RequestedIncompatibleQosEvent&lt; TYPE &gt;',['../a00330.html',1,'org::omg::dds::core::event']]],
+  ['requestedincompatibleqoseventimpl_3c_20type_20_3e',['RequestedIncompatibleQosEventImpl&lt; TYPE &gt;',['../a00331.html',1,'org::opensplice::dds::core::event']]],
+  ['requestedincompatibleqosstatus',['RequestedIncompatibleQosStatus',['../a00332.html',1,'org::omg::dds::core::status']]],
+  ['requestedincompatibleqosstatusimpl',['RequestedIncompatibleQosStatusImpl',['../a00333.html',1,'org::opensplice::dds::core::status']]],
+  ['requestedoffered_3c_20self_20_3e',['RequestedOffered&lt; SELF &gt;',['../a00334.html',1,'org::omg::dds::core::policy']]],
+  ['resourcelimits',['ResourceLimits',['../a00335.html',1,'org::omg::dds::core::policy']]],
+  ['resourcelimitsimpl',['ResourceLimitsImpl',['../a00336.html',1,'org::opensplice::dds::core::policy']]]
+];

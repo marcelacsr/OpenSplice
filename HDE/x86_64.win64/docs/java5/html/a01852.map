@@ -1,0 +1,3 @@
+<map id="org.opensplice.dds.sub.DataReader&lt; TYPE &gt;" name="org.opensplice.dds.sub.DataReader&lt; TYPE &gt;">
+<area shape="rect" id="node2" href="$a00102.html" title="A DataReader allows the application (1) to declare the data it wishes to receive (i.e., make a subscription) and (2) to access the data received by the attached org.omg.dds.sub.Subscriber." alt="" coords="21,174,229,450"/>
+</map>

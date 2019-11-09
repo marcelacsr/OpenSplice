@@ -1,0 +1,5 @@
+<map id="org.omg.dds.core.status.LivelinessLostStatus" name="org.omg.dds.core.status.LivelinessLostStatus">
+<area shape="rect" id="node9" href="$a00230.html" title="{org.opensplice.dds.core.status.\lLivelinessLostStatusImpl\n||+ LivelinessLostStatusImpl()\l+ getEnvironment()\l+ getTotalCount()\l+ getTotalCountChange()\l}" alt="" coords="31,475,233,629"/>
+<area shape="rect" id="node2" href="$a00364.html" title="Status is the abstract root class for all communication status objects." alt="" coords="49,139,215,259"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="117,5,312,91"/>
+</map>

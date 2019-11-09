@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.core.IllegalOperationExceptionImpl" name="org.opensplice.dds.core.IllegalOperationExceptionImpl">
+<area shape="rect" id="node2" href="$a00186.html" title="{org.omg.dds.core.Illegal\lOperationException\n||# IllegalOperationException()\l# IllegalOperationException()\l# IllegalOperationException()\l# IllegalOperationException()\l}" alt="" coords="67,325,256,480"/>
+<area shape="rect" id="node4" href="$a00124.html" title="DDS recognizes a number of ways in which an operation may return, which are mapped to exceptions in t..." alt="" coords="55,139,268,277"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="157,5,352,91"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="org.omg.dds.domain.DomainParticipantFactory" name="org.omg.dds.domain.DomainParticipantFactory">
+<area shape="rect" id="node5" href="$a00139.html" title="{org.opensplice.dds.domain.\lDomainParticipantFactoryImpl\n||+ DomainParticipantFactoryImpl()\l+ createParticipant()\l+ createParticipant()\l+ createParticipant()\l+ createParticipant()\l+ destroyParticipant()\l+ detachAllDomains()\l+ getDefaultParticipantQos()\l+ getEnvironment()\l+ getQos()\l+ lookupParticipant()\l+ setDefaultParticipantQos()\l+ setQos()\l}" alt="" coords="5,446,224,757"/>
+<area shape="rect" id="node2" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="17,5,212,91"/>
+</map>

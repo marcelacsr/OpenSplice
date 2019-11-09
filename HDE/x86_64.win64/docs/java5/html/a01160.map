@@ -1,0 +1,5 @@
+<map id="org.omg.dds.domain.DomainParticipantAdapter" name="org.omg.dds.domain.DomainParticipantAdapter">
+<area shape="rect" id="node2" href="$a00144.html" title="This is the interface that can be implemented by an application&#45;provided class and then registered wi..." alt="" coords="124,411,313,514"/>
+<area shape="rect" id="node4" href="$a00301.html" title="Since a org.omg.dds.pub.Publisher is a kind of org.omg.dds.core.Entity, it has the ability to have a ..." alt="" coords="5,173,203,328"/>
+<area shape="rect" id="node8" href="$a00375.html" title="Since a org.omg.dds.sub.Subscriber is a kind of org.omg.dds.core.Entity, it has the ability to have a..." alt="" coords="227,139,443,363"/>
+</map>

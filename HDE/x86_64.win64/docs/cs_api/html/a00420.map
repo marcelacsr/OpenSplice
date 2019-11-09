@@ -1,0 +1,4 @@
+<map id="DDS.SchedulingQosPolicy" name="DDS.SchedulingQosPolicy">
+<area shape="rect" id="node2" href="$a00138.html" title="The scheduling priority. " alt="" coords="5,6,189,109"/>
+<area shape="rect" id="node4" href="$a00137.html" title="The scheduling policy which indicates if the scheduling priority is relative or absolute. " alt="" coords="213,15,427,100"/>
+</map>

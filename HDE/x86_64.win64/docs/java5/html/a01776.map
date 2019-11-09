@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.core.status.SampleRejectedStatusImpl" name="org.opensplice.dds.core.status.SampleRejectedStatusImpl">
+<area shape="rect" id="node2" href="$a00346.html" title="A (received) sample has been rejected." alt="" coords="44,307,220,461"/>
+<area shape="rect" id="node4" href="$a00364.html" title="Status is the abstract root class for all communication status objects." alt="" coords="49,139,215,259"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="117,5,312,91"/>
+</map>

@@ -1,0 +1,624 @@
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:33-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308013.183660400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:33-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308013.289518900/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:33-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308013.395494800/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:33-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308013.610871000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.011708400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.180281000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.181190900/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.181805000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.182361500/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.182901400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.218208100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.281163700/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.282105200/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.283096800/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.319149200/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.420211000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.420905800/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.646952300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:34-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308014.647657800/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.062490300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.063332300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.302780900/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.418597500/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.522279800/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.722334100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.862250400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:35-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308015.863217300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:36-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308016.123233100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:36-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308016.179311900/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:36-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308016.283680000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:36-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308016.384259200/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:36-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308016.587190300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:36-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308016.988393700/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:37-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308017.178850400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:37-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308017.299005300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:37-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308017.399611300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:37-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308017.462553100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:37-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308017.463524100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:37-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308017.600467000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:38-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308018.000765900/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:38-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308018.179055300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:38-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308018.278846400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:38-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308018.379371100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:38-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308018.579641000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:38-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308018.979685400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:39-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308019.178939700/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:39-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308019.279127000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:39-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308019.380074400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:39-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308019.580423300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:39-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308019.980651100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:40-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308020.178675100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:40-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308020.278640200/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:40-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308020.379351100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:40-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308020.579839100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:40-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308020.662705600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:40-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308020.663684600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:40-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308020.979828200/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:41-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308021.179273500/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:41-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308021.280107400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:41-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308021.381164100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:41-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308021.581153700/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:41-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308021.981835400/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:42-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308022.179099000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:42-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308022.279333600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:42-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308022.379327900/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:42-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308022.579372800/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:42-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308022.979671600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.179623300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.181546600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.182243600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.182874600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.183551100/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : tev 2588
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.218520900/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.265332300/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.265955200/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.266525600/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-28T21:13:43-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <18632>
+Thread      : xmit.user 19704
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572308023.267529000/0
+========================================================================================
+Report      : ERROR
+Date        : 2019-10-29T18:50:23-0300
+Description : ddsi_udp_conn_write failed with error code 10051
+Node        : DESKTOP-9B89S0K
+Process     : javaw.exe <7936>
+Thread      : tev 20364
+Internals   : 6.9.181127OSS/42c7cafa/42c7cafa/ddsi2/ddsi_udp.c/147/0/1572385823.718221700/0

@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00065.html" title="dds::core::xtypes::\ldetail::Annotation" alt="" coords="5,282,136,329"/>
+<area shape="rect" id="node3" href="$a00076.html" title="dds::core::xtypes::\ldetail::BitBoundAnnotation" alt="" coords="205,5,381,51"/>
+<area shape="rect" id="node5" href="$a00078.html" title="dds::core::xtypes::\ldetail::BitsetAnnotation" alt="" coords="215,74,372,121"/>
+<area shape="rect" id="node7" href="$a00128.html" title="dds::core::xtypes::\ldetail::ExtensibilityAnnotation" alt="" coords="196,143,391,190"/>
+<area shape="rect" id="node9" href="$a00138.html" title="dds::core::xtypes::\ldetail::IdAnnotation" alt="" coords="227,213,360,259"/>
+<area shape="rect" id="node11" href="$a00152.html" title="dds::core::xtypes::\ldetail::KeyAnnotation" alt="" coords="220,282,367,329"/>
+<area shape="rect" id="node13" href="$a00169.html" title="dds::core::xtypes::\ldetail::MustUnderstandAnnotation" alt="" coords="184,351,403,398"/>
+<area shape="rect" id="node15" href="$a00171.html" title="dds::core::xtypes::\ldetail::NestedAnnotation" alt="" coords="211,421,376,467"/>
+<area shape="rect" id="node17" href="$a00241.html" title="dds::core::xtypes::\ldetail::SharedAnnotation" alt="" coords="212,490,375,537"/>
+<area shape="rect" id="node19" href="$a00293.html" title="dds::core::xtypes::\ldetail::VerbatimAnnotation" alt="" coords="207,559,380,606"/>
+</map>

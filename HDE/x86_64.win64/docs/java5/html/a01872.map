@@ -1,0 +1,3 @@
+<map id="org.opensplice.dds.sub.IteratorImpl&lt; TYPE &gt;" name="org.opensplice.dds.sub.IteratorImpl&lt; TYPE &gt;">
+<area shape="rect" id="node2" href="$a00064.html" title="{org.opensplice.dds.sub.Abstract\lIterator\&lt; TYPE \&gt;\n|# dataSeqHolderValue\l# environment\l# infoSeqHolder\l# reader\l# sampleSeqHolder\l|+ AbstractIterator()\l+ add()\l+ close()\l+ hasNext()\l+ hasPrevious()\l+ next()\l+ nextIndex()\l+ previous()\l+ previousIndex()\l+ remove()\l+ set()\l# getData()\l# setupSampleList()\l}" alt="" coords="5,139,213,519"/>
+</map>

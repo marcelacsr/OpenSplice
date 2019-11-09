@@ -1,0 +1,14 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00088.html" title="This class is the abstract base class for all the DCPS objects. It acts as a generic class for IEntit..." alt="" coords="37,139,131,168"/>
+<area shape="rect" id="node3" href="$a00082.html" title="A IDataReader allows the application: to declare data it wishes to receive (i.e., make a subscription..." alt="" coords="237,5,365,35"/>
+<area shape="rect" id="node7" href="$a00084.html" title="IDataWriter allows the application to set the value of the sample to be published under a given ITopi..." alt="" coords="240,59,363,88"/>
+<area shape="rect" id="node11" href="$a00086.html" title="All the DCPS IEntity objects are attached to a IDomainParticipant. A IDomainParticipant represents th..." alt="" coords="219,112,384,141"/>
+<area shape="rect" id="node13" href="$a00095.html" title="The IPublisher acts on behalf of one or more IDataWriter objects that belong to it. When it is informed of a change to the data associated with one of its IDataWriter objects, it decides when it is appropriate to actually process the sample&#45;update message. In making this decision, it considers the PublisherQos and the DataWriterQos. " alt="" coords="245,165,357,195"/>
+<area shape="rect" id="node15" href="$a00100.html" title="A ISubscriber is the object responsible for the actual reception of the data resulting from its subsc..." alt="" coords="241,219,361,248"/>
+<area shape="rect" id="node17" href="$a00102.html" title="ITopic is the most basic description of the data to be published and subscribed. " alt="" coords="256,272,347,301"/>
+<area shape="rect" id="node5" href="$a00155.html" title="A DataReader allows the application to access published sample data. " alt="" coords="440,5,595,35"/>
+<area shape="rect" id="node9" href="$a00156.html" title="The specialized DataWriter for the fictional type Space::Foo &#160;" alt="" coords="444,59,591,88"/>
+<area shape="rect" id="node18" href="$a00103.html" title="This class is an abstract class. It is the base class for ITopic, IContentFilteredTopic and IMultiTop..." alt="" coords="5,325,163,355"/>
+<area shape="rect" id="node20" href="$a00081.html" title="IContentFilteredTopic is a specialization of ITopicDescription that allows for content based subscrip..." alt="" coords="212,325,391,355"/>
+<area shape="rect" id="node22" href="$a00091.html" title="IMultiTopic is a specialization of ITopicDescription that allows subscriptions to combine..." alt="" coords="243,379,360,408"/>
+</map>

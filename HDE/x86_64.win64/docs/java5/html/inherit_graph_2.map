@@ -1,0 +1,18 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node3" href="$a00093.html" title="The DataAvailableEvent status change becomes TRUE when either a data&#45;sample arrives or else the ViewS..." alt="" coords="223,5,412,51"/>
+<area shape="rect" id="node5" href="$a00097.html" title="There is new data in one of the DataReaders of the Subscriber." alt="" coords="223,74,412,121"/>
+<area shape="rect" id="node9" href="$a00192.html" title="Another topic exists with the same name but different characteristics." alt="" coords="200,143,435,190"/>
+<area shape="rect" id="node11" href="$a00222.html" title="The liveliness of one or more org.omg.dds.pub.DataWriters that were writing instances read through th..." alt="" coords="207,213,428,259"/>
+<area shape="rect" id="node13" href="$a00227.html" title="The liveliness that the org.omg.dds.pub.DataWriter has committed through its org.omg.dds.core.policy.Liveliness was not respected; thus org.omg.dds.sub.DataReader entities will consider the DataWriter as no longer &quot;active.&quot;." alt="" coords="207,282,428,329"/>
+<area shape="rect" id="node15" href="$a00259.html" title="The deadline that the org.omg.dds.pub.DataWriter has committed through its org.omg.dds.core.policy.Deadline was not respected for a specific instance." alt="" coords="213,351,421,398"/>
+<area shape="rect" id="node17" href="$a00263.html" title="A org.omg.dds.core.policy.QosPolicy value was incompatible with what was requested." alt="" coords="211,421,424,467"/>
+<area shape="rect" id="node19" href="$a00294.html" title="The org.omg.dds.pub.DataWriter has found a org.omg.dds.sub.DataReader that matches the org..." alt="" coords="204,490,431,537"/>
+<area shape="rect" id="node21" href="$a00326.html" title="The deadline that the org.omg.dds.sub.DataReader was expecting through its org.omg.dds.core.policy.Deadline was not respected for a specific instance." alt="" coords="204,559,431,606"/>
+<area shape="rect" id="node23" href="$a00330.html" title="A org.omg.dds.core.policy.QosPolicy value was incompatible with what is offered." alt="" coords="204,629,431,675"/>
+<area shape="rect" id="node25" href="$a00340.html" title="A sample has been lost (never received)." alt="" coords="215,698,420,745"/>
+<area shape="rect" id="node27" href="$a00344.html" title="A (received) sample has been rejected." alt="" coords="215,767,420,814"/>
+<area shape="rect" id="node29" href="$a00384.html" title="The org.omg.dds.sub.DataReader has found a org.omg.dds.pub.DataWriter that matches the org..." alt="" coords="200,837,435,883"/>
+<area shape="rect" id="node31" href="$a00069.html" title="All instances published for this topic have been disposed by means of a call to org.opensplice.dds.topic.Topic#disposeAllData()." alt="" coords="211,906,424,953"/>
+<area shape="rect" id="node7" href="$a00098.html" title="org.opensplice.dds.core.event.\lDataOnReadersEventImpl" alt="" coords="483,74,683,121"/>
+<area shape="rect" id="node33" href="$a00070.html" title="org.opensplice.dds.core.event.\lAllDataDisposedEventImpl\l\&lt; TYPE \&gt;" alt="" coords="483,897,683,961"/>
+</map>

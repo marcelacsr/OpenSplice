@@ -1,0 +1,6 @@
+<map id="dds::sub::AnyDataReader" name="dds::sub::AnyDataReader">
+<area shape="rect" id="node7" href="$a00094.html" title="{dds::sub::DataReader\l\&lt; Chat::NameService \&gt;\n||+ DataReader()\l+ DataReader()\l+ DataReader()\l+ DataReader()\l+ default_filter_state()\l+ default_filter_state()\l+ key_value()\l+ key_value()\l+ listener()\l+ listener()\land 11 more...\l}" alt="" coords="5,979,165,1255"/>
+<area shape="rect" id="node9" href="$a00094.html" title="DataReader allows the applicatin to access published sample data." alt="" coords="189,988,371,1247"/>
+<area shape="rect" id="node2" href="$a00121.html" title="This class is the abstract base class for all the DCPS objects." alt="" coords="115,331,251,485"/>
+<area shape="rect" id="node4" href="$a00221.html" title="Base class for reference&#45;counted objects." alt="" coords="111,6,255,282"/>
+</map>

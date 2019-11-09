@@ -1,0 +1,6 @@
+<map id="DDS.ICondition" name="DDS.ICondition">
+<area shape="rect" id="node3" href="$a00089.html" title="An IGuardCondition object is a specific ICondition whose TriggerValue is completely under the control..." alt="" coords="5,165,155,251"/>
+<area shape="rect" id="node5" href="$a00098.html" title="IReadCondition objects allow an IDataReader to specify the data samples it is interested in ..." alt="" coords="179,139,355,277"/>
+<area shape="rect" id="node9" href="$a00099.html" title="Specialized class of ICondition, which allows accesss and to be triggered on the related communicatio..." alt="" coords="379,148,541,268"/>
+<area shape="rect" id="node7" href="$a00097.html" title="IQueryCondition objects are specialized IReadCondition objects that allow the application to specify ..." alt="" coords="184,325,349,445"/>
+</map>

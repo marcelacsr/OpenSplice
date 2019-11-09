@@ -1,0 +1,4 @@
+<map id="org.omg.dds.sub.SubscriberQos" name="org.omg.dds.sub.SubscriberQos">
+<area shape="rect" id="node5" href="$a00378.html" title="OpenSplice&#45;specific extension of org.omg.dds.sub.SubscriberQos with support for org.opensplice.dds.core.policy.Share." alt="" coords="5,499,251,584"/>
+<area shape="rect" id="node7" href="$a00379.html" title="{org.opensplice.dds.sub.Subscriber\lQosImpl\n||+ SubscriberQosImpl()\l+ SubscriberQosImpl()\l+ convert()\l+ getEntityFactory()\l+ getGroupData()\l+ getPartition()\l+ getPresentation()\l+ getShare()\l+ withPolicies()\l+ withPolicy()\l+ convert()\l# setupMissingPolicies()\l}" alt="" coords="275,395,496,688"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="org.vortex.FACE.Connection&lt; TYPE &gt;" name="org.vortex.FACE.Connection&lt; TYPE &gt;">
+<area shape="rect" id="node3" href="$a00071.html" title="{org.vortex.FACE.Destination\lConnection\&lt; TYPE \&gt;\n||+ DestinationConnection()\l+ close()\l+ getCallback()\l+ getDirection()\l+ receiveMessage()\l+ registerCallback()\l+ unregisterCallback()\l}" alt="" coords="5,417,195,623"/>
+<area shape="rect" id="node5" href="$a00091.html" title="{org.vortex.FACE.SourceConnection\l\&lt; TYPE \&gt;\n||+ SourceConnection()\l+ getDirection()\l+ sendMessage()\l}" alt="" coords="219,451,448,589"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node3" href="$a00089.html" title="dds::core::xtypes::\lCollectionType" alt="" coords="191,74,321,121"/>
+<area shape="rect" id="node11" href="$a00251.html" title="dds::core::xtypes::\lStructForwardDeclaration" alt="" coords="171,143,341,190"/>
+<area shape="rect" id="node13" href="$a00253.html" title="dds::core::xtypes::\lStructType" alt="" coords="191,213,321,259"/>
+<area shape="rect" id="node15" href="$a00275.html" title="dds::core::xtypes::\lTPrimitiveType\&lt; T \&gt;" alt="" coords="185,282,327,329"/>
+<area shape="rect" id="node17" href="$a00277.html" title="dds::core::xtypes::\lTUnionForwardDeclaration\l\&lt; DELEGATE \&gt;" alt="" coords="168,352,344,416"/>
+<area shape="rect" id="node19" href="$a00288.html" title="dds::core::xtypes::\lUnionType\&lt; T, DELEGATE \&gt;" alt="" coords="159,439,353,486"/>
+<area shape="rect" id="node5" href="$a00165.html" title="dds::core::xtypes::\lMapType" alt="" coords="415,5,545,51"/>
+<area shape="rect" id="node7" href="$a00239.html" title="dds::core::xtypes::\lSequenceType" alt="" coords="415,74,545,121"/>
+<area shape="rect" id="node9" href="$a00250.html" title="dds::core::xtypes::\lStringType\&lt; CHAR_T,\l DELEGATE \&gt;" alt="" coords="403,144,557,208"/>
+</map>

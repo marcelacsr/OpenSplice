@@ -1,0 +1,5 @@
+var a00240 =
+[
+    [ "BOUND_MAPTYPE_MEMBER_ID", "a00240.html#acb677a9af99b257c57214eef5e652461", null ],
+    [ "KEY_ELEMENT_TYPE_MAPTYPE_MEMBER_ID", "a00240.html#a87109e3d7cc6bde3e1f9e87b389b6248", null ]
+];

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-515D-F665F1447FF7}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-515D-F665F1447FF7}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Streamstypes Files">
+      <UniqueIdentifier>{65EABE86-FECA-1BAD-515D-F665F1447FF7}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Typesupport Files">
+      <UniqueIdentifier>{B7B4DD38-FECA-1BAD-515D-F665F1447FF7}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Throughput.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputDcps.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputDcps_impl.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputSplDcps.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputStreams.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputStreams_impl.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputStreamsDcps.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputStreamsDcps_impl.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+    <ClCompile Include="ThroughputStreamsSplDcps.cpp">
+      <Filter>default_group</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ccpp_Throughput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccpp_ThroughputStreams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Throughput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputDcps_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputStreams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputStreams_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputStreamsApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputStreamsDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputStreamsDcps_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThroughputStreamsSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\idl\Throughput.idl">
+      <Filter>Streamstypes Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ThroughputStreams.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

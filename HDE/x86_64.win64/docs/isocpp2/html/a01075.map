@@ -1,0 +1,5 @@
+<map id="org::opensplice::core::policy::Scheduling" name="org::opensplice::core::policy::Scheduling">
+<area shape="rect" id="node5" href="$a00158.html" title="This QosPolicy specifies the scheduling parameters that will be used for the Listener thread that is ..." alt="" coords="5,446,187,583"/>
+<area shape="rect" id="node7" href="$a00297.html" title="This QosPolicy specifies the scheduling parameters that will be used for the Watchdog thread that is ..." alt="" coords="211,446,405,583"/>
+<area shape="rect" id="node2" href="$a00292.html" title="This class is the base for various value&#45;type dds objects." alt="" coords="127,5,276,160"/>
+</map>

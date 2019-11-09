@@ -1,0 +1,6 @@
+<map id="org.opensplice.dds.core.policy.ReaderDataLifecycle" name="org.opensplice.dds.core.policy.ReaderDataLifecycle">
+<area shape="rect" id="node2" href="$a00317.html" title="Specifies the behavior of the org.omg.dds.sub.DataReader with regards to the life cycle of the data i..." alt="" coords="20,443,244,736"/>
+<area shape="rect" id="node4" href="$a00169.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.DataReader Entities." alt="" coords="45,291,219,394"/>
+<area shape="rect" id="node6" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="49,139,215,242"/>
+<area shape="rect" id="node10" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="117,5,312,91"/>
+</map>

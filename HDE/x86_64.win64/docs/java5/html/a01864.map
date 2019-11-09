@@ -1,0 +1,3 @@
+<map id="org.opensplice.dds.sub.DataReaderQos" name="org.opensplice.dds.sub.DataReaderQos">
+<area shape="rect" id="node2" href="$a00109.html" title="{org.omg.dds.sub.DataReaderQos\n||+ getDeadline()\l+ getDestinationOrder()\l+ getDurability()\l+ getHistory()\l+ getLatencyBudget()\l+ getLiveliness()\l+ getOwnership()\l+ getReaderDataLifecycle()\l+ getReliability()\l+ getRepresentation()\land 6 more...\l}" alt="" coords="5,173,221,432"/>
+</map>

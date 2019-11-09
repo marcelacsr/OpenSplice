@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-3393-87C0D6FE7ADE}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-3393-87C0D6FE7ADE}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Typesupport Files">
+      <UniqueIdentifier>{B7B4DD38-FECA-1BAD-3393-87C0D6FE7ADE}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{B14BBA74-FECA-1BAD-3393-87C0D6FE7ADE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sacpp\CdrTypeSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\Condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\ContentFilteredTopic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\CppSuperClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\DataReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\DataReaderView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\DataWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\dds_dcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\Domain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\DomainParticipant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\DomainParticipantFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\ErrorInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\FooCdrDataReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\FooCdrDataWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\FooDataReader_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\FooDataReaderView_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\FooDataWriter_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_builtinTopics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_builtinTopicsDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_builtinTopicsDcps_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_builtinTopicsSplDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_cdrBlob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_cdrBlobDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_cdrBlobDcps_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_cdrBlobSplDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_dcps_builtintopics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_dcps_builtintopicsDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_dcps_builtintopicsDcps_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_dcps_builtintopicsSplDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_namedQosTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_namedQosTypesDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_namedQosTypesDcps_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\generated\dds_namedQosTypesSplDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\GuardCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\ListenerDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\LoanRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\MiscUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\MultiTopic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\ObjSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\PolicyUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\Publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\QosProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\QosUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\QueryCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\ReadCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\ReportUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_DefaultValueRefCountBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_ExceptionInitializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_LocalObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_SystemException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_UserException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\sacpp_ValueBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\SequenceUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\StatusCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\StatusUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\StrObjMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\Subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\Topic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\TopicDescription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\TypeSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\TypeSupportMetaHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sacpp\WaitSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sacpp\generated\ccpp_dds_builtinTopics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\ccpp_dds_cdrBlob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\ccpp_dds_dcps_builtintopics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\ccpp_dds_namedQosTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_builtinTopics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_builtinTopicsDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_builtinTopicsDcps_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_builtinTopicsSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_cdrBlob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_cdrBlobDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_cdrBlobDcps_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_cdrBlobSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_dcps_builtintopics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_dcps_builtintopicsDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_dcps_builtintopicsDcps_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_dcps_builtintopicsSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_namedQosTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_namedQosTypesDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_namedQosTypesDcps_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sacpp\generated\dds_namedQosTypesSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\etc\idl\dds_builtinTopics.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_cdrBlob.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_dcps_builtintopics.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_namedQosTypes.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="sacpp\README">
+      <Filter>Documentation</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+<map id="org.omg.dds.core.WaitSet" name="org.omg.dds.core.WaitSet">
+<area shape="rect" id="node5" href="$a00442.html" title="{org.opensplice.dds.core.\lWaitSetImpl\n||+ WaitSetImpl()\l+ attachCondition()\l+ detachCondition()\l+ getConditions()\l+ getEnvironment()\l+ toString()\l+ waitForConditions()\l+ waitForConditions()\l+ waitForConditions()\l+ waitForConditions()\l+ waitForConditions()\l+ waitForConditions()\l}" alt="" coords="21,429,184,723"/>
+<area shape="rect" id="node2" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="5,5,200,91"/>
+</map>

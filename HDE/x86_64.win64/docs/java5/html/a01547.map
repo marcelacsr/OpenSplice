@@ -1,0 +1,4 @@
+<map id="org.opensplice.dds.core.WaitSetImpl" name="org.opensplice.dds.core.WaitSetImpl">
+<area shape="rect" id="node2" href="$a00441.html" title="A WaitSet object allows an application to wait until one or more of the attached org.omg.dds.core.Condition objects has a triggerValue of true or else until the timeout expires." alt="" coords="16,139,189,381"/>
+<area shape="rect" id="node4" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="5,5,200,91"/>
+</map>

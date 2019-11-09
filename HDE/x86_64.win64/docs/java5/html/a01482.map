@@ -1,0 +1,4 @@
+<map id="org.opensplice.dds.core.EntityImpl&lt; OLD extends DDS.Entity, OLDPARENT, QOS extends EntityQos&lt;?&gt;, LISTENER extends EventListener, LISTENERIMPL extends Listener&lt; LISTENER &gt; &gt;" name="org.opensplice.dds.core.EntityImpl&lt; OLD extends DDS.Entity, OLDPARENT, QOS extends EntityQos&lt;?&gt;, LISTENER extends EventListener, LISTENERIMPL extends Listener&lt; LISTENER &gt; &gt;">
+<area shape="rect" id="node2" href="$a00063.html" title="{org.opensplice.dds.core.\lAbstractDDSObject\n||+ _ids()\l}" alt="" coords="15,166,177,269"/>
+<area shape="rect" id="node8" href="$a00291.html" title="This type is implemented by all OpenSplice org.omg.dds.core.Entity classes to allow setting and getti..." alt="" coords="407,157,569,277"/>
+</map>

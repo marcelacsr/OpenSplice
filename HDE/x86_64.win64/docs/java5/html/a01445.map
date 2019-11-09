@@ -1,0 +1,12 @@
+<map id="org.omg.dds.type.typeobject.TypeLibraryElement" name="org.omg.dds.type.typeobject.TypeLibraryElement">
+<area shape="rect" id="node5" href="$a00253.html" title="Objects of this type are immutable." alt="" coords="429,291,619,411"/>
+<area shape="rect" id="node7" href="$a00412.html" title="Objects of this type are immutable." alt="" coords="643,299,861,402"/>
+<area shape="rect" id="node2" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="540,5,735,91"/>
+<area shape="rect" id="node9" href="$a00068.html" title="{org.omg.dds.type.typeobject.\lAliasType\n||+ getBaseType()\l}" alt="" coords="5,467,195,570"/>
+<area shape="rect" id="node11" href="$a00078.html" title="{org.omg.dds.type.typeobject.\lAnnotationType\n||+ getBaseType()\l+ getMember()\l}" alt="" coords="219,459,408,579"/>
+<area shape="rect" id="node13" href="$a00085.html" title="{org.omg.dds.type.typeobject.\lBitSetType\n||+ getBit()\l+ getBitBound()\l}" alt="" coords="432,459,621,579"/>
+<area shape="rect" id="node15" href="$a00088.html" title="{org.omg.dds.type.typeobject.\lCollectionType\n|+ UNBOUNDED_COLLECTION\l|+ getElementType()\l}" alt="" coords="645,467,859,570"/>
+<area shape="rect" id="node17" href="$a00167.html" title="{org.omg.dds.type.typeobject.\lEnumerationType\n||+ getBitBound()\l+ getConstant()\l}" alt="" coords="883,459,1072,579"/>
+<area shape="rect" id="node19" href="$a00371.html" title="{org.omg.dds.type.typeobject.\lStructureType\n||+ getBaseType()\l+ getMember()\l}" alt="" coords="1096,459,1285,579"/>
+<area shape="rect" id="node21" href="$a00429.html" title="{org.omg.dds.type.typeobject.\lUnionType\n||+ getMember()\l}" alt="" coords="1309,467,1499,570"/>
+</map>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Build_DCPS_ISO_Cpp2_Lib</ProjectName>
+    <ProjectGuid>{77D78A20-FECA-1BAD-225B-4D88D6FE7ADE}</ProjectGuid>
+    <RootNamespace>Build_DCPS_ISO_Cpp2_Lib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>19.00.23506</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Release\Build_DCPS_ISO_Cpp2_Lib\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcpsisocpp2</TargetName>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Debug\Build_DCPS_ISO_Cpp2_Lib\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dcpsisocpp2d</TargetName>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\include;..\include\sys;$(BOOST_ROOT)\.;isocpp2\generated;..\include\dcps\C++\SACPP;..\include\dcps\C++\isocpp2;isocpp2\generatedIoTData;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BUILD_OMG_DDS_API;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;OSPL_USE_CXX11;OSPL_VERSION=6.9.181127OSS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;OSPL_USE_CXX11;OSPL_VERSION=6.9.181127OSS;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>..\include;..\include\sys;$(BOOST_ROOT)\.;isocpp2\generated;..\include\dcps\C++\SACPP;..\include\dcps\C++\isocpp2;isocpp2\generatedIoTData;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ddskernel.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)dcpsisocpp2.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>..\lib\dcpsisocpp2.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  .\isocpp2\generated\*.h &quot;..\include\dcps\C++\SACPP&quot; &amp; copy /y  .\isocpp2\generatedIoTData\*.h* &quot;..\include\dcps\C++\isocpp2\org\opensplice\dds\iot&quot;</Command>
+    </PostBuildEvent>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\include\sys;$(BOOST_ROOT)\.;isocpp2\generated;..\include\dcps\C++\SACPP;..\include\dcps\C++\isocpp2;isocpp2\generatedIoTData;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BUILD_OMG_DDS_API;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;OSPL_USE_CXX11;OSPL_VERSION=6.9.181127OSS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;OSPL_USE_CXX11;OSPL_VERSION=6.9.181127OSS;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>..\include;..\include\sys;$(BOOST_ROOT)\.;isocpp2\generated;..\include\dcps\C++\SACPP;..\include\dcps\C++\isocpp2;isocpp2\generatedIoTData;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ddskernel.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)dcpsisocpp2d.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>..\lib\dcpsisocpp2d.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  .\isocpp2\generated\*.h &quot;..\include\dcps\C++\SACPP&quot; &amp; copy /y  .\isocpp2\generatedIoTData\*.h* &quot;..\include\dcps\C++\isocpp2\org\opensplice\dds\iot&quot;</Command>
+    </PostBuildEvent>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="isocpp2\dds\core\dds_builtinTopicsSplDcps.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\dds_dcps_builtintopicsSplDcps.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Duration.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Exception.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\policy\CorePolicy.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Reference.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\status\State.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Time.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\domain\discovery.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\domain\find.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\pub\discovery.cpp">
+      <ObjectFileName>$(IntDir)\%(Filename)2.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\sub\discovery.cpp">
+      <ObjectFileName>$(IntDir)\%(Filename)3.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\sub\find.cpp">
+      <ObjectFileName>$(IntDir)\%(Filename)2.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\sub\status\DataState.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\topic\discovery.cpp">
+      <ObjectFileName>$(IntDir)\%(Filename)4.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="isocpp2\generatedIoTData\dds_IoTData.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\generatedIoTData\dds_IoTDataSplDcps.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\ConditionDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\GuardConditionDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\StatusConditionDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\WaitSetDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\EntityDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\EntitySet.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\InstanceHandleDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ListenerDispatcher.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\Mutex.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ObjectDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ObjectSet.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\policy\PolicyDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\QosProviderDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ReportUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\status\StatusUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\TimeUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\UserObjectDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\Domain.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\DomainParticipantDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\DomainParticipantRegistry.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\qos\DomainParticipantQosDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\AnyDataWriterDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\CoherentSetDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\PublisherDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\qos\DataWriterQosDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\qos\PublisherQosDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\SuspendedPublicationDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\AnyDataReaderDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\BuiltinSubscriberDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\CoherentAccessDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\cond\QueryConditionDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\cond\ReadConditionDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\qos\DataReaderQosDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\qos\SubscriberQosDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\QueryDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\SubscriberDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\AnyTopicDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\BuiltinTopicCopy.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\FilterDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\find.cpp">
+      <ObjectFileName>$(IntDir)\%(Filename)3.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\qos\TopicQosConst.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\qos\TopicQosDelegate.cpp">
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\TopicDescriptionDelegate.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\array.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\BuiltinTopicTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\Condition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\Condition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\GuardCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\StatusCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TConditionImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TGuardConditionImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TStatusConditionImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TWaitSetImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\WaitSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\GuardCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\StatusCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TGuardCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TStatusCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TWaitSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\WaitSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\conformance.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\ddscore.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\array.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\BuiltinTopicTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\conformance.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_builtinTopics.h" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_builtinTopics_DCPS.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_builtinTopicsSplDcps.h" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_dcps_builtintopics.h" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_dcps_builtintopics_DCPS.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_dcps_builtintopicsSplDcps.h" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ddscore.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\Entity.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\InstanceHandle.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\inttypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\macros.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\module_docs.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\old_win_stdint.h" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ProprietaryApi.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\QosProvider.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ref_traits.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ReferenceImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TEntityImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TEntityQosImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TInstanceHandleImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TQosProviderImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\Value.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\WeakReferenceImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Duration.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Entity.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Exception.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\InstanceHandle.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\LengthUnlimited.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\macros.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Optional.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\CorePolicy.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\CorePolicy.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\QosPolicyCount.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\TCorePolicyImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\TQosPolicyCountImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\PolicyKind.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\QosPolicyCount.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\TCorePolicy.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\TQosPolicyCount.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\QosProvider.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\ref_traits.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Reference.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\refmacros.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\SafeEnumeration.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\detail\Status.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\detail\TStatusImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\State.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\Status.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\TStatus.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TBuiltinTopicTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TEntity.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TEntityQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Time.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TInstanceHandle.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TQosProvider.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\types.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Value.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\WeakReference.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\Annotations.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\CollectionTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\Annotation.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\CollectionTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\DynamicData.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\DynamicType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\MemberType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\PrimitiveTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\StructType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\TypeProvider.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\UnionCase.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\UnionType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\DynamicData.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\DynamicType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\MemberType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\PrimitiveTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\StructType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TAnnotation.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TCollectionTypes.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TDynamicData.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TDynamicType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TMemberType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TStructType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TTypeProvider.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TypeKind.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TypeProvider.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\UnionCase.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\UnionType.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\dds.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\ddsdomain.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\detail\ddsdomain.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\detail\DomainParticipant.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\detail\TDomainParticipantImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\DomainParticipant.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\DomainParticipantListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\qos\detail\DomainParticipantQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\qos\DomainParticipantQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\TDomainParticipant.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\AnyDataWriter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\AnyDataWriterListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\CoherentSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\DataWriter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\DataWriterListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\ddspub.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\AnyDataWriter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\CoherentSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\DataWriter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\DataWriterImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\ddspub.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\Publisher.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\SuspendedPublication.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TAnyDataWriterImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TCoherentSetImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TPublisherImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TSuspendedPublicationImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\Publisher.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\PublisherListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\DataWriterQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\detail\DataWriterQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\detail\PublisherQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\PublisherQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\SuspendedPublication.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TAnyDataWriter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TCoherentSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TPublisher.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TSuspendedPublication.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\AnyDataReader.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\AnyDataReaderListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\CoherentAccess.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\QueryCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\QueryConditionImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\ReadCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\TQueryConditionImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\TReadConditionImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\QueryCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\ReadCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\TQueryCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\TReadCondition.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\DataReader.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\DataReaderListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\ddssub.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\AnyDataReader.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\CoherentAccess.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\DataReader.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\ddssub.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\GenerationCount.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\LoanedSamples.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\LoanedSamplesImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Manipulators.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Query.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Rank.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Sample.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SampleInfo.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SamplesHolder.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SharedSamples.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SharedSamplesImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Subscriber.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TAnyDataReaderImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TCoherentAccessImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TDataReaderImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TGenerationCountImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TQueryImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TRankImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TSampleImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TSampleInfoImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TSubscriberImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\GenerationCount.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\LoanedSamples.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\DataReaderQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\detail\DataReaderQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\detail\SubscriberQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\SubscriberQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Query.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Rank.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Sample.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\SampleInfo.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\SharedSamples.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\status\DataState.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\status\detail\DataStateImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Subscriber.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\SubscriberListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TAnyDataReader.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TCoherentAccess.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TDataReader.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TGenerationCount.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TQuery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TRank.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TSample.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TSampleInfo.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TSubscriber.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\AnyTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\AnyTopicListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\BuiltinTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\BuiltinTopicKey.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\ContentFilteredTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\ddstopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\AnyTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\BuiltinTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\BuiltinTopicKey.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\ContentFilteredTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\ddstopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\Filter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\MultiTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TAnyTopicImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TBuiltinTopicImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TBuiltinTopicKeyImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TContentFilteredTopicImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TFilterImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\Topic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TopicDescription.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TopicInstanceImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TTopicDescriptionImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TTopicImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\Filter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\MultiTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\qos\detail\TopicQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\qos\TopicQos.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TAnyTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TBuiltinTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TBuiltinTopicKey.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TContentFilteredTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TFilter.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TMultiTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\Topic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicDescription.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicInstance.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicTraits.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TTopicDescription.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\ConditionDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\FunctorHolder.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\GuardConditionDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\StatusConditionDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\WaitSetDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\config.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\EntityDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\EntityRegistry.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\EntitySet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\InstanceHandleDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ListenerDispatcher.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\Mutex.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ObjectDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ObjectSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\Policy.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\PolicyDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\ProprietaryPolicyKind.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\QosPolicyCountDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\TPolicy.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\QosProviderDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ReportUtils.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ScopedLock.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\Status.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\StatusDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\StatusUtils.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\TStatus.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\TimeHelper.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\TimeUtils.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\UserObjectDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\WeakReferenceSet.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\dds_IoTData.h" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\dds_IoTData_DCPS.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\dds_IoTDataSplDcps.h" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\IoTData.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\Domain.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\DomainParticipantDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\DomainParticipantListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\DomainParticipantRegistry.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\qos\DomainParticipantQosDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\ForwardDeclarations.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\AnyDataWriterDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\CoherentSetDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\PublisherDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\qos\DataWriterQosDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\qos\PublisherQosDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\SuspendedPublicationDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\AnyDataReaderDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\BuiltinSubscriberDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\CoherentAccessDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\cond\QueryConditionDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\cond\ReadConditionDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\GenerationCountImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\qos\DataReaderQosDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\qos\SubscriberQosDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\QueryDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\RankImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\SampleInfoImpl.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\SubscriberDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\AnyTopicDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\AnyTopicListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicCopy.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicKeyDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicTraits.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\DataRepresentation.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\discovery.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\FilterDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\find.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\qos\TopicQosConst.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\qos\TopicQosDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TBuiltinTopic.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TopicDescriptionDelegate.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TopicListener.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TopicTraits.hpp" />
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TypeHash.hpp" />
+    <ClInclude Include="isocpp2\generated\dds_builtinTopicsSplType.h" />
+    <ClInclude Include="isocpp2\generated\dds_dcps_builtintopicsSplType.h" />
+    <ClInclude Include="isocpp2\generated\dds_namedQosTypesSplType.h" />
+    <ClInclude Include="isocpp2\generatedIoTData\dds_IoTData.h" />
+    <ClInclude Include="isocpp2\generatedIoTData\dds_IoTData_DCPS.hpp" />
+    <ClInclude Include="isocpp2\generatedIoTData\dds_IoTDataSplDcps.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\etc\idl\dds_builtinTopics.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l c -S -m SPLTYPE -d isocpp2/generated &quot;..\etc\idl\dds_builtinTopics.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_builtinTopics.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">isocpp2\generated\dds_builtinTopicsSplType.h</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l c -S -m SPLTYPE -d isocpp2/generated &quot;..\etc\idl\dds_builtinTopics.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_builtinTopics.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">isocpp2\generated\dds_builtinTopicsSplType.h</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_dcps_builtintopics.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l c -S -m SPLTYPE -d isocpp2/generated &quot;..\etc\idl\dds_dcps_builtintopics.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_dcps_builtintopics.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">isocpp2\generated\dds_dcps_builtintopicsSplType.h</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l c -S -m SPLTYPE -d isocpp2/generated &quot;..\etc\idl\dds_dcps_builtintopics.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_dcps_builtintopics.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">isocpp2\generated\dds_dcps_builtintopicsSplType.h</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_IoTData.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l isocpp2 -d isocpp2/generatedIoTData &quot;..\etc\idl\dds_IoTData.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_IoTData.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">isocpp2\generatedIoTData\dds_IoTData.cpp;isocpp2\generatedIoTData\dds_IoTData.h;isocpp2\generatedIoTData\dds_IoTData_DCPS.hpp;isocpp2\generatedIoTData\dds_IoTDataSplDcps.cpp;isocpp2\generatedIoTData\dds_IoTDataSplDcps.h</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l isocpp2 -d isocpp2/generatedIoTData &quot;..\etc\idl\dds_IoTData.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_IoTData.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">isocpp2\generatedIoTData\dds_IoTData.cpp;isocpp2\generatedIoTData\dds_IoTData.h;isocpp2\generatedIoTData\dds_IoTData_DCPS.hpp;isocpp2\generatedIoTData\dds_IoTDataSplDcps.cpp;isocpp2\generatedIoTData\dds_IoTDataSplDcps.h</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_namedQosTypes.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l c -S -m SPLTYPE -d isocpp2/generated &quot;..\etc\idl\dds_namedQosTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_namedQosTypes.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">isocpp2\generated\dds_namedQosTypesSplType.h</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;..\bin;..\lib&#x0D;&#x0A;&quot;..\bin\idlpp&quot; -I &quot;..\etc\idl&quot; -P OS_API,cpp_dcps_if.h -l c -S -m SPLTYPE -d isocpp2/generated &quot;..\etc\idl\dds_namedQosTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking &quot;..\bin\idlpp&quot; on ..\etc\idl\dds_namedQosTypes.idl</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">isocpp2\generated\dds_namedQosTypesSplType.h</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="isocpp2\README.md">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

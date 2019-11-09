@@ -1,0 +1,3 @@
+<map id="FACE.RETURN_CODE_TYPEHolder" name="FACE.RETURN_CODE_TYPEHolder">
+<area shape="rect" id="node2" href="$a00085.html" title="{FACE.RETURN_CODE_TYPE\n|+ _ADDR_IN_USE\l+ _CONNECTION_CLOSED\l+ _CONNECTION_IN_PROGRESS\l+ _DATA_BUFFER_TOO_SMALL\l+ _INVALID_CONFIG\l+ _INVALID_MODE\l+ _INVALID_PARAM\l+ _MESSAGE_STALE\l+ _NO_ACTION\l+ _NO_ERROR\land 6 more...\l|+ value()\l+ from_int()\l# RETURN_CODE_TYPE()\l}" alt="" coords="11,5,245,299"/>
+</map>

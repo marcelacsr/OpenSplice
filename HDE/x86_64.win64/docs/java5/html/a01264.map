@@ -1,0 +1,7 @@
+<map id="org.omg.dds.topic.Topic&lt; TYPE &gt;" name="org.omg.dds.topic.Topic&lt; TYPE &gt;">
+<area shape="rect" id="node11" href="$a00394.html" title="Topic provides OpenSplice&#45;specific extensions to org.omg.dds.topic.Topic." alt="" coords="129,563,356,683"/>
+<area shape="rect" id="node2" href="$a00401.html" title="This interface is the base for org.omg.dds.topic.Topic, org.omg.dds.topic.ContentFilteredTopic, and org.omg.dds.topic.MultiTopic." alt="" coords="12,139,239,328"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="109,5,304,91"/>
+<area shape="rect" id="node13" href="$a00065.html" title="{org.opensplice.dds.topic.\lAbstractTopic\&lt; TYPE \&gt;\n||+ getOld()\l}" alt="" coords="160,731,325,834"/>
+<area shape="rect" id="node15" href="$a00403.html" title="{org.opensplice.dds.topic.\lTopicImpl\&lt; TYPE \&gt;\n||+ TopicImpl()\l+ TopicImpl()\l+ disposeAllData()\l+ getAllDataDisposedTopicStatus()\l+ getInconsistentTopicStatus()\l+ getName()\l+ getParent()\l+ getQos()\l+ getStatusCondition()\l+ getTypeName()\l+ getTypeSupport()\l+ setListener()\l+ setListener()\l+ setListener()\l+ setQos()\l~ cast()\l# destroy()\l}" alt="" coords="129,883,356,1263"/>
+</map>

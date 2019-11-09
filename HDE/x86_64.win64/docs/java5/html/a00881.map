@@ -1,0 +1,11 @@
+<map id="org.omg.dds.core.Condition" name="org.omg.dds.core.Condition">
+<area shape="rect" id="node5" href="$a00179.html" title="A GuardCondition object is a specific Condition whose triggerValue is completely under the control of..." alt="" coords="5,350,221,453"/>
+<area shape="rect" id="node9" href="$a00366.html" title="A StatusCondition object is an immutable object that specifies Condition that is associated with each..." alt="" coords="245,324,464,479"/>
+<area shape="rect" id="node11" href="$a00314.html" title="ReadCondition objects are conditions specifically dedicated to read operations and attached to one or..." alt="" coords="488,315,696,487"/>
+<area shape="rect" id="node15" href="$a00090.html" title="{org.opensplice.dds.core.\lCondition\&lt; T extends DDS.Condition \&gt;\n||+ getOldCondition()\l}" alt="" coords="720,350,971,453"/>
+<area shape="rect" id="node17" href="$a00180.html" title="{org::opensplice::dds\l::core::GuardConditionImpl\l\&lt; DDS.GuardCondition \&gt;\n||+ GuardConditionImpl()\l+ getEnvironment()\l+ getOldCondition()\l+ getTriggerValue()\l+ setTriggerValue()\l+ toString()\l}" alt="" coords="995,298,1173,505"/>
+<area shape="rect" id="node19" href="$a00367.html" title="{org::opensplice::dds\l::core::StatusConditionImpl\l\&lt; T extends Entity\&lt;?,?\&gt; \&gt;\n||+ StatusConditionImpl()\l+ getEnabledStatuses()\l+ getEnvironment()\l+ getOldCondition()\l+ getParent()\l+ getTriggerValue()\l+ setEnabledStatuses()\l+ setEnabledStatuses()\l+ toString()\l}" alt="" coords="1197,272,1379,531"/>
+<area shape="rect" id="node2" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="621,5,816,91"/>
+<area shape="rect" id="node7" href="$a00180.html" title="{org.opensplice.dds.core.\lGuardConditionImpl\n||+ GuardConditionImpl()\l+ getEnvironment()\l+ getOldCondition()\l+ getTriggerValue()\l+ setTriggerValue()\l+ toString()\l}" alt="" coords="32,579,195,768"/>
+<area shape="rect" id="node13" href="$a00312.html" title="QueryCondition objects are specialized org.omg.dds.sub.ReadCondition objects that allow the applicati..." alt="" coords="485,596,699,751"/>
+</map>

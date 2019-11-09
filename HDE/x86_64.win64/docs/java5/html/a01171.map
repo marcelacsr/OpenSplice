@@ -1,0 +1,4 @@
+<map id="org.omg.dds.domain.DomainParticipantQos" name="org.omg.dds.domain.DomainParticipantQos">
+<area shape="rect" id="node5" href="$a00146.html" title="OpenSplice&#45;specific extension to org.omg.dds.domain.DomainParticipantQos with support to control sche..." alt="" coords="5,455,187,575"/>
+<area shape="rect" id="node7" href="$a00148.html" title="{org.opensplice.dds.domain.\lDomainParticipantQosImpl\n||+ DomainParticipantQosImpl()\l+ DomainParticipantQosImpl()\l+ convert()\l+ getEntityFactory()\l+ getListenerScheduling()\l+ getUserData()\l+ getWatchdogScheduling()\l+ withPolicies()\l+ withPolicy()\l+ convert()\l# setupMissingPolicies()\l}" alt="" coords="211,377,408,653"/>
+</map>

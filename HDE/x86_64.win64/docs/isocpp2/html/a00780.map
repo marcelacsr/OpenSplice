@@ -1,0 +1,7 @@
+<map id="dds::core::cond::Condition" name="dds::core::cond::Condition">
+<area shape="rect" id="node5" href="$a00135.html" title="A GuardCondition object is a specific Condition whose trigger_value is completely under the control o..." alt="" coords="5,543,216,697"/>
+<area shape="rect" id="node7" href="$a00246.html" title="A StatusCondition object is a specific Condition that is associated with each Entity." alt="" coords="240,534,453,706"/>
+<area shape="rect" id="node9" href="$a00218.html" title="ReadCondition objects are conditions specifically dedicated to read operations and attached to one Da..." alt="" coords="477,543,680,697"/>
+<area shape="rect" id="node2" href="$a00221.html" title="Base class for reference&#45;counted objects." alt="" coords="275,6,419,282"/>
+<area shape="rect" id="node11" href="$a00215.html" title="QueryCondition objects are specialized ReadCondition objects that allow the application to also speci..." alt="" coords="476,755,681,1013"/>
+</map>

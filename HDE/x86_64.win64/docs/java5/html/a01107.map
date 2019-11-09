@@ -1,0 +1,8 @@
+<map id="org.omg.dds.core.policy.UserData" name="org.omg.dds.core.policy.UserData">
+<area shape="rect" id="node17" href="$a00432.html" title="{org.opensplice.dds.core.policy.\lUserDataImpl\n||+ UserDataImpl()\l+ UserDataImpl()\l+ equals()\l+ getPolicyClass()\l+ getValue()\l+ hashCode()\l+ withValue()\l}" alt="" coords="225,611,428,818"/>
+<area shape="rect" id="node2" href="$a00171.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.domain.DomainParticipant Entities." alt="" coords="5,291,216,394"/>
+<area shape="rect" id="node4" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="244,139,409,242"/>
+<area shape="rect" id="node10" href="$a00169.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.DataReader Entities." alt="" coords="240,291,413,394"/>
+<area shape="rect" id="node13" href="$a00170.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.pub.DataWriter Entities." alt="" coords="437,291,605,394"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="312,5,507,91"/>
+</map>

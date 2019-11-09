@@ -1,0 +1,12 @@
+<map id="dds::core::Reference&lt; DELEGATE &gt;" name="dds::core::Reference&lt; DELEGATE &gt;">
+<area shape="rect" id="node3" href="$a00091.html" title="This class is the base class for all the conditions that may be attached to a dds::core::cond::WaitSe..." alt="" coords="5,409,179,564"/>
+<area shape="rect" id="node5" href="$a00296.html" title="A WaitSet object allows an application to wait until one or more of the attached Condition objects ha..." alt="" coords="203,340,368,633"/>
+<area shape="rect" id="node7" href="$a00121.html" title="This class is the abstract base class for all the DCPS objects." alt="" coords="392,409,528,564"/>
+<area shape="rect" id="node9" href="$a00212.html" title="The QosProvider API allows users to specify the QoS settings of their DCPS entities outside of applic..." alt="" coords="552,331,707,642"/>
+<area shape="rect" id="node11" href="$a00066.html" title="{dds::core::xtypes::\lAnnotation\n||+ Annotation()\l+ kind()\l}" alt="" coords="731,427,861,547"/>
+<area shape="rect" id="node13" href="$a00118.html" title="{dds::core::xtypes::\lDynamicData\n||+ DynamicData()\l+ member_id()\l+ member_type()\l+ member_type()\l+ type()\l+ value()\l+ value()\l+ value()\l+ value()\l}" alt="" coords="885,366,1016,607"/>
+<area shape="rect" id="node15" href="$a00168.html" title="{dds::core::xtypes::\lMemberType\n||+ MemberType()\l+ MemberType()\l+ MemberType()\l+ MemberType()\l+ add_annotation()\l+ name()\l+ remove_annotation()\l+ type()\l}" alt="" coords="1040,375,1192,599"/>
+<area shape="rect" id="node17" href="$a00286.html" title="{dds::core::xtypes::\lUnionCase\&lt; T \&gt;\n||+ UnionCase()\l+ UnionCase()\l+ discriminator()\l+ member()\l}" alt="" coords="1216,409,1347,564"/>
+<area shape="rect" id="node19" href="$a00213.html" title="Query objects contain expressions that allow the application to specify a filter on the locally avail..." alt="" coords="1371,340,1520,633"/>
+<area shape="rect" id="node21" href="$a00270.html" title="This class is the base for Topic, ContentFilteredTopic and MultiTopic." alt="" coords="1544,427,1728,547"/>
+</map>

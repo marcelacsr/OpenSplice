@@ -1,0 +1,6 @@
+<map id="dds::topic::TopicDescription" name="dds::topic::TopicDescription">
+<area shape="rect" id="node5" href="$a00072.html" title="Typeless base class for the typed Topic." alt="" coords="9,499,151,688"/>
+<area shape="rect" id="node9" href="$a00092.html" title="ContentFilteredTopic is a specialization of TopicDescription that allows for content&#45;based subscripti..." alt="" coords="175,507,351,679"/>
+<area shape="rect" id="node2" href="$a00221.html" title="Base class for reference&#45;counted objects." alt="" coords="99,6,243,282"/>
+<area shape="rect" id="node7" href="$a00266.html" title="Topic is the most basic description of the data to be published and subscribed." alt="" coords="5,737,155,909"/>
+</map>

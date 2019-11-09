@@ -1,0 +1,4 @@
+<map id="org.omg.dds.sub.DataReaderQos" name="org.omg.dds.sub.DataReaderQos">
+<area shape="rect" id="node5" href="$a00108.html" title="OpenSplice&#45;specific extension of org.omg.dds.sub.DataReaderQos with support for org.opensplice.dds.core.policy.ReaderLifespan, org.opensplice.dds.core.policy.Share and org.opensplice.dds.core.policy.SubscriptionKeys." alt="" coords="5,567,192,705"/>
+<area shape="rect" id="node7" href="$a00110.html" title="{org.opensplice.dds.sub.Data\lReaderQosImpl\n||+ DataReaderQosImpl()\l+ DataReaderQosImpl()\l+ convert()\l+ getDeadline()\l+ getDestinationOrder()\l+ getDurability()\l+ getHistory()\l+ getLatencyBudget()\l+ getLiveliness()\l+ getOwnership()\land 13 more...\l+ convert()\l# setupMissingPolicies()\l}" alt="" coords="216,481,403,791"/>
+</map>

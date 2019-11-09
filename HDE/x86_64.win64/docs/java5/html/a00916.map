@@ -1,0 +1,6 @@
+<map id="org.omg.dds.core.ModifiableTime" name="org.omg.dds.core.ModifiableTime">
+<area shape="rect" id="node11" href="$a00252.html" title="{org.opensplice.dds.core.\lModifiableTimeImpl\n|# environment\l|+ ModifiableTimeImpl()\l+ ModifiableTimeImpl()\l+ add()\l+ add()\l+ compareTo()\l+ convert()\l+ copyFrom()\l+ equals()\l+ getEnvironment()\l+ getRemainder()\land 11 more...\l# normalizeMe()\l}" alt="" coords="136,597,299,891"/>
+<area shape="rect" id="node2" href="$a00388.html" title="A moment in time expressed with nanosecond precision (though not necessarily nanosecond accuracy)..." alt="" coords="140,139,295,311"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="285,5,480,91"/>
+<area shape="rect" id="node13" href="$a00391.html" title="{org.opensplice.dds.core.\lTimeImpl\n||+ TimeImpl()\l+ TimeImpl()\l+ add()\l+ add()\l+ copyFrom()\l+ immutableCopy()\l+ normalize()\l+ setTime()\l+ subtract()\l+ subtract()\l}" alt="" coords="136,939,299,1197"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DDS.IDataReaderListener" name="DDS.IDataReaderListener">
+<area shape="rect" id="node5" href="$a00101.html" title="Since a Subscriber is an Entity, it has the ability to have a Listener associated with it..." alt="" coords="32,376,197,461"/>
+<area shape="rect" id="node2" href="$a00090.html" title="{IListener\n||}" alt="" coords="79,5,151,91"/>
+<area shape="rect" id="node7" href="$a00087.html" title="Since a DomainParticipant is an Entity, it has the ability to have a Listener associated with it..." alt="" coords="9,509,220,595"/>
+</map>

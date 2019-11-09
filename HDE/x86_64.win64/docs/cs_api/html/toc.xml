@@ -1,0 +1,2127 @@
+<toc label="OpenSplice C# API" topic="index.html">
+  <topic label="C# DCPS API" href="index.html">
+    <topic label="About the C# Reference Guide                                                        " href="index.html#mainpage_about"/>
+    <topic label="Getting started                                                                " href="index.html#mainpage_gettingstarted"/>
+    <topic label="How to use the C# API                                                                " href="index.html#mainpage_howtouse"/>
+    <topic label="Current limitations of the C# API                                                " href="index.html#mainpage_currentlimitations"/>
+    <topic label="Examples" href="a00001.html">
+      <topic label="DCPS Examples                                                                   " href="a00001.html#sacs_dcpsexamples_dcpslist">
+        <topic label="Tutorial                                                                                " href="a00001.html#tutorial"/>
+        <topic label="HelloWorld                                                                              " href="a00001.html#helloworld"/>
+        <topic label="ContentFilteredTopic                                                                    " href="a00001.html#contentfilteredtopic"/>
+        <topic label="Durability                                                                              " href="a00001.html#durability"/>
+        <topic label="Listener                                                                                " href="a00001.html#listener"/>
+        <topic label="Lifecycle                                                                               " href="a00001.html#lifecycle"/>
+        <topic label="Ownership                                                                               " href="a00001.html#ownership"/>
+        <topic label="QueryCondition                                                                          " href="a00001.html#querycondition"/>
+        <topic label="RoundTrip                                                                               " href="a00001.html#roundtrip"/>
+        <topic label="Throughput                                                                              " href="a00001.html#throughput"/>
+        <topic label="WaitSet                                                                                 " href="a00001.html#waitset"/>
+        <topic label="BuiltinTopics                                                                           " href="a00001.html#builtintopics"/>
+      </topic>
+      <topic label="Building on Windows with Visual Studio                                          " href="a00001.html#sacs_dcpsexamples_winbuild"/>
+      <topic label="Running examples                                                               " href="a00001.html#sacs_dcpsexamples_running">
+        <topic label="Windows:                                                                                " href="a00001.html#runwindows"/>
+      </topic>
+    </topic>
+  </topic>
+  <topic label="DCPS Concepts" href="a00003.html">
+    <topic label="DCPS Modules" href="a00005.html">
+      <topic label="Infrastructure Module" href="a00007.html">
+        <topic label="Entity      " href="a00007.html#DCPS_Modules_Entity"/>
+        <topic label="Listener" href="a00008.html"/>
+        <topic label="Status" href="a00009.html">
+          <topic label="Inconsistent Topic Status" href="a00049.html"/>
+          <topic label="Sample Rejected Status" href="a00058.html"/>
+          <topic label="Liveliness Changed Status" href="a00050.html"/>
+          <topic label="Requested Deadline Missed Status" href="a00055.html"/>
+          <topic label="Requested Incompatible QoS Status" href="a00056.html"/>
+          <topic label="Sample Lost Status" href="a00057.html"/>
+          <topic label="Subscription Matched Status" href="a00059.html"/>
+          <topic label="Liveliness Lost Status" href="a00051.html"/>
+          <topic label="Offered Deadline Missed" href="a00052.html"/>
+          <topic label="Offered Incompatible QoS Status" href="a00053.html"/>
+          <topic label="Publication Matched Status" href="a00054.html"/>
+        </topic>
+        <topic label="Waitset" href="a00010.html"/>
+      </topic>
+      <topic label="Domain Module" href="a00006.html">
+        <topic label="The Domain Participant     " href="a00006.html#DCPS_Modules_DomainParticipant"/>
+      </topic>
+      <topic label="Topic-Definition Module" href="a00018.html">
+        <topic label="Topic                    " href="a00018.html#DCPS_Modules_Topic"/>
+      </topic>
+      <topic label="Publication Module" href="a00011.html">
+        <topic label="The Publisher  " href="a00011.html#DCPS_Modules_Publisher"/>
+        <topic label="The DataWriter" href="a00012.html"/>
+        <topic label="Listener" href="a00008.html"/>
+      </topic>
+      <topic label="Subscription Module" href="a00014.html">
+        <topic label="The Subscriber  " href="a00014.html#DCPS_Modules_Subscriber"/>
+        <topic label="The DataReader" href="a00015.html"/>
+        <topic label="The DataSample" href="a00016.html"/>
+        <topic label="The SampleInfo" href="a00017.html"/>
+        <topic label="Listener" href="a00008.html"/>
+      </topic>
+    </topic>
+    <topic label="Supported Quality of Service (QoS)" href="a00019.html">
+      <topic label="User Data QoS" href="a00045.html"/>
+      <topic label="Topic Data QoS" href="a00043.html"/>
+      <topic label="Group Data QoS" href="a00025.html"/>
+      <topic label="Durability QoS" href="a00022.html"/>
+      <topic label="Durability Service QoS" href="a00023.html"/>
+      <topic label="Presentation QoS" href="a00033.html"/>
+      <topic label="Deadline QoS" href="a00020.html"/>
+      <topic label="Latency Budget QoS" href="a00027.html"/>
+      <topic label="Ownership QoS" href="a00030.html"/>
+      <topic label="Ownership Strength QoS" href="a00031.html"/>
+      <topic label="Liveliness QoS" href="a00029.html"/>
+      <topic label="Time Based Filter QoS" href="a00042.html"/>
+      <topic label="Partition QoS" href="a00032.html"/>
+      <topic label="Reliability QoS" href="a00037.html"/>
+      <topic label="Transport Priority QoS" href="a00044.html"/>
+      <topic label="Lifespan QoS" href="a00028.html"/>
+      <topic label="Destination Order QoS" href="a00021.html"/>
+      <topic label="History QoS" href="a00026.html"/>
+      <topic label="Resource Limits QoS" href="a00038.html"/>
+      <topic label="Entity Factory QoS" href="a00024.html"/>
+      <topic label="Writer Data Lifecycle QoS" href="a00047.html"/>
+      <topic label="Reader Data Lifecycle QoS" href="a00035.html"/>
+      <topic label="SubscriptionKey QoS" href="a00041.html"/>
+      <topic label="ReaderLifespan QoS" href="a00036.html"/>
+      <topic label="Share QoS" href="a00040.html"/>
+      <topic label="ViewKey QoS" href="a00046.html"/>
+      <topic label="Scheduling QoS" href="a00039.html"/>
+    </topic>
+    <topic label="Return Codes" href="a00013.html"/>
+    <topic label="Queries and Filters" href="a00048.html"/>
+    <topic label="Built-in Topics" href="a00002.html">
+      <topic label="Built-in Topics                                                                " href="a00002.html#DCPS_Builtin_Topics_Intro">
+        <topic label="ParticipantBuiltinTopicData                                                    " href="a00002.html#DCPS_Builtin_Topics_ParticipantData"/>
+        <topic label="TopicBuiltinTopicData                                                          " href="a00002.html#DCPS_Builtin_Topics_TopicData"/>
+        <topic label="PublicationBuiltinTopicData                                                    " href="a00002.html#DCPS_Builtin_Topics_PublicationData"/>
+        <topic label="SubscriptionBuiltinTopicData                                                   " href="a00002.html#DCPS_Builtin_Topics_SubscriptionData"/>
+        <topic label="Other built-in topics                                                          " href="a00002.html#DCPS_Builtin_Topics_Others"/>
+      </topic>
+    </topic>
+    <topic label="Eventual Consistency" href="a00004.html"/>
+  </topic>
+  <topic label="QoS Provider" href="a00034.html">
+    <topic label="API reference       " href="a00034.html#DCPS_QoS_Provider_APIref">
+      <topic label="Introduction           " href="a00034.html#DCPS_QoS_Provider_Introduction"/>
+    </topic>
+    <topic label="XML file syntax       " href="a00034.html#DCPS_QoS_Provider_XMLsyn">
+      <topic label="Entity QoS      " href="a00034.html#DCPS_QoS_Provider_Entity_QoS"/>
+      <topic label="QoS Profiles        " href="a00034.html#DCPS_QoS_Provider_QoS_Profiles"/>
+    </topic>
+    <topic label="Example     " href="a00034.html#DCPS_QoS_Provider_Example">
+      <topic label="C# Example     " href="a00034.html#DCPS_QoS_Provider_Example_Cs"/>
+    </topic>
+    <topic label="Known limitations       " href="a00034.html#DCPS_QoS_Provider_Limitations"/>
+  </topic>
+  <topic label="Namespaces">
+    <topic label="Namespace List" href="namespaces.html">
+      <topic label="DDS" href="a00224.html"/>
+      <topic label="Space" href="a00232.html"/>
+    </topic>
+    <topic label="Namespace Members" href="namespacemembers.html">
+      <topic label="All" href="namespacemembers.html"/>
+      <topic label="Enumerations" href="namespacemembers_enum.html"/>
+      <topic label="Enumerator" href="namespacemembers_eval.html"/>
+    </topic>
+  </topic>
+  <topic label="Classes">
+    <topic label="Class List" href="annotated.html">
+      <topic label="DDS" href="a00224.html">
+        <topic label="BuiltinTopicKey" href="a00060.html">
+          <topic label="Value" href="a00060.html#a7e036cd6d6dab58496c7862e3827b088"/>
+        </topic>
+        <topic label="CMDataReaderBuiltinTopicData" href="a00061.html">
+          <topic label="History" href="a00061.html#a9531ea363e7bd52f2396a265bdcd735c"/>
+          <topic label="Key" href="a00061.html#a4d788d181665f5524473e14322d38f04"/>
+          <topic label="Name" href="a00061.html#ad08eea7f2b9c81d23dcc28fafa41c0a0"/>
+          <topic label="Product" href="a00061.html#aecba525439b9d8d247c1f1e06c533d9d"/>
+          <topic label="ReaderDataLifecycle" href="a00061.html#aa56a6b6dc5517f88b5e6d5edf7467007"/>
+          <topic label="ReaderLifespan" href="a00061.html#aa82741d1c85d3b3fcb77ca6bd9417cb4"/>
+          <topic label="ResourceLimits" href="a00061.html#a37d1373b76379ca4822c52253fc48017"/>
+          <topic label="share" href="a00061.html#a4060197015485e5ffea35e16793c5034"/>
+          <topic label="SubscriberKey" href="a00061.html#ac25a4688d645343d56e3f2072019acd0"/>
+          <topic label="SubscriptionKeys" href="a00061.html#ac3d85505afeb0587dbee723718b64848"/>
+        </topic>
+        <topic label="CMDataWriterBuiltinTopicData" href="a00062.html">
+          <topic label="History" href="a00062.html#ad9bf5b80f24a8bd7d16e9533e45098bc"/>
+          <topic label="Key" href="a00062.html#af3e6e0b607690de7f22e57e7b57660fb"/>
+          <topic label="Name" href="a00062.html#a63c580f5734a21f3fb1b16d8e5607833"/>
+          <topic label="Product" href="a00062.html#ad059876dbb72760edfa6d29de859ca4f"/>
+          <topic label="PublisherKey" href="a00062.html#a841cf54af376a5231f88b2241b903e07"/>
+          <topic label="ResourceLimits" href="a00062.html#a6c83a683e076b23389fcbf9debd55220"/>
+          <topic label="WriterDataLifecycle" href="a00062.html#a0698a5e764025efe5f6eed36f9f5723e"/>
+        </topic>
+        <topic label="CMParticipantBuiltinTopicData" href="a00063.html">
+          <topic label="key" href="a00063.html#a16019f9ea79e68656bc6c0c07e734589"/>
+          <topic label="product" href="a00063.html#ab87e286afc7b499f42f0b9c6bd0f4cc9"/>
+        </topic>
+        <topic label="CMPublisherBuiltinTopicData" href="a00064.html">
+          <topic label="entity_factory" href="a00064.html#aeadaff3f23bde263d1f0934f47e41447"/>
+          <topic label="key" href="a00064.html#a1faf92994aacdab807c281ff90159516"/>
+          <topic label="name" href="a00064.html#a5abb5a1ce1d612996f07651b6f2b7c68"/>
+          <topic label="participant_key" href="a00064.html#a12d90a38325f05adf3e1517b25e315af"/>
+          <topic label="partition" href="a00064.html#addada1d6ee98f76f2b0c5ed7cd6a4537"/>
+          <topic label="product" href="a00064.html#aab80c2071d5db8eefdbc4a8a917a3621"/>
+        </topic>
+        <topic label="CMSubscriberBuiltinTopicData" href="a00065.html">
+          <topic label="EntityFactory" href="a00065.html#a0e4a32f0e31f01181e2dcc83ef470218"/>
+          <topic label="Key" href="a00065.html#a5877ce4cdd16f89b685402d745929f2b"/>
+          <topic label="Name" href="a00065.html#ab4dc389c5b0e1f11b37baa3d84759995"/>
+          <topic label="ParticipantKey" href="a00065.html#aa0f32b0d6f20107b78f088a22eede826"/>
+          <topic label="Partition" href="a00065.html#ac45fba9fd6b8784fbf7c871f101e75fc"/>
+          <topic label="Product" href="a00065.html#acb85e255c5e0233cc87788706e177945"/>
+          <topic label="Share" href="a00065.html#a06ff2a8fd0f89a3f355227b3803c075a"/>
+        </topic>
+        <topic label="DataReaderQos" href="a00066.html">
+          <topic label="Deadline" href="a00066.html#a8e93bd6e2c4aac6f5a523542aaaca096"/>
+          <topic label="DestinationOrder" href="a00066.html#a5280a3d9ab456ab72e63813dbbefc017"/>
+          <topic label="Durability" href="a00066.html#a4497ccab5d378369dcf1df80debd97be"/>
+          <topic label="History" href="a00066.html#ab5abec1852ef8efccd6f18486973c799"/>
+          <topic label="LatencyBudget" href="a00066.html#aa0475e5c260d21dccfb4f97c45396531"/>
+          <topic label="Liveliness" href="a00066.html#a646bc1dce6cdea1443f73c98a12d56c3"/>
+          <topic label="Ownership" href="a00066.html#a9f1554c55c7625689ec8071b7cf8f92f"/>
+          <topic label="ReaderDataLifecycle" href="a00066.html#a76afcb1f3d224d76691232bf48adf878"/>
+          <topic label="ReaderLifespan" href="a00066.html#a61cfecb20e248eb99b9da3cbe45fd4b7"/>
+          <topic label="Reliability" href="a00066.html#ae4ebce8ade1e5ad3e0acb518922f68ad"/>
+          <topic label="ResourceLimits" href="a00066.html#acfa45b6e85e33b9b876276d32a2e3130"/>
+          <topic label="Share" href="a00066.html#a77682851c389c307834b79266b0120b0"/>
+          <topic label="SubscriptionKeys" href="a00066.html#a4255230c5a1a8053f10a67a0684eed14"/>
+          <topic label="TimeBasedFilter" href="a00066.html#a3f34db7ab94d90f21f01de858403b109"/>
+          <topic label="UserData" href="a00066.html#a902748692ea85f77e25f42bd5be00364"/>
+        </topic>
+        <topic label="DataWriterQos" href="a00067.html">
+          <topic label="Deadline" href="a00067.html#a4fc6b7187f6415a78cb6c4ae28fa89ae"/>
+          <topic label="DestinationOrder" href="a00067.html#af69b7d0a6022d43c1f6eb5b5c10ae1b5"/>
+          <topic label="Durability" href="a00067.html#a039d4427ccf9133e3e51ab3f58c2a763"/>
+          <topic label="History" href="a00067.html#aa419ea7c93acb97870281e76ef74f9fe"/>
+          <topic label="LatencyBudget" href="a00067.html#a88a67e7a9c01583ccd892d19ce3141ab"/>
+          <topic label="Lifespan" href="a00067.html#ab82bcd3974e3aa106618f585056da50b"/>
+          <topic label="Liveliness" href="a00067.html#a90253f31d3926fc359ce717d43c25c7b"/>
+          <topic label="Ownership" href="a00067.html#a3c2b21e12f944ec7e9d3f206a7dbdaa0"/>
+          <topic label="OwnershipStrength" href="a00067.html#ae2f89537f150183d6dcc2ff285488e4e"/>
+          <topic label="Reliability" href="a00067.html#a790a65c8fa1407f85043770cb23898c9"/>
+          <topic label="ResourceLimits" href="a00067.html#a1f5609741108426c9cb7b3304c7715c6"/>
+          <topic label="TransportPriority" href="a00067.html#a9f9fed6421c6f21ccc57e0c978721944"/>
+          <topic label="UserData" href="a00067.html#a3cec9c4ad2fb1226764a48d1188d7337"/>
+          <topic label="WriterDataLifecycle" href="a00067.html#a3a0068e8534135493feb46bd89c11850"/>
+        </topic>
+        <topic label="DeadlineQosPolicy" href="a00068.html">
+          <topic label="Period" href="a00068.html#a2c4ee945c03970326dda81b224332769"/>
+        </topic>
+        <topic label="DestinationOrderQosPolicy" href="a00069.html">
+          <topic label="Kind" href="a00069.html#a48210da00c018759780b4e81071fc908"/>
+        </topic>
+        <topic label="DomainId" href="a00070.html">
+          <topic label="DomainId" href="a00070.html#a32572996f8e2512b70320420fef7c4bc"/>
+          <topic label="Equals" href="a00070.html#a69abae25a982166ccbdeee1dc7aa4b22"/>
+          <topic label="GetHashCode" href="a00070.html#a2bbf0fa8e000d69e271b862a5b33c178"/>
+          <topic label="operator DomainId" href="a00070.html#acf0d06ebad3c53565e3b7de5060fd3bd"/>
+          <topic label="operator int" href="a00070.html#a7132ae542e348853ca8a84103c116276"/>
+          <topic label="operator!=" href="a00070.html#acc0e11b5d2df9b11309a29de7f53b4d1"/>
+          <topic label="operator==" href="a00070.html#a1990f043ffbf9d0353e46cea92287687"/>
+          <topic label="ToInt32" href="a00070.html#aeb00d7fdb8663885796118fcc6f29872"/>
+          <topic label="ToString" href="a00070.html#a42979797aa424113efb4692273677d85"/>
+          <topic label="ToString" href="a00070.html#a10ad0ad94654f44bf74f09f65689c0b5"/>
+          <topic label="Default" href="a00070.html#a0473020f666d23469f0007e19dd5f242"/>
+          <topic label="Invalid" href="a00070.html#acb23039df556be466e12fa7860f88237"/>
+        </topic>
+        <topic label="DomainParticipantFactory" href="a00071.html">
+          <topic label="CreateParticipant" href="a00071.html#aac070b5bef3f60ae5ce308271486cbb0"/>
+          <topic label="CreateParticipant" href="a00071.html#a400c13c7b34cca1eeed4dae639c2cfcc"/>
+          <topic label="CreateParticipant" href="a00071.html#a370867fdea892189615cd006b157d6bb"/>
+          <topic label="CreateParticipant" href="a00071.html#a263813b3cdc7623beca1457ed63affea"/>
+          <topic label="DeleteContainedEntities" href="a00071.html#a47c22951c6803d0db04b7a028219c48f"/>
+          <topic label="DeleteParticipant" href="a00071.html#a741652cbe4ea995b65aefc0cf3d4d2f9"/>
+          <topic label="DetachAllDomains" href="a00071.html#a7aeb0ce1f0159b02a3248b7b17073f25"/>
+          <topic label="GetDefaultParticipantQos" href="a00071.html#aab2bc45a23c997dcacf20b8dc1a8e28c"/>
+          <topic label="GetQos" href="a00071.html#af4c3fc94d47dc5843d957c989257f9f8"/>
+          <topic label="LookupParticipant" href="a00071.html#af8e0bf66e04e26e20f0bc16137263196"/>
+          <topic label="SetDefaultParticipantQos" href="a00071.html#a34ee0db773de8caeba8619e4c2994548"/>
+          <topic label="SetQos" href="a00071.html#a66e133ec04967d86ecb3bb789d53c673"/>
+          <topic label="Instance" href="a00071.html#aa29acea65b085bde83e48b5137dfe484"/>
+        </topic>
+        <topic label="DomainParticipantFactoryQos" href="a00072.html">
+          <topic label="EntityFactory" href="a00072.html#a66eaf7ce1bcaf178a216050648fbfa8a"/>
+        </topic>
+        <topic label="DomainParticipantQos" href="a00073.html">
+          <topic label="EntityFactory" href="a00073.html#a16a83969909d6020fc41aeff026906f7"/>
+          <topic label="ListenerScheduling" href="a00073.html#a38a61a59dcaa44f23ad9ddcd90db75ab"/>
+          <topic label="UserData" href="a00073.html#a0d90784611c48ee2be35a1e342974de7"/>
+          <topic label="WatchdogScheduling" href="a00073.html#a12f33563ca7c5405353498d834a7492c"/>
+        </topic>
+        <topic label="DurabilityQosPolicy" href="a00074.html">
+          <topic label="Kind" href="a00074.html#aaf8b6f48444065e285c678f857f7ae07"/>
+        </topic>
+        <topic label="DurabilityServiceQosPolicy" href="a00075.html">
+          <topic label="HistoryDepth" href="a00075.html#ad14541558d86bdc029d22a644443e7ce"/>
+          <topic label="HistoryKind" href="a00075.html#a2d5ceb9be0247c4bbe17bc0f09bc68c0"/>
+          <topic label="MaxInstances" href="a00075.html#a3ea02d9cbad5b92d2901ada4502cf286"/>
+          <topic label="MaxSamples" href="a00075.html#a82a7c7549405069ab7408678fce02d6d"/>
+          <topic label="MaxSamplesPerInstance" href="a00075.html#a08c4fb5cea29404573fad58b30f2801c"/>
+          <topic label="ServiceCleanupDelay" href="a00075.html#ab6b3d3073f0d298a79819aee734ee481"/>
+        </topic>
+        <topic label="Duration" href="a00076.html">
+          <topic label="Duration" href="a00076.html#a860960124211e4f75a656ae055b4104d"/>
+          <topic label="Equals" href="a00076.html#ab35ce1b3428412b90474f0a6956f3083"/>
+          <topic label="FromMilliseconds" href="a00076.html#a0d610a798888d99add270421efaadfd4"/>
+          <topic label="FromTimeSpan" href="a00076.html#a8beafd588608c7834879e643c40299e2"/>
+          <topic label="GetHashCode" href="a00076.html#aa1d49fd4f9eb5b3f0475fd604b259652"/>
+          <topic label="operator!=" href="a00076.html#af94d6d0d8afda387ab61990b5b4e73e3"/>
+          <topic label="operator==" href="a00076.html#a6640a97904d313cc25af082b21a7f1c6"/>
+          <topic label="ToString" href="a00076.html#aababaf826dfa9c316e9854099207a646"/>
+          <topic label="Infinite" href="a00076.html#a4b6311961516bc27d8a52a904691551c"/>
+          <topic label="Zero" href="a00076.html#adac8f2dc146cb9ce5a1bf6c461c1b7c6"/>
+          <topic label="NanoSec" href="a00076.html#a4b5fea80c262e6ce6d77b96b2bc9ddf4"/>
+          <topic label="Sec" href="a00076.html#a491a04dd6a6ff0eeb909a72bc52d177f"/>
+        </topic>
+        <topic label="EntityFactoryQosPolicy" href="a00077.html">
+          <topic label="AutoEnableCreatedEntities" href="a00077.html#a7b3444596bc18e50e11089d474ff0985"/>
+        </topic>
+        <topic label="GroupDataQosPolicy" href="a00078.html">
+          <topic label="Value" href="a00078.html#a1f886e86ac3bb5850f28a51a22b208fe"/>
+        </topic>
+        <topic label="HistoryQosPolicy" href="a00079.html">
+          <topic label="Depth" href="a00079.html#a127e30407b7bd38aea387cfdcdd08411"/>
+          <topic label="Kind" href="a00079.html#a1864faea82ea340a51ca58e7ebc9c3bc"/>
+        </topic>
+        <topic label="ICondition" href="a00080.html">
+          <topic label="GetTriggerValue" href="a00080.html#acefc422157a2e4e9827d5e629671a968"/>
+        </topic>
+        <topic label="IContentFilteredTopic" href="a00081.html">
+          <topic label="GetExpressionParameters" href="a00081.html#ad384e6cf2d8055ee67fd7af5e7ccdedf"/>
+          <topic label="GetFilterExpression" href="a00081.html#a656e973d515183d85bb9ebd609deda50"/>
+          <topic label="SetExpressionParameters" href="a00081.html#a6b287088722d0e98c7f3cc4e620c5736"/>
+          <topic label="RelatedTopic" href="a00081.html#aa96287837d1c9aceb3d5c60230aa61b4"/>
+        </topic>
+        <topic label="IDataReader" href="a00082.html">
+          <topic label="CreateQueryCondition" href="a00082.html#acc8aef04c2856a77986781d6f8b03314"/>
+          <topic label="CreateQueryCondition" href="a00082.html#ae23801512b4dd7e7e0514208b85e8595"/>
+          <topic label="CreateReadCondition" href="a00082.html#aa4c8a1551824dd65db51f381318c7df1"/>
+          <topic label="CreateReadCondition" href="a00082.html#aa3ab7e7f7260f99d9702d4eb86a9b511"/>
+          <topic label="DeleteContainedEntities" href="a00082.html#a5657d88f4f3c9529e4e4dd49ff8a5bb1"/>
+          <topic label="DeleteReadCondition" href="a00082.html#add2130ab706c233c47eb7c4e2794f6ed"/>
+          <topic label="GetKeyValue" href="a00082.html#ae7053feb578dcb000fb000f400fabc17"/>
+          <topic label="GetLivelinessChangedStatus" href="a00082.html#aea50c38cff04f603f1a5aaeb69687cb0"/>
+          <topic label="GetMatchedPublicationData" href="a00082.html#a809c7cc43a0ee2e37abc3dbf4bb80fa4"/>
+          <topic label="GetMatchedPublications" href="a00082.html#a3da21b38c68670136d4af57db6a44a35"/>
+          <topic label="GetQos" href="a00082.html#a47c11be1b34e1fb82203fa212a657942"/>
+          <topic label="GetRequestedDeadlineMissedStatus" href="a00082.html#a7d8f230be6b58c39a8d535b48655e024"/>
+          <topic label="GetRequestedIncompatibleQosStatus" href="a00082.html#ab820ecf621aebf04ee304d892ece0de6"/>
+          <topic label="GetSampleLostStatus" href="a00082.html#a2821f63076704a84382473f135dfc8a3"/>
+          <topic label="GetSampleRejectedStatus" href="a00082.html#a49df4d19af612949d4c2bebae57af9d2"/>
+          <topic label="GetSubscriptionMatchedStatus" href="a00082.html#ad0f395e0390808a22448e2513e2c95ce"/>
+          <topic label="GetTopicDescription" href="a00082.html#aaaf1b85f66b84fa8e854d7ba5eb64589"/>
+          <topic label="LookupInstance" href="a00082.html#abce1c45b58f60307a730f32521dcc951"/>
+          <topic label="Read" href="a00082.html#a3bb438b2385a3c93e1299d52683e39ab"/>
+          <topic label="Read" href="a00082.html#abd08ed697a819fe4001dd5eca3c1b1b0"/>
+          <topic label="Read" href="a00082.html#a5a1ecf7d9b31e902c1ed5558b7511103"/>
+          <topic label="Read" href="a00082.html#ac1b092823e4ef3bec1ed172a0a3131e1"/>
+          <topic label="ReadInstance" href="a00082.html#a61c5981f2143a73f60204512a959163c"/>
+          <topic label="ReadInstance" href="a00082.html#a5643de801e8ea1b0f2f117ef5509373e"/>
+          <topic label="ReadInstance" href="a00082.html#a738f080856da3db364d7502435240db2"/>
+          <topic label="ReadNextInstance" href="a00082.html#abb2da89b632e7f4ba2674ac7845dbbd6"/>
+          <topic label="ReadNextInstance" href="a00082.html#a29514d92c4ac8ae60d3c3ede7ab4cef7"/>
+          <topic label="ReadNextInstance" href="a00082.html#abe1b9d9f7ab574d6d5a157f526cae726"/>
+          <topic label="ReadNextInstanceWithCondition" href="a00082.html#ab50d41fc540d5c0cf92c35750d3998ec"/>
+          <topic label="ReadNextInstanceWithCondition" href="a00082.html#ae52edea84abeea5ea80a9d65e65e1414"/>
+          <topic label="ReadNextSample" href="a00082.html#a83f4368e38c17a833ed485f7c45bc08e"/>
+          <topic label="ReadWithCondition" href="a00082.html#ae775c2e58683a54d11c6e5ac799200b7"/>
+          <topic label="ReadWithCondition" href="a00082.html#a3bae4b406f6cd2166bb7a7a78e2b2d15"/>
+          <topic label="ReturnLoan" href="a00082.html#a21657fb51be8dff7600df26e9cecb94f"/>
+          <topic label="SetListener" href="a00082.html#a94f1e5925ba159fbb16335965874d56a"/>
+          <topic label="SetQos" href="a00082.html#acb4ca96bfbb1f70d8b0533fb7dd51af7"/>
+          <topic label="Take" href="a00082.html#a187f5d3f56fff324a99a43c06673b46a"/>
+          <topic label="Take" href="a00082.html#ac68fefeddb77284e8e23e7ff7f2da7ce"/>
+          <topic label="Take" href="a00082.html#ae766be8c3218db675ac2cf881ab806c7"/>
+          <topic label="Take" href="a00082.html#a012098b5e3311112a18383b4a6eccc77"/>
+          <topic label="TakeInstance" href="a00082.html#af6fc0732cb3fb82100fd5584685d4b22"/>
+          <topic label="TakeInstance" href="a00082.html#a1437dca8a6da73e603746d81e8d322c2"/>
+          <topic label="TakeInstance" href="a00082.html#a2462c6da561975559ac28308699e4a04"/>
+          <topic label="TakeNextInstance" href="a00082.html#a3a4acd1b9038dd08ceeb30730420c34e"/>
+          <topic label="TakeNextInstance" href="a00082.html#aca27ea1e6a9b0c3622bf93861387f246"/>
+          <topic label="TakeNextInstance" href="a00082.html#afb8a56396dfe8f2ac82e69f484fa1925"/>
+          <topic label="TakeNextInstanceWithCondition" href="a00082.html#a7b73534f858a8b1ca04581a28c7c9cc1"/>
+          <topic label="TakeNextInstanceWithCondition" href="a00082.html#a6f8b1510d9b2045836e978f39a5e612b"/>
+          <topic label="TakeNextSample" href="a00082.html#a291711f4222435813cb8a79e91520652"/>
+          <topic label="TakeWithCondition" href="a00082.html#a6cd7e9a3df7554898f161ff6886557ce"/>
+          <topic label="TakeWithCondition" href="a00082.html#aefd8598db3f902f16208922f3b852067"/>
+          <topic label="WaitForHistoricalData" href="a00082.html#a5d2864eb26273c752010becfd635e375"/>
+          <topic label="Listener" href="a00082.html#a48acaca13766398178eacd887d8bdb56"/>
+          <topic label="Subscriber" href="a00082.html#a6a5207511128c887c7203de62d574b1a"/>
+        </topic>
+        <topic label="IDataReaderListener" href="a00083.html">
+          <topic label="OnDataAvailable" href="a00083.html#ada57bae6f6131648a96e3b6cb9bf877b"/>
+          <topic label="OnLivelinessChanged" href="a00083.html#a6da5a8955dbd596ab017bf2953d44ea4"/>
+          <topic label="OnRequestedDeadlineMissed" href="a00083.html#a0786d2d06a46527dbebd9107cb00c807"/>
+          <topic label="OnRequestedIncompatibleQos" href="a00083.html#a5b4497fa8fd833bcfe36457f4996a40e"/>
+          <topic label="OnSampleLost" href="a00083.html#af1f16a571dfcc7758ee102c82b578d2f"/>
+          <topic label="OnSampleRejected" href="a00083.html#a8a5f8eef1f8e0130c0ead9e339873bca"/>
+          <topic label="OnSubscriptionMatched" href="a00083.html#aef0faa25d08a9ad21edb45218de03fd0"/>
+        </topic>
+        <topic label="IDataWriter" href="a00084.html">
+          <topic label="AssertLiveliness" href="a00084.html#a9f9bc90a86376175280979c70a91a0b5"/>
+          <topic label="Dispose" href="a00084.html#af74d4513574ed217a83e1affd406353f"/>
+          <topic label="DisposeWithTimestamp" href="a00084.html#a2d12f4475282a9480826786f3731aad7"/>
+          <topic label="GetKeyValue" href="a00084.html#aa6229c4bf991c087c0f268c983dcc9ce"/>
+          <topic label="GetLivelinessLostStatus" href="a00084.html#a1ea18e79fd8099524eedb39ea58fa720"/>
+          <topic label="GetMatchedSubscriptionData" href="a00084.html#aa2bcd455c6b4e22ba22ea4c223faf346"/>
+          <topic label="GetMatchedSubscriptions" href="a00084.html#ad10524764442153337390e985f5a3a9f"/>
+          <topic label="GetOfferedDeadlineMissedStatus" href="a00084.html#ab63229ed6f1ddc6044cc9a380d6a1b87"/>
+          <topic label="GetOfferedIncompatibleQosStatus" href="a00084.html#a73fa264d8afdbe4bb4a93215d7adfdab"/>
+          <topic label="GetPublicationMatchedStatus" href="a00084.html#a0b932f4ab68009b6f177524ce329f94f"/>
+          <topic label="GetQos" href="a00084.html#ae6351881a35f5dc9588c223836c54ea7"/>
+          <topic label="LookupInstance" href="a00084.html#aaf65baff8d0546630870c29ed50fa3d6"/>
+          <topic label="RegisterInstance" href="a00084.html#a6c1748f82f9f0741b16742e686c9457d"/>
+          <topic label="RegisterInstanceWithTimestamp" href="a00084.html#a046a14d414ec514bdb5d1e8bb2af4c0c"/>
+          <topic label="SetListener" href="a00084.html#a28648c302659960c281f9ed70999205d"/>
+          <topic label="SetQos" href="a00084.html#aebfe45cf8bf508f5c1ace2a68b423b6b"/>
+          <topic label="UnregisterInstance" href="a00084.html#a57cc5c317d830c935c34b086b0ec5067"/>
+          <topic label="UnregisterInstanceWithTimestamp" href="a00084.html#a6ed27d5f30ab0c5de1a7bbf88a469f24"/>
+          <topic label="WaitForAcknowledgments" href="a00084.html#a0f1eaf6d5f9aefdda853598e73d88157"/>
+          <topic label="Write" href="a00084.html#afb79e41f274c00c97abf6ba2a673aa77"/>
+          <topic label="Write" href="a00084.html#a16585547b62fce4c6c25e0f2d7044aab"/>
+          <topic label="WriteDispose" href="a00084.html#a908c98bfc54569da3b163c3dfa463ae8"/>
+          <topic label="WriteDispose" href="a00084.html#a9357a574aca7cd26f835f736b05be3a8"/>
+          <topic label="WriteDisposeWithTimestamp" href="a00084.html#a04effb3e19640155d96d831185f55391"/>
+          <topic label="WriteDisposeWithTimestamp" href="a00084.html#a2f775329ce2d226ef5430bc4ce7702d7"/>
+          <topic label="WriteWithTimestamp" href="a00084.html#a5765b0a30b780811b1d41241b5830cbf"/>
+          <topic label="WriteWithTimestamp" href="a00084.html#ad8fd04cf97d438978bcd278f59f5cf69"/>
+          <topic label="Listener" href="a00084.html#a2814902ce51c0f2ca9aac60934064ad2"/>
+          <topic label="Publisher" href="a00084.html#a57a3dac07a70789e37979e52bb6da275"/>
+          <topic label="Topic" href="a00084.html#aa7a07a0f6af01238aeb5aff9957d1b77"/>
+        </topic>
+        <topic label="IDataWriterListener" href="a00085.html">
+          <topic label="OnLivelinessLost" href="a00085.html#a8593b18d4a80554481e0be1dd48fd550"/>
+          <topic label="OnOfferedDeadlineMissed" href="a00085.html#a2609ffbc777a070f80820b2c77cf5f91"/>
+          <topic label="OnOfferedIncompatibleQos" href="a00085.html#af293032c77ec49e87f845a790d2f2ddd"/>
+          <topic label="OnPublicationMatched" href="a00085.html#a4da5676fa36a5cb28a53c6add76ff9e6"/>
+        </topic>
+        <topic label="IDomainParticipant" href="a00086.html">
+          <topic label="AssertLiveliness" href="a00086.html#a0e97fe1b4e68d1ae29beb3d14af7f7fd"/>
+          <topic label="ContainsEntity" href="a00086.html#aa87074636c919b8edc79e0a538835133"/>
+          <topic label="CreateContentFilteredTopic" href="a00086.html#a6ee4871133cf129665d886aec831b272"/>
+          <topic label="CreateMultiTopic" href="a00086.html#ac745a9feb813e3791e954265001f1f91"/>
+          <topic label="CreatePublisher" href="a00086.html#a3b67d427aa77a4430f7e4bced76f604f"/>
+          <topic label="CreatePublisher" href="a00086.html#a778111c4847055159ff890d2e3a69ebc"/>
+          <topic label="CreatePublisher" href="a00086.html#a58824ef47230f89445fa07f89c7ac420"/>
+          <topic label="CreatePublisher" href="a00086.html#a3da3238904808efc662cfb4065a78f39"/>
+          <topic label="CreateSubscriber" href="a00086.html#a1c96553c0b89db629f75145be69b0fd8"/>
+          <topic label="CreateSubscriber" href="a00086.html#a136ca12b31a98ca8d55c47bab708936c"/>
+          <topic label="CreateSubscriber" href="a00086.html#a5f4a8d04be1a998cc709b999f1a8e519"/>
+          <topic label="CreateSubscriber" href="a00086.html#acd9f8f0f83661f4d1f237da9804e287e"/>
+          <topic label="CreateTopic" href="a00086.html#a83346dafb28e1fe8f7f3aa5c545fe97f"/>
+          <topic label="CreateTopic" href="a00086.html#a378224b02040c33879a12d82dc2361cb"/>
+          <topic label="CreateTopic" href="a00086.html#ab01ee787bee04b3fe62d237e7f319ffb"/>
+          <topic label="CreateTopic" href="a00086.html#a1c8aaf5dd8ca7e71ff68d5145956be78"/>
+          <topic label="DeleteContainedEntities" href="a00086.html#a0f2afdc0ab5c706248b7d77fb4ceb0fd"/>
+          <topic label="DeleteContentFilteredTopic" href="a00086.html#a96ad627d2a2a66d152cd23435b21ef99"/>
+          <topic label="DeleteMultiTopic" href="a00086.html#a9f12399dbba1dda8b8b6c7ffed2b9c0a"/>
+          <topic label="DeletePublisher" href="a00086.html#ad15e0196701ab9e3f8e0f3894f4cbdee"/>
+          <topic label="DeleteSubscriber" href="a00086.html#a83c14426aad04ca931f04f208cb55388"/>
+          <topic label="DeleteTopic" href="a00086.html#aac76120951ce3c5a5f4624b33c44862c"/>
+          <topic label="FindTopic" href="a00086.html#ae8394bd078e77d35425ba1892ac6ae64"/>
+          <topic label="GetCurrentTime" href="a00086.html#aedfacbdfa027ea5e430b411829e552df"/>
+          <topic label="GetDefaultPublisherQos" href="a00086.html#a0aebe5a7b1a1ce92048013fc835484db"/>
+          <topic label="GetDefaultSubscriberQos" href="a00086.html#ae042525688659a76290bcc2692a4ed69"/>
+          <topic label="GetDefaultTopicQos" href="a00086.html#a997845080e4fa3e8fd8b6d1f78728fdc"/>
+          <topic label="GetDiscoveredParticipantData" href="a00086.html#abc1ee491dc8e129beec79f982cbd8fe6"/>
+          <topic label="GetDiscoveredParticipants" href="a00086.html#abad543c1a77b7eaae87de12d48766cea"/>
+          <topic label="GetDiscoveredTopicData" href="a00086.html#a9752ca904f8b67bbc32c4b0473b3a81e"/>
+          <topic label="GetDiscoveredTopics" href="a00086.html#a30758c09aa5ba6e3cfcc3f6499501062"/>
+          <topic label="GetProperty" href="a00086.html#ad155f64246f3f1c74a3a36dd7d03adb1"/>
+          <topic label="GetQos" href="a00086.html#acb01d007e052838f940f86f292660890"/>
+          <topic label="IgnoreParticipant" href="a00086.html#a17164ee6bd18305a7956350a9f25c018"/>
+          <topic label="IgnorePublication" href="a00086.html#a65c2e280769ef7e5395f9cbfbebaf606"/>
+          <topic label="IgnoreSubscription" href="a00086.html#ac178268c362caf4f5f9e35457f33db2a"/>
+          <topic label="IgnoreTopic" href="a00086.html#ac696f94dd6db8ef2a2cc62c2d53e25f3"/>
+          <topic label="LookupTopicDescription" href="a00086.html#a8b7cee913c4d48bf2587c7e2dc492c62"/>
+          <topic label="SetDefaultPublisherQos" href="a00086.html#a51861922542d1ba1f560698d4c42767f"/>
+          <topic label="SetDefaultSubscriberQos" href="a00086.html#a6f70a9f9696938c311d82761532baa9f"/>
+          <topic label="SetDefaultTopicQos" href="a00086.html#a58e175827b19e5ce0281310e942cde0e"/>
+          <topic label="SetListener" href="a00086.html#a2075ae532e8392a3e7fa8b7922e728ce"/>
+          <topic label="SetProperty" href="a00086.html#a2929fc1b4ad0349a22323c37da8507b2"/>
+          <topic label="SetQos" href="a00086.html#a51d8f539d988adcf8c3b4de329c64091"/>
+          <topic label="BuiltInSubscriber" href="a00086.html#abfe18aa2dbe451204a3a3ccbe81f5056"/>
+          <topic label="DomainId" href="a00086.html#a327bfa402549039be806c2c2ec1ef779"/>
+          <topic label="Listener" href="a00086.html#ace9ee80d168e778177a28a1e304150cb"/>
+        </topic>
+        <topic label="IDomainParticipantListener" href="a00087.html"/>
+        <topic label="IEntity" href="a00088.html">
+          <topic label="Enable" href="a00088.html#ad9d3aa88052aa304cd12ee2e855f544e"/>
+          <topic label="InstanceHandle" href="a00088.html#a6668f69bd9ee4cf5851bae35b3ae77f8"/>
+          <topic label="StatusChanges" href="a00088.html#aa6d0f9ffc9cba64a8abaf593ec28831e"/>
+          <topic label="StatusCondition" href="a00088.html#af6ec6716fad2f813037afac2e6de0cbf"/>
+        </topic>
+        <topic label="IGuardCondition" href="a00089.html">
+          <topic label="SetTriggerValue" href="a00089.html#a5638ed77592b5b3540356205bdc5fe70"/>
+        </topic>
+        <topic label="IListener" href="a00090.html"/>
+        <topic label="IMultiTopic" href="a00091.html">
+          <topic label="GetExpressionParameters" href="a00091.html#afb2d7f556803000ec019174b51916556"/>
+          <topic label="SetExpressionParameters" href="a00091.html#a7f1817c17a474a826ff5a48f86b8cb47"/>
+          <topic label="SubscriptionExpression" href="a00091.html#abe1143860affc0b0ef9173eaf063d40f"/>
+        </topic>
+        <topic label="InconsistentTopicStatus" href="a00092.html">
+          <topic label="TotalCount" href="a00092.html#a3f80dc699082d722c86c982562f191fd"/>
+          <topic label="TotalCountChange" href="a00092.html#a1cd058165e1a6616517daac2b2cb720e"/>
+        </topic>
+        <topic label="InstanceHandle" href="a00093.html">
+          <topic label="InstanceHandle" href="a00093.html#a62936d0ce3f78bbbd5d32dbe75bf64da"/>
+          <topic label="Equals" href="a00093.html#a37407fb38bfba5471c29be1cf4f1669b"/>
+          <topic label="GetHashCode" href="a00093.html#a24b1f81a36fddb01660b75e5829d0fb7"/>
+          <topic label="operator InstanceHandle" href="a00093.html#a32233d852cad79e48304965695fdcaa3"/>
+          <topic label="operator long" href="a00093.html#a8815a541a1579342fd83d0a8c16b2465"/>
+          <topic label="operator!=" href="a00093.html#acce9f812d68400084d8a115d7e851c64"/>
+          <topic label="operator==" href="a00093.html#ad4138edd20f3af65692e41350a22008f"/>
+          <topic label="ToInt64" href="a00093.html#a666da76aba940e5dc7e29ad07abf5ae9"/>
+          <topic label="ToString" href="a00093.html#a7e925552d5058f0cd309fe46800f8eae"/>
+          <topic label="ToString" href="a00093.html#a6dd841c19bd492b1f147b08d745e696a"/>
+          <topic label="Nil" href="a00093.html#a653c0c26204c31fd87572d9475b41b3e"/>
+        </topic>
+        <topic label="InvalidSampleVisibilityQosPolicy" href="a00094.html">
+          <topic label="Kind" href="a00094.html#af1d3791ce808b62e6de1a4e3e12fdb61"/>
+        </topic>
+        <topic label="IPublisher" href="a00095.html">
+          <topic label="BeginCoherentChanges" href="a00095.html#aba50273d3f60118a4c0cdec6eccf7be5"/>
+          <topic label="CopyFromTopicQos" href="a00095.html#af38a4f54c99f4f81848861c8f6024bea"/>
+          <topic label="CreateDataWriter" href="a00095.html#a5c40aa6b96324c95e69de7c655a77fd0"/>
+          <topic label="CreateDataWriter" href="a00095.html#a4f5e6a186528d2aebd1c0f82a34f450b"/>
+          <topic label="CreateDataWriter" href="a00095.html#abddd10f89773547e03ca6a81564fc5e3"/>
+          <topic label="CreateDataWriter" href="a00095.html#a6a192c9d3ea319754e789408320762d6"/>
+          <topic label="DeleteContainedEntities" href="a00095.html#a4f61df337b61f0dc0453c20558e4a96d"/>
+          <topic label="DeleteDataWriter" href="a00095.html#ad853738b153db98d117221a9228601e2"/>
+          <topic label="EndCoherentChanges" href="a00095.html#afdbc8113519af555b4952d2c479f82b1"/>
+          <topic label="GetDefaultDataWriterQos" href="a00095.html#a2cbec4306a40fa03540a38c66ccde2f4"/>
+          <topic label="GetParticipant" href="a00095.html#a1c57cec9b842178d3a69890933f41262"/>
+          <topic label="GetQos" href="a00095.html#a8b99b7f546169d4e142082ff5208de0b"/>
+          <topic label="LookupDataWriter" href="a00095.html#a6defa1b8d3f0ae284a7fb3e1351a2fc1"/>
+          <topic label="ResumePublications" href="a00095.html#a829b3485a5028f3e2ad4fd4622ff0675"/>
+          <topic label="SetDefaultDataWriterQos" href="a00095.html#ad4480b5049a1aecab5e5cc15141cad97"/>
+          <topic label="SetListener" href="a00095.html#ad1fb54f2c874f19efca2aba10dfc5f31"/>
+          <topic label="SetQos" href="a00095.html#ac836cc877d51c18bd363585a608afb5c"/>
+          <topic label="SuspendPublications" href="a00095.html#a566c284e416ed706420a1329472ea12f"/>
+          <topic label="WaitForAcknowledgments" href="a00095.html#ae708483d6383cd5ea4c54e4b1716e5e5"/>
+          <topic label="Listener" href="a00095.html#a742e6b8b479344c3f318bd34fe327757"/>
+        </topic>
+        <topic label="IPublisherListener" href="a00096.html"/>
+        <topic label="IQueryCondition" href="a00097.html">
+          <topic label="GetQueryExpression" href="a00097.html#a3b72d061a48614fb38f1d044747689b3"/>
+          <topic label="GetQueryParameters" href="a00097.html#a4a74f688dffb7f96321f25d4d578995c"/>
+          <topic label="SetQueryParameters" href="a00097.html#ac9ba35d3807e479d79a3109ee1e9d0c3"/>
+        </topic>
+        <topic label="IReadCondition" href="a00098.html">
+          <topic label="GetDataReader" href="a00098.html#a9595efa13ef197fa23651165389c4096"/>
+          <topic label="GetInstanceStateMask" href="a00098.html#a53ca5341e7cd832ff70b9d4965110a19"/>
+          <topic label="GetSampleStateMask" href="a00098.html#a107ef67f939bd3ae86cc71fa9d157fd8"/>
+          <topic label="GetViewStateMask" href="a00098.html#a5d25a8f398bc220845f4346845c49de3"/>
+        </topic>
+        <topic label="IStatusCondition" href="a00099.html">
+          <topic label="GetEnabledStatuses" href="a00099.html#a3609464aeb0baaba0167bf698edba9bb"/>
+          <topic label="GetEntity" href="a00099.html#add3d05dcf8840bbdb163f79d810691e8"/>
+          <topic label="SetEnabledStatuses" href="a00099.html#a379a50ceab56685e8fe1c8a8eb7bdba5"/>
+        </topic>
+        <topic label="ISubscriber" href="a00100.html">
+          <topic label="BeginAccess" href="a00100.html#a6c20c5d6b409196095623be1655dadf9"/>
+          <topic label="CopyFromTopicQos" href="a00100.html#aa449d38a871d6bf4b9a51245ff9730ec"/>
+          <topic label="CreateDataReader" href="a00100.html#ac38f429e13a864418efb8f50323d92c5"/>
+          <topic label="CreateDataReader" href="a00100.html#a9b2b93220ffc72b5147446938fa08e08"/>
+          <topic label="CreateDataReader" href="a00100.html#ab26f0f660aed383221743f3086eb7f4b"/>
+          <topic label="CreateDataReader" href="a00100.html#aa72f2467cbc0b1c93706bb4070afc941"/>
+          <topic label="DeleteContainedEntities" href="a00100.html#a09ae1e48f022831026fb3bb8108ddb3e"/>
+          <topic label="DeleteDataReader" href="a00100.html#a642ccace63ba3e40553b16d1b4af2940"/>
+          <topic label="EndAccess" href="a00100.html#acdb07090f78f22e72367fbc3b6d9fd9c"/>
+          <topic label="GetDataReaders" href="a00100.html#ab9965c0c7a9f6267f19aa9db590cf10e"/>
+          <topic label="GetDataReaders" href="a00100.html#a3641bbb057680f7ea23c1853b24292ce"/>
+          <topic label="GetDefaultDataReaderQos" href="a00100.html#a30f0e841c66259a39fbe9ddeca33ea94"/>
+          <topic label="GetQos" href="a00100.html#ab81602996819c3b334e84b84f2bc83b7"/>
+          <topic label="LookupDataReader" href="a00100.html#a6c87815e84c44a4bbd84e1b6f79115d1"/>
+          <topic label="NotifyDataReaders" href="a00100.html#aeac161cda306c8d76673997d0421b087"/>
+          <topic label="SetDefaultDataReaderQos" href="a00100.html#a20bbf1725b0f0bcbe25a05a19384857f"/>
+          <topic label="SetListener" href="a00100.html#a96d0383c3ef413e2d0a0deaf9efce3c5"/>
+          <topic label="SetQos" href="a00100.html#aa0c9d8b55d4ee3ad1bb11d5ee2b52bf2"/>
+          <topic label="Listener" href="a00100.html#a415b27d104f3c0577f8c5cc437cfd31a"/>
+          <topic label="Participant" href="a00100.html#a10fd47930ddc9cda3396c98b8407328f"/>
+        </topic>
+        <topic label="ISubscriberListener" href="a00101.html">
+          <topic label="OnDataOnReaders" href="a00101.html#a0c8b62a655f4d8079ae8b73b67aa6867"/>
+        </topic>
+        <topic label="ITopic" href="a00102.html">
+          <topic label="GetInconsistentTopicStatus" href="a00102.html#ab6c2c2727878a7b5d3fb3824af3d3a63"/>
+          <topic label="GetQos" href="a00102.html#adc170c5cff9cb4a02a0acd6da24e2f0d"/>
+          <topic label="SetListener" href="a00102.html#a5f445b8a20f7f501df0f4a9e705e82a8"/>
+          <topic label="SetQos" href="a00102.html#a192cf83f1f80983ec141dba01e8e5f11"/>
+          <topic label="Listener" href="a00102.html#ac7343bc54ef00a9c2f84dd74e2054497"/>
+        </topic>
+        <topic label="ITopicDescription" href="a00103.html">
+          <topic label="Name" href="a00103.html#a79861a00a0ac73d055c6b809d6f9c4b9"/>
+          <topic label="Participant" href="a00103.html#a504a393160a08a723e8c9555b5355749"/>
+          <topic label="TypeName" href="a00103.html#ab9a7fc55c34b72044ddef3879785439c"/>
+        </topic>
+        <topic label="ITopicListener" href="a00104.html">
+          <topic label="OnInconsistentTopic" href="a00104.html#aafb4e3c26521a1f97efc21f3f2b8d93f"/>
+        </topic>
+        <topic label="ITypeSupport" href="a00105.html">
+          <topic label="RegisterType" href="a00105.html#ad1007be428fd4be347c3bfe628b2b331"/>
+          <topic label="KeyList" href="a00105.html#a01e6548ff83d111d1b9ee33168baca5d"/>
+          <topic label="TypeDescriptor" href="a00105.html#a9d73a9491c5838f3235768b517bd001e"/>
+          <topic label="TypeName" href="a00105.html#a2f4e6ea3ff6cb8d7dea80ac8264e2398"/>
+        </topic>
+        <topic label="IWaitSet" href="a00106.html">
+          <topic label="AttachCondition" href="a00106.html#a775069496c219baef1e339fa74483cd6"/>
+          <topic label="DetachCondition" href="a00106.html#a47efc24ee7ece1cfe0e623f04cb9f347"/>
+          <topic label="GetConditions" href="a00106.html#a136440c5509c7177c9cea43b4f0ecd66"/>
+          <topic label="Wait" href="a00106.html#a4c91227dee1d2df4baefc22e9a2a0f13"/>
+        </topic>
+        <topic label="LatencyBudgetQosPolicy" href="a00107.html">
+          <topic label="Duration" href="a00107.html#a3bfa8e7b6bce8fb79adb3dbcc486bb92"/>
+        </topic>
+        <topic label="Length" href="a00108.html">
+          <topic label="Unlimited" href="a00108.html#a238380ad48e58acd2d8a616cd5349ac2"/>
+        </topic>
+        <topic label="LifespanQosPolicy" href="a00109.html">
+          <topic label="Duration" href="a00109.html#a681d5566c60455873bc196dec8f08dea"/>
+        </topic>
+        <topic label="LivelinessChangedStatus" href="a00110.html">
+          <topic label="AliveCount" href="a00110.html#a5d2412b7bdf83a7fdfd4469cf2bc9ec3"/>
+          <topic label="AliveCountChange" href="a00110.html#ab81170e46b3e85c366b615822ad99284"/>
+          <topic label="LastPublicationHandle" href="a00110.html#a0bdebf39be2640e27cf82082dc55e1b7"/>
+          <topic label="NotAliveCount" href="a00110.html#ad22faaf1e40dbe5accb371f302272774"/>
+          <topic label="NotAliveCountChange" href="a00110.html#ac758fb003df250e6db0e1b61f42ad2ba"/>
+        </topic>
+        <topic label="LivelinessLostStatus" href="a00111.html">
+          <topic label="TotalCount" href="a00111.html#adad37b15a444f1c664e20c59f63d2b64"/>
+          <topic label="TotalCountChange" href="a00111.html#a2232afb94bd42bfc0653b8bdd3c27e8b"/>
+        </topic>
+        <topic label="LivelinessQosPolicy" href="a00112.html">
+          <topic label="Kind" href="a00112.html#a819d4c34ebb26278ccceb4e864e548c7"/>
+          <topic label="LeaseDuration" href="a00112.html#afcb7b3572c49182a20232c2ea46e77c6"/>
+        </topic>
+        <topic label="OfferedDeadlineMissedStatus" href="a00113.html">
+          <topic label="LastInstanceHandle" href="a00113.html#a10cbb548c16cbc66f2ab7a1fa4231657"/>
+          <topic label="TotalCount" href="a00113.html#aa3205fc5e73015a8ef73ae7dbd4838cc"/>
+          <topic label="TotalCountChange" href="a00113.html#abe58b4f74eb4a3051e22c21cb5cec4ad"/>
+        </topic>
+        <topic label="OfferedIncompatibleQosStatus" href="a00114.html">
+          <topic label="LastPolicyId" href="a00114.html#a85d391c5ac616499664bed4ff5702e87"/>
+          <topic label="Policies" href="a00114.html#a3625237f97f6c8d6d1ae0a8334ce6f0d"/>
+          <topic label="TotalCount" href="a00114.html#a72708f14391e4c6c96f39526f2cd7ba1"/>
+          <topic label="TotalCountChange" href="a00114.html#af558f5dba56a27e0962fa19baddcbe23"/>
+        </topic>
+        <topic label="OwnershipQosPolicy" href="a00115.html">
+          <topic label="Kind" href="a00115.html#a55fe6a1d98ea42483faad3513cf5e5a0"/>
+        </topic>
+        <topic label="OwnershipStrengthQosPolicy" href="a00116.html">
+          <topic label="Value" href="a00116.html#a54e32698a088d9ffb73cc4241fe1f700"/>
+        </topic>
+        <topic label="ParticipantBuiltinTopicData" href="a00117.html">
+          <topic label="Key" href="a00117.html#a9b50bfef5d47295c04d6fde6612746e2"/>
+          <topic label="UserData" href="a00117.html#a49a1608202347ff53b8ab1ac3ba5b08d"/>
+        </topic>
+        <topic label="PartitionQosPolicy" href="a00118.html">
+          <topic label="Name" href="a00118.html#a1d3ef8af00f0834aab220d0e14989bb3"/>
+        </topic>
+        <topic label="PresentationQosPolicy" href="a00119.html">
+          <topic label="AccessScope" href="a00119.html#aca11c5070b0ad0b72a39042e3fcd51c0"/>
+          <topic label="CoherentAccess" href="a00119.html#adcca9f75eee249e41cb084f693ecf053"/>
+          <topic label="OrderedAccess" href="a00119.html#aa1869f8d1eae447977a637587403a401"/>
+        </topic>
+        <topic label="ProductDataQosPolicy" href="a00120.html">
+          <topic label="Value" href="a00120.html#ad9082ac995dbe9a2dc7aa0ef0b38b661"/>
+        </topic>
+        <topic label="Property" href="a00121.html">
+          <topic label="Property" href="a00121.html#a964ba2ef6e6b85c263ac9450f92dac18"/>
+          <topic label="Name" href="a00121.html#a1893c710b486ac2e0f1d363076c65b49"/>
+          <topic label="Value" href="a00121.html#a2693ad13686500383bb5a28989a1dc83"/>
+        </topic>
+        <topic label="PublicationBuiltinTopicData" href="a00122.html">
+          <topic label="Deadline" href="a00122.html#ae1b464c2decffab088433f530a685b9d"/>
+          <topic label="Durability" href="a00122.html#aab6224e803393b00a55226975411bd24"/>
+          <topic label="GroupData" href="a00122.html#a268ed09b53c1435d85d0a6048efa4858"/>
+          <topic label="Key" href="a00122.html#aa133c98d6ab5070417fb678c7426fb59"/>
+          <topic label="LatencyBudget" href="a00122.html#aae5d7d3a5016aa8bffe6cf639b394001"/>
+          <topic label="Lifespan" href="a00122.html#a69d1d76d592849c8c111dd79e273a195"/>
+          <topic label="Liveliness" href="a00122.html#a873e98814dbb06b5af8a71df08b3a184"/>
+          <topic label="Ownership" href="a00122.html#aba8c0c891e122a5610617af7247fd570"/>
+          <topic label="OwnershipStrength" href="a00122.html#a5cbfb3ccdbdcb211a6ce774417830799"/>
+          <topic label="ParticipantKey" href="a00122.html#a23f418873d283c8486a476e0d30fbfa8"/>
+          <topic label="Partition" href="a00122.html#a7396ce9509eb370cb69d0cf015faee28"/>
+          <topic label="Presentation" href="a00122.html#a5420401521979fdba3cf408047324a8e"/>
+          <topic label="Reliability" href="a00122.html#a8f11f310caf850c197d92fb5bd58644f"/>
+          <topic label="TopicData" href="a00122.html#a7e7de5a6ba958b0b74817737be3eafe5"/>
+          <topic label="TopicName" href="a00122.html#ad70140ea23c43d5d85b2167b56097ce1"/>
+          <topic label="TypeName" href="a00122.html#a787cab75af5e295ec7a75e723b905cd1"/>
+          <topic label="UserData" href="a00122.html#a8655866c421882d7387c00c3c2cdcd92"/>
+        </topic>
+        <topic label="PublicationMatchedStatus" href="a00123.html">
+          <topic label="CurrentCount" href="a00123.html#a72970fc8688a2e2ac17f12d9b4fc85ce"/>
+          <topic label="CurrentCountChange" href="a00123.html#ab09e76abff73fe5b6be9d90db921757e"/>
+          <topic label="LastSubscriptionHandle" href="a00123.html#ab8ce7e597a541110fcb1a9430614667a"/>
+          <topic label="TotalCount" href="a00123.html#a03da8a52b11053d687268c675dda44ce"/>
+          <topic label="TotalCountChange" href="a00123.html#a76c0975a44b74d30cc73999b5d946050"/>
+        </topic>
+        <topic label="PublisherQos" href="a00124.html">
+          <topic label="EntityFactory" href="a00124.html#a0ed51adce825f0f70d9316439d191cc6"/>
+          <topic label="GroupData" href="a00124.html#a5b606a07b6883aea95f89303121fe7aa"/>
+          <topic label="Partition" href="a00124.html#a1490b1f92936a3bbadc4f36a828906a1"/>
+          <topic label="Presentation" href="a00124.html#a2e9973ad9730f7669a03f3b4d2a819d7"/>
+        </topic>
+        <topic label="QosPolicyCount" href="a00125.html">
+          <topic label="Count" href="a00125.html#a365cd0c952b7135f26620a55b07fa028"/>
+          <topic label="PolicyId" href="a00125.html#a0392d995586bcf16d2022a413c53bd02"/>
+        </topic>
+        <topic label="QosPolicyName" href="a00126.html">
+          <topic label="Deadline" href="a00126.html#a5d078cfd412a6f40e75bcbb8d5705afa"/>
+          <topic label="DestinationOrder" href="a00126.html#afaff68fd02b2eeca85667d0471a36adb"/>
+          <topic label="Durability" href="a00126.html#a99cc6d761faf76804f437bfe854e7de3"/>
+          <topic label="DurabilityService" href="a00126.html#a9b2e8eb751836f3f9cf23e4768d610de"/>
+          <topic label="EntityFactory" href="a00126.html#a61e9ac4499d349e2039265d43bcfaf7e"/>
+          <topic label="GroupData" href="a00126.html#ab491e1451199fd154ab217445ed9956e"/>
+          <topic label="History" href="a00126.html#af7daf39021252c9440168ae105a68c50"/>
+          <topic label="LatencyBudget" href="a00126.html#afac1b1ec109e38a571d662b6eaecacea"/>
+          <topic label="Lifespan" href="a00126.html#a411c92388e4303257cf81dd4fbf02ae6"/>
+          <topic label="Liveliness" href="a00126.html#a9fb0ada0e7fbd8bbd4a46589cc8f9552"/>
+          <topic label="Ownership" href="a00126.html#ae155ac4bf69d333567424a64cb1e6b7f"/>
+          <topic label="OwnershipStrength" href="a00126.html#a569d6dab21e4a04d6affe2e4eff597dc"/>
+          <topic label="Partition" href="a00126.html#ad1414f10283024025acbc03a30c9624d"/>
+          <topic label="Presentation" href="a00126.html#ab56359fd47d7d6bc5252ca614ca61862"/>
+          <topic label="ReaderDataLifecycle" href="a00126.html#ad7b5bfe67f0d34bc310d6fa971221d79"/>
+          <topic label="Reliability" href="a00126.html#adddc63a6b6b68ca55fb972f8fd1dc3d5"/>
+          <topic label="ResourceLimits" href="a00126.html#a4983f6ebbb54ae1516630713fbeb3766"/>
+          <topic label="Scheduling" href="a00126.html#a45aef91f80c41224d786976759284457"/>
+          <topic label="TimeBasedFilter" href="a00126.html#a6f22c6d2b34f3522b93e9c071c9acb5a"/>
+          <topic label="TopicData" href="a00126.html#aeebb8681ea1f3eef5e0a2adb11d8bde6"/>
+          <topic label="TransportPriority" href="a00126.html#a6f226c093e491db30c8db3636d9fad91"/>
+          <topic label="UserData" href="a00126.html#abd5293ec16ea94bbd483d0330cdc73c1"/>
+          <topic label="WriterDataLifecycle" href="a00126.html#a58fb2a70201a1ba42248b3defd1419d9"/>
+        </topic>
+        <topic label="QosProvider" href="a00127.html">
+          <topic label="QosProvider" href="a00127.html#acc352c40cb6ac07cfa339d226e10cabf"/>
+          <topic label="GetDataReaderQos" href="a00127.html#a53673131c805d6648f7ae479f583e6f5"/>
+          <topic label="GetDataWriterQos" href="a00127.html#ae9db8ef04cdebb1b52b3ae335d1b0ca6"/>
+          <topic label="GetParticipantQos" href="a00127.html#a3db9ad1c8247a78d6213aa53538c0032"/>
+          <topic label="GetPublisherQos" href="a00127.html#a948ba3c1b9bf49649683aaffeb01c00f"/>
+          <topic label="GetSubscriberQos" href="a00127.html#ae23fff577b7ba9685a18fbfb451e6a87"/>
+          <topic label="GetTopicQos" href="a00127.html#a23b3ceec8be881a2c875cced7c1c7a79"/>
+        </topic>
+        <topic label="ReaderDataLifecycleQosPolicy" href="a00128.html">
+          <topic label="AutopurgeDisposeAll" href="a00128.html#a499ead48f5542b1a825b6c4bad7b1fd8"/>
+          <topic label="AutoPurgeDisposedSamplesDelay" href="a00128.html#a4c4ccd4f1d8a25220c01118ef1282d43"/>
+          <topic label="AutoPurgeNoWriterSamplesDelay" href="a00128.html#a6b4d215d5f19dc0fd35680f29e7f1555"/>
+          <topic label="EnableInvalidSamples" href="a00128.html#aa4bc8cfebe9426340ca78b4660abd1e8"/>
+          <topic label="InvalidSampleVisibility" href="a00128.html#ab2d2aeea2faaa5ef37478292d32bf259"/>
+        </topic>
+        <topic label="ReaderLifespanQosPolicy" href="a00129.html">
+          <topic label="Duration" href="a00129.html#abe8a86ae6e6e70a5080601ba1469da9e"/>
+          <topic label="UseLifespan" href="a00129.html#ae8f7bb37b81f6c26b92db91a0d02d67a"/>
+        </topic>
+        <topic label="ReliabilityQosPolicy" href="a00130.html">
+          <topic label="Kind" href="a00130.html#a44c5af25716440f7f6eb6a38859c3f37"/>
+          <topic label="MaxBlockingTime" href="a00130.html#ae84c09da3c407230b58884429437877b"/>
+          <topic label="synchronous" href="a00130.html#a19bc645c52450ba85187105a2703f0f3"/>
+        </topic>
+        <topic label="RequestedDeadlineMissedStatus" href="a00131.html">
+          <topic label="LastInstanceHandle" href="a00131.html#aa06e9a3465f902e12f4f42b3e2ce8c8e"/>
+          <topic label="TotalCount" href="a00131.html#a225863a0a7ca87c831d830f06f563e86"/>
+          <topic label="TotalCountChange" href="a00131.html#aecbddd4dc25b3d7bfde32ee54c1998db"/>
+        </topic>
+        <topic label="RequestedIncompatibleQosStatus" href="a00132.html">
+          <topic label="LastPolicyId" href="a00132.html#a0376f2515dc43894ccea836e678a74f5"/>
+          <topic label="Policies" href="a00132.html#a9016b65c841a7693500405331ccebec9"/>
+          <topic label="TotalCount" href="a00132.html#a3edb70ec4801c51baf8121bb4307d488"/>
+          <topic label="TotalCountChange" href="a00132.html#a83399465678634628d8a8a1f7d08cabf"/>
+        </topic>
+        <topic label="ResourceLimitsQosPolicy" href="a00133.html">
+          <topic label="MaxInstances" href="a00133.html#ad68cdc13cf40267f2180af249e62111e"/>
+          <topic label="MaxSamples" href="a00133.html#a90f38fe2000910ea9655ec67fa739314"/>
+          <topic label="MaxSamplesPerInstance" href="a00133.html#ae2b674cf7c656048382dc5bf9ff5cad2"/>
+        </topic>
+        <topic label="SampleInfo" href="a00134.html">
+          <topic label="AbsoluteGenerationRank" href="a00134.html#a6276b8dae2611effde1653d37a28f471"/>
+          <topic label="DisposedGenerationCount" href="a00134.html#a1875a4935db8ac252d747ac86db13bcd"/>
+          <topic label="GenerationRank" href="a00134.html#a220653a437c4d69cfb81edee06b8c8dc"/>
+          <topic label="InstanceHandle" href="a00134.html#af89d5cda5414d4ec05e03541c938488c"/>
+          <topic label="InstanceState" href="a00134.html#a6adddf3e2955b10cd00dc2e908109cbf"/>
+          <topic label="NoWritersGenerationCount" href="a00134.html#ae79c9b1d3038b205cc0deee1fe0a633e"/>
+          <topic label="PublicationHandle" href="a00134.html#a427be3c214f312df53b140f067198e31"/>
+          <topic label="ReceptionTimestamp" href="a00134.html#a1842d828c73fd4f443ebc0f07b1eb7e9"/>
+          <topic label="SampleRank" href="a00134.html#a9870b04d550ada3b7bf8b05690807ebd"/>
+          <topic label="SampleState" href="a00134.html#a81279f13f821b553a4d32724db1de852"/>
+          <topic label="SourceTimestamp" href="a00134.html#aef2425bcf9aef45150b232a2504e1e91"/>
+          <topic label="ValidData" href="a00134.html#ac4bd00bbc0e196e34af5033831d29839"/>
+          <topic label="ViewState" href="a00134.html#a4c26f92791a404761667e87458105a4e"/>
+        </topic>
+        <topic label="SampleLostStatus" href="a00135.html">
+          <topic label="TotalCount" href="a00135.html#a995641908f4140f2810c5d9d73a983ec"/>
+          <topic label="TotalCountChange" href="a00135.html#ad5e5bf0e3b6e87d69b80c587272a3da4"/>
+        </topic>
+        <topic label="SampleRejectedStatus" href="a00136.html">
+          <topic label="LastInstanceHandle" href="a00136.html#af3a8ab7ee9901fe08bbd3ec5373033bb"/>
+          <topic label="LastReason" href="a00136.html#a723f7863b7e6703e069a2939e8b97be3"/>
+          <topic label="TotalCount" href="a00136.html#a9adaf331a54fcec4237b034553483c27"/>
+          <topic label="TotalCountChange" href="a00136.html#a8e59b249e8b894c7412fa85fdccd3984"/>
+        </topic>
+        <topic label="SchedulingClassQosPolicy" href="a00137.html">
+          <topic label="Kind" href="a00137.html#aa56b00adfd6a5297b3932da6ca768749"/>
+        </topic>
+        <topic label="SchedulingPriorityQosPolicy" href="a00138.html">
+          <topic label="Kind" href="a00138.html#a328270f41a64474bcc6c916b53c0fefb"/>
+        </topic>
+        <topic label="SchedulingQosPolicy" href="a00139.html">
+          <topic label="SchedulingClass" href="a00139.html#a2c2d23e51d9007d3b790b5f8254811c7"/>
+          <topic label="SchedulingPriority" href="a00139.html#affdf55ac2eb699e0bd15a6ec7afcf18a"/>
+          <topic label="SchedulingPriorityKind" href="a00139.html#a4f361f7ad7f5ac579c9dd786d119b056"/>
+        </topic>
+        <topic label="ShareQosPolicy" href="a00140.html">
+          <topic label="Enable" href="a00140.html#ac321ac72a692f0f6e67dbab5924a6b12"/>
+          <topic label="Name" href="a00140.html#a0ba9789947f7cea322854f679094e81e"/>
+        </topic>
+        <topic label="SubscriberQos" href="a00141.html">
+          <topic label="EntityFactory" href="a00141.html#a55147689f8ab915c5f2603cf69be7442"/>
+          <topic label="GroupData" href="a00141.html#aba9b8f22fc0545e8e112a090487522d4"/>
+          <topic label="Partition" href="a00141.html#aa8eb5139b22a23400f690f203a6078fa"/>
+          <topic label="Presentation" href="a00141.html#a5fa1cff9b9cbd088593ba2786001a716"/>
+          <topic label="Share" href="a00141.html#a82b2331cd8da3a40347f08469b4e0c4e"/>
+        </topic>
+        <topic label="SubscriptionBuiltinTopicData" href="a00142.html">
+          <topic label="Deadline" href="a00142.html#ab3017827113477ca79d51bba3df52c5a"/>
+          <topic label="DestinationOrder" href="a00142.html#a160727954f687a06a3a671333062ca66"/>
+          <topic label="Durability" href="a00142.html#aada7a19780f3559dfd10c3d3ca723c51"/>
+          <topic label="GroupData" href="a00142.html#a18939eddd33f4b23a3b6a6a9350ba221"/>
+          <topic label="Key" href="a00142.html#a59109dcf118de43a4ed09fe104ebaa69"/>
+          <topic label="LatencyBudget" href="a00142.html#aff7d4b0f459953879c8f0b239eff13f7"/>
+          <topic label="Liveliness" href="a00142.html#a3dbbd2895f1475c257d35f452baa8c1e"/>
+          <topic label="Ownership" href="a00142.html#a58babb3048d3c3d0d518da9d89573199"/>
+          <topic label="ParticipantKey" href="a00142.html#ac853e67352734f89326acbc78a7e86e3"/>
+          <topic label="Partition" href="a00142.html#a840ebd9c3282cd7dfd696be0adfe9778"/>
+          <topic label="Presentation" href="a00142.html#ad992970ff038e1e5877597180b1e376c"/>
+          <topic label="Reliability" href="a00142.html#ae1d1382338e3e842f8e56d4a881364fa"/>
+          <topic label="TimeBasedFilter" href="a00142.html#a75aadfb568f6c5a0d07da0d0a726dba7"/>
+          <topic label="TopicData" href="a00142.html#a8d16c910019e209dc600e2132ef90190"/>
+          <topic label="TopicName" href="a00142.html#abd4338d29082f5e0b0b0befe237959ab"/>
+          <topic label="TypeName" href="a00142.html#a5048fa39ec09f8df78e602f568345fe5"/>
+          <topic label="UserData" href="a00142.html#adee6ecb3baa2ecd92138dcfe918bab78"/>
+        </topic>
+        <topic label="SubscriptionKeyQosPolicy" href="a00143.html">
+          <topic label="KeyList" href="a00143.html#a5b9fc587a010e8903ffefbc023bfd654"/>
+          <topic label="UseKeyList" href="a00143.html#a9f125458517e5e7fd22f49806d09304d"/>
+        </topic>
+        <topic label="SubscriptionMatchedStatus" href="a00144.html">
+          <topic label="CurrentCount" href="a00144.html#a6d433c509d8860bd88a248007b749450"/>
+          <topic label="CurrentCountChange" href="a00144.html#ada7a2df24e51a8e2a04af0eaec63fcd2"/>
+          <topic label="LastPublicationHandle" href="a00144.html#a4d270f36a57e6c80de5555afffa7c5fd"/>
+          <topic label="TotalCount" href="a00144.html#a6cda034067e33ffe740d9942471725d1"/>
+          <topic label="TotalCountChange" href="a00144.html#ace9e77b963ddb2b383255a8ff1eb11bd"/>
+        </topic>
+        <topic label="Time" href="a00145.html">
+          <topic label="Time" href="a00145.html#ac23cebb5310a0cbd265f63bb22f1c4dd"/>
+          <topic label="Equals" href="a00145.html#ad4d614c59c05cff9cb3453bfeac75cf4"/>
+          <topic label="FromDateTime" href="a00145.html#a28a1d8eb28599a7e8c1f214aa7866e4c"/>
+          <topic label="GetHashCode" href="a00145.html#aedfc5d5cef137eb40fcaf49436134238"/>
+          <topic label="operator!=" href="a00145.html#a292860e8332c29d3135ee5157fd69181"/>
+          <topic label="operator&lt;" href="a00145.html#a8faad03a3eecffcc0e028d2e241de4e1"/>
+          <topic label="operator&lt;=" href="a00145.html#ae86acd9038a65fd0fb32c8da8369995e"/>
+          <topic label="operator==" href="a00145.html#a80f7aad29d1e86dabb62d13b0574cb7d"/>
+          <topic label="operator&gt;" href="a00145.html#aa11e88ca04ec421d6d6995a1e71edb61"/>
+          <topic label="operator&gt;=" href="a00145.html#ac6ddc30025287b894d9d32f9ca4f6cf9"/>
+          <topic label="ToDatetime" href="a00145.html#a44ae760bfff9a1a470818e1142be16b6"/>
+          <topic label="ToString" href="a00145.html#ab1f257a36b6c25c10c7f1e5a5be7f626"/>
+          <topic label="Current" href="a00145.html#aba1e11dcc6ff800989bd91980fb10810"/>
+          <topic label="Invalid" href="a00145.html#ac33bd06a3cecc55d8418a662b9c435ca"/>
+          <topic label="Zero" href="a00145.html#afa5ac7704cf4e0eb8bb8e318a8f3ba4e"/>
+          <topic label="NanoSec" href="a00145.html#ac08c2647befa6ff963802f66ce7bff3f"/>
+          <topic label="Sec" href="a00145.html#a3eeb9aa25496b8dc9d1363a1f798f7f2"/>
+        </topic>
+        <topic label="TimeBasedFilterQosPolicy" href="a00146.html">
+          <topic label="MinimumSeparation" href="a00146.html#a8ff3c27fcb18854bea49bc41a2cfcb78"/>
+        </topic>
+        <topic label="TopicBuiltinTopicData" href="a00147.html">
+          <topic label="Deadline" href="a00147.html#a0c2dc63cb12d99f8933c340f730bac7c"/>
+          <topic label="DestinationOrder" href="a00147.html#a4084de9ba88e3629120390d7e1246528"/>
+          <topic label="Durability" href="a00147.html#ac4008258cd1d47869af39278d9501115"/>
+          <topic label="DurabilityService" href="a00147.html#ae2fd4079f9c368d30e6fe0b1ba84a828"/>
+          <topic label="History" href="a00147.html#a4bf00b61f145af2024f0dfa49f474ac7"/>
+          <topic label="Key" href="a00147.html#a64cbe9d4ce598141df5bb84cc81b753c"/>
+          <topic label="LatencyBudget" href="a00147.html#a1340bd79b20d3fb041bacbd77adb8b01"/>
+          <topic label="Lifespan" href="a00147.html#a22f9b8bb39a5233a06488a982791e170"/>
+          <topic label="Liveliness" href="a00147.html#a2dda79103779b58f843775d8c5e65769"/>
+          <topic label="Name" href="a00147.html#aa142380d876492f515daa9dc2b65654c"/>
+          <topic label="Ownership" href="a00147.html#ab84b96bd60e8b5a153758debd769e3c5"/>
+          <topic label="Reliability" href="a00147.html#a9d5eab8376428d9f8caecb0ef14530f8"/>
+          <topic label="ResourceLimits" href="a00147.html#a673831aa91fa480021f0ea7abdae08e4"/>
+          <topic label="TopicData" href="a00147.html#aa5180eef46b91a359ac9195aa4890e36"/>
+          <topic label="TransportPriority" href="a00147.html#aa21ebc4df5548c89e2ce778c77f0f024"/>
+          <topic label="TypeName" href="a00147.html#af36df4245188854453b4a647a796a06a"/>
+        </topic>
+        <topic label="TopicDataQosPolicy" href="a00148.html">
+          <topic label="Value" href="a00148.html#a955f8762d8b58cc9a8d6dfc884b1473a"/>
+        </topic>
+        <topic label="TopicQos" href="a00149.html">
+          <topic label="Deadline" href="a00149.html#a98ef1c539ec0baeff97bac997c2b938d"/>
+          <topic label="DestinationOrder" href="a00149.html#a384569e69051520c3dc7af5ea688e144"/>
+          <topic label="Durability" href="a00149.html#a8aaf42435db4aebd72a76de59fe4a1b3"/>
+          <topic label="DurabilityService" href="a00149.html#ab24f87dce7dd173e676777e1cb8ee4fa"/>
+          <topic label="History" href="a00149.html#a1b305e51687787548650e85614b39254"/>
+          <topic label="LatencyBudget" href="a00149.html#ae171141550ebf0ec8cf13e6a9dc95d59"/>
+          <topic label="Lifespan" href="a00149.html#a1b2a0c4b5f25e933d6989841334dd888"/>
+          <topic label="Liveliness" href="a00149.html#a7658f8a405ba82635135ea23c150919b"/>
+          <topic label="Ownership" href="a00149.html#ae2c5aa2cfa990477877f76234e52f308"/>
+          <topic label="Reliability" href="a00149.html#ac10cbfc2e7157bca0fc18251468a2a24"/>
+          <topic label="ResourceLimits" href="a00149.html#a2769cfb8b32c4da3dbe367bf69c89541"/>
+          <topic label="TopicData" href="a00149.html#ac1c49d8f0f7ae36773989eead0632279"/>
+          <topic label="TransportPriority" href="a00149.html#a8cfd654c12f5e4b0c4629138908f5611"/>
+        </topic>
+        <topic label="TransportPriorityQosPolicy" href="a00150.html">
+          <topic label="Value" href="a00150.html#a249fe59126cc7477145a551b6006759c"/>
+        </topic>
+        <topic label="UserDataQosPolicy" href="a00151.html">
+          <topic label="Value" href="a00151.html#af7cc07d3d2d72d0247d9b66103304fe9"/>
+        </topic>
+        <topic label="UserKeyQosPolicy" href="a00152.html">
+          <topic label="Enable" href="a00152.html#adfb443058eda7bbc53b8b13fafc48c84"/>
+          <topic label="Expression" href="a00152.html#a1fa3648813be18b5688b3b912e397bcc"/>
+        </topic>
+        <topic label="WriterDataLifecycleQosPolicy" href="a00153.html">
+          <topic label="AutoDisposeUnregisteredInstances" href="a00153.html#a627d708d2ce10fe93bde79eaf9307253"/>
+          <topic label="AutopurgeSuspendedSamplesDelay" href="a00153.html#a0b92c47701ea7dd04570661ea91a48a5"/>
+          <topic label="AutounregisterInstanceDelay" href="a00153.html#a38c59fecbfba79cad6791014d21f3d2c"/>
+        </topic>
+      </topic>
+      <topic label="Space" href="a00232.html">
+        <topic label="Foo" href="a00154.html">
+          <topic label="Bar" href="a00154.html#a0b76803146d936d73d6f4a3e3d79d357"/>
+        </topic>
+        <topic label="FooDataReader" href="a00155.html">
+          <topic label="GetKeyValue" href="a00155.html#a84cff316f2b9960d71609dc33425aff6"/>
+          <topic label="LookupInstance" href="a00155.html#a12d814fb0f580727c2879f1cbb9bcbae"/>
+          <topic label="Read" href="a00155.html#a704c6cd498a82f8845d7112ff9b30aed"/>
+          <topic label="Read" href="a00155.html#a54888befc610ea4765e610b4668ba753"/>
+          <topic label="Read" href="a00155.html#a846ea39d9cd25012919ea357c9239aed"/>
+          <topic label="Read" href="a00155.html#af2a21e12e16b1177f7bbc5b66dffe50b"/>
+          <topic label="ReadInstance" href="a00155.html#ae2c911a595d2d539c94b1f20d84244e3"/>
+          <topic label="ReadInstance" href="a00155.html#ada3d5966f9cb0606c2a67ea1672495d8"/>
+          <topic label="ReadInstance" href="a00155.html#ab4f88651a702f589294462e13d5276a4"/>
+          <topic label="ReadNextInstance" href="a00155.html#a8c59cb46d0463ef4d3a41c61aac144ce"/>
+          <topic label="ReadNextInstance" href="a00155.html#ac033d9efe603a2a5d49e3e4ce89c3acb"/>
+          <topic label="ReadNextInstance" href="a00155.html#a226d2d835f25ec2132192ffe656ddac5"/>
+          <topic label="ReadNextInstanceWithCondition" href="a00155.html#ae78de8cdd5fc05fe1757971e569744d6"/>
+          <topic label="ReadNextInstanceWithCondition" href="a00155.html#a10ca70359fd6c98d47ae01afbbf24d44"/>
+          <topic label="ReadNextSample" href="a00155.html#a71de1ac4c85766023e2796d95d7f82c0"/>
+          <topic label="ReadWithCondition" href="a00155.html#a7a2aba571913e3edebed7819e94f32e8"/>
+          <topic label="ReadWithCondition" href="a00155.html#adf3a1efd2900fb94622f6d80bfe8536f"/>
+          <topic label="ReturnLoan" href="a00155.html#ace1435ab8edc91ed3f7222c4bcadd7b7"/>
+          <topic label="Take" href="a00155.html#a7d3eb25315d7cf281bf0b516a4894f5b"/>
+          <topic label="Take" href="a00155.html#ac0fc3095a02e49385977d59d836f2a5d"/>
+          <topic label="Take" href="a00155.html#a13ce064ad542668b32e246b3f5808dff"/>
+          <topic label="Take" href="a00155.html#afc490fbe71a9f9468451e395cc538213"/>
+          <topic label="TakeInstance" href="a00155.html#a386ee3d15146c7b8f84d80b2e672cd7d"/>
+          <topic label="TakeInstance" href="a00155.html#a3e012a3242652254ac3987df1586a858"/>
+          <topic label="TakeInstance" href="a00155.html#ad7669bf42a9d88ef7834cf11d8a41671"/>
+          <topic label="TakeNextInstance" href="a00155.html#a38da9b4b22bb3fa6b684de774471b1d1"/>
+          <topic label="TakeNextInstance" href="a00155.html#aedb53eda7d1a7edbf1b16202891ab96a"/>
+          <topic label="TakeNextInstance" href="a00155.html#a09ade5666bb6188450b5564493975acc"/>
+          <topic label="TakeNextInstanceWithCondition" href="a00155.html#a61d456406095915a62af1c88905bebea"/>
+          <topic label="TakeNextInstanceWithCondition" href="a00155.html#ab6cca66f106d0b491ee3dac7193cb7e3"/>
+          <topic label="TakeNextSample" href="a00155.html#ab780b4c8f1fd5e19f879e4cb9d0b64b2"/>
+          <topic label="TakeWithCondition" href="a00155.html#a1738a258f6a3fd0bdc760cfe277840ef"/>
+          <topic label="TakeWithCondition" href="a00155.html#ac7bb7c538bacf686ad6950a5a2e302a8"/>
+        </topic>
+        <topic label="FooDataWriter" href="a00156.html">
+          <topic label="Dispose" href="a00156.html#a9bedd589d735c8bfdbf4bd8f04ce0e1d"/>
+          <topic label="DisposeWithTimestamp" href="a00156.html#ab85edc9d46f04d7abc6014a2221f9fd6"/>
+          <topic label="GetKeyValue" href="a00156.html#a064a1f4c9733224dfac2de876e104ab3"/>
+          <topic label="LookupInstance" href="a00156.html#a4075b52fa03ebc12a0267188860704d7"/>
+          <topic label="RegisterInstance" href="a00156.html#a8d3e0565984546842bfb303324502da8"/>
+          <topic label="RegisterInstanceWithTimestamp" href="a00156.html#a1c04f566ec605575009d3932acb18880"/>
+          <topic label="UnregisterInstance" href="a00156.html#a7e7e7220c4dcd7e4b89ae2e8614115fd"/>
+          <topic label="UnregisterInstanceWithTimestamp" href="a00156.html#a449bd574b28757562bbc611c9c80a6fd"/>
+          <topic label="Write" href="a00156.html#a9aea188e8235f13194fab3b6329e3dc2"/>
+          <topic label="Write" href="a00156.html#a131e9bc85b80ac616f7cb4dcf824781d"/>
+          <topic label="WriteDispose" href="a00156.html#a834e15b8ca9d1b5a74d5cc76c6ca18c0"/>
+          <topic label="WriteDispose" href="a00156.html#acb65ab4a0bfaecdd86aa856bb04684c4"/>
+          <topic label="WriteDisposeWithTimestamp" href="a00156.html#a3b35af09dfb5b493e57c19e11eb307ce"/>
+          <topic label="WriteDisposeWithTimestamp" href="a00156.html#a0786b08601a277854a0c110a4fa5a1b8"/>
+          <topic label="WriteWithTimestamp" href="a00156.html#a471d1d4f50e377a7676d6fbc11168915"/>
+          <topic label="WriteWithTimestamp" href="a00156.html#a742283d711acf3f65cc811d2404c9f6d"/>
+        </topic>
+        <topic label="FooTypeSupport" href="a00157.html">
+          <topic label="FooTypeSupport" href="a00157.html#a233afc7355d6e7552071621601626127"/>
+        </topic>
+      </topic>
+    </topic>
+    <topic label="Class Index" href="classes.html"/>
+    <topic label="Class Hierarchy" href="hierarchy.html">
+      <topic label="DDS.BuiltinTopicKey" href="a00060.html"/>
+      <topic label="DDS.CMDataReaderBuiltinTopicData" href="a00061.html"/>
+      <topic label="DDS.CMDataWriterBuiltinTopicData" href="a00062.html"/>
+      <topic label="DDS.CMParticipantBuiltinTopicData" href="a00063.html"/>
+      <topic label="DDS.CMPublisherBuiltinTopicData" href="a00064.html"/>
+      <topic label="DDS.CMSubscriberBuiltinTopicData" href="a00065.html"/>
+      <topic label="DDS.DataReaderQos" href="a00066.html"/>
+      <topic label="DDS.DataWriterQos" href="a00067.html"/>
+      <topic label="DDS.DeadlineQosPolicy" href="a00068.html"/>
+      <topic label="DDS.DestinationOrderQosPolicy" href="a00069.html"/>
+      <topic label="DDS.DomainId" href="a00070.html"/>
+      <topic label="DDS.DomainParticipantFactoryQos" href="a00072.html"/>
+      <topic label="DDS.DomainParticipantQos" href="a00073.html"/>
+      <topic label="DDS.DurabilityQosPolicy" href="a00074.html"/>
+      <topic label="DDS.DurabilityServiceQosPolicy" href="a00075.html"/>
+      <topic label="DDS.Duration" href="a00076.html"/>
+      <topic label="DDS.EntityFactoryQosPolicy" href="a00077.html"/>
+      <topic label="DDS.GroupDataQosPolicy" href="a00078.html"/>
+      <topic label="DDS.HistoryQosPolicy" href="a00079.html"/>
+      <topic label="DDS.ICondition" href="a00080.html">
+        <topic label="DDS.IGuardCondition" href="a00089.html"/>
+        <topic label="DDS.IReadCondition" href="a00098.html">
+          <topic label="DDS.IQueryCondition" href="a00097.html"/>
+        </topic>
+        <topic label="DDS.IStatusCondition" href="a00099.html"/>
+      </topic>
+      <topic label="DDS.IEntity" href="a00088.html">
+        <topic label="DDS.IDataReader" href="a00082.html">
+          <topic label="Space.FooDataReader" href="a00155.html"/>
+        </topic>
+        <topic label="DDS.IDataWriter" href="a00084.html">
+          <topic label="Space.FooDataWriter" href="a00156.html"/>
+        </topic>
+        <topic label="DDS.IDomainParticipant" href="a00086.html"/>
+        <topic label="DDS.IPublisher" href="a00095.html"/>
+        <topic label="DDS.ISubscriber" href="a00100.html"/>
+        <topic label="DDS.ITopic" href="a00102.html"/>
+      </topic>
+      <topic label="DDS.IListener" href="a00090.html">
+        <topic label="DDS.IDataReaderListener" href="a00083.html">
+          <topic label="DDS.ISubscriberListener" href="a00101.html">
+            <topic label="DDS.IDomainParticipantListener" href="a00087.html"/>
+          </topic>
+        </topic>
+        <topic label="DDS.IDataWriterListener" href="a00085.html">
+          <topic label="DDS.IPublisherListener" href="a00096.html">
+            <topic label="DDS.IDomainParticipantListener" href="a00087.html"/>
+          </topic>
+        </topic>
+        <topic label="DDS.ITopicListener" href="a00104.html">
+          <topic label="DDS.IDomainParticipantListener" href="a00087.html"/>
+        </topic>
+      </topic>
+      <topic label="DDS.InconsistentTopicStatus" href="a00092.html"/>
+      <topic label="DDS.InstanceHandle" href="a00093.html"/>
+      <topic label="DDS.InvalidSampleVisibilityQosPolicy" href="a00094.html"/>
+      <topic label="DDS.ITopicDescription" href="a00103.html">
+        <topic label="DDS.IContentFilteredTopic" href="a00081.html"/>
+        <topic label="DDS.IMultiTopic" href="a00091.html"/>
+        <topic label="DDS.ITopic" href="a00102.html"/>
+      </topic>
+      <topic label="DDS.ITypeSupport" href="a00105.html">
+        <topic label="Space.FooTypeSupport" href="a00157.html"/>
+      </topic>
+      <topic label="DDS.IWaitSet" href="a00106.html"/>
+      <topic label="DDS.LatencyBudgetQosPolicy" href="a00107.html"/>
+      <topic label="DDS.Length" href="a00108.html"/>
+      <topic label="DDS.LifespanQosPolicy" href="a00109.html"/>
+      <topic label="DDS.LivelinessChangedStatus" href="a00110.html"/>
+      <topic label="DDS.LivelinessLostStatus" href="a00111.html"/>
+      <topic label="DDS.LivelinessQosPolicy" href="a00112.html"/>
+      <topic label="DDS.OfferedDeadlineMissedStatus" href="a00113.html"/>
+      <topic label="DDS.OfferedIncompatibleQosStatus" href="a00114.html"/>
+      <topic label="DDS.OwnershipQosPolicy" href="a00115.html"/>
+      <topic label="DDS.OwnershipStrengthQosPolicy" href="a00116.html"/>
+      <topic label="DDS.ParticipantBuiltinTopicData" href="a00117.html"/>
+      <topic label="DDS.PartitionQosPolicy" href="a00118.html"/>
+      <topic label="DDS.PresentationQosPolicy" href="a00119.html"/>
+      <topic label="DDS.ProductDataQosPolicy" href="a00120.html"/>
+      <topic label="DDS.Property" href="a00121.html"/>
+      <topic label="DDS.PublicationBuiltinTopicData" href="a00122.html"/>
+      <topic label="DDS.PublicationMatchedStatus" href="a00123.html"/>
+      <topic label="DDS.PublisherQos" href="a00124.html"/>
+      <topic label="DDS.QosPolicyCount" href="a00125.html"/>
+      <topic label="DDS.QosPolicyName" href="a00126.html"/>
+      <topic label="DDS.ReaderDataLifecycleQosPolicy" href="a00128.html"/>
+      <topic label="DDS.ReaderLifespanQosPolicy" href="a00129.html"/>
+      <topic label="DDS.ReliabilityQosPolicy" href="a00130.html"/>
+      <topic label="DDS.RequestedDeadlineMissedStatus" href="a00131.html"/>
+      <topic label="DDS.RequestedIncompatibleQosStatus" href="a00132.html"/>
+      <topic label="DDS.ResourceLimitsQosPolicy" href="a00133.html"/>
+      <topic label="DDS.SampleInfo" href="a00134.html"/>
+      <topic label="DDS.SampleLostStatus" href="a00135.html"/>
+      <topic label="DDS.SampleRejectedStatus" href="a00136.html"/>
+      <topic label="DDS.SchedulingClassQosPolicy" href="a00137.html"/>
+      <topic label="DDS.SchedulingPriorityQosPolicy" href="a00138.html"/>
+      <topic label="DDS.SchedulingQosPolicy" href="a00139.html"/>
+      <topic label="DDS.ShareQosPolicy" href="a00140.html"/>
+      <topic label="DDS.SubscriberQos" href="a00141.html"/>
+      <topic label="DDS.SubscriptionBuiltinTopicData" href="a00142.html"/>
+      <topic label="DDS.SubscriptionKeyQosPolicy" href="a00143.html"/>
+      <topic label="DDS.SubscriptionMatchedStatus" href="a00144.html"/>
+      <topic label="DDS.Time" href="a00145.html"/>
+      <topic label="DDS.TimeBasedFilterQosPolicy" href="a00146.html"/>
+      <topic label="DDS.TopicBuiltinTopicData" href="a00147.html"/>
+      <topic label="DDS.TopicDataQosPolicy" href="a00148.html"/>
+      <topic label="DDS.TopicQos" href="a00149.html"/>
+      <topic label="DDS.TransportPriorityQosPolicy" href="a00150.html"/>
+      <topic label="DDS.UserDataQosPolicy" href="a00151.html"/>
+      <topic label="DDS.UserKeyQosPolicy" href="a00152.html"/>
+      <topic label="DDS.WriterDataLifecycleQosPolicy" href="a00153.html"/>
+      <topic label="IDomainParticipantFactory">
+        <topic label="DDS.DomainParticipantFactory" href="a00071.html"/>
+      </topic>
+      <topic label="IQosProvider">
+        <topic label="DDS.QosProvider" href="a00127.html"/>
+      </topic>
+      <topic label="Space.Foo" href="a00154.html"/>
+    </topic>
+    <topic label="Class Members" href="functions.html">
+      <topic label="All" href="functions.html">
+        <topic label="a" href="functions.html"/>
+        <topic label="b" href="functions_0x62.html"/>
+        <topic label="c" href="functions_0x63.html"/>
+        <topic label="d" href="functions_0x64.html"/>
+        <topic label="e" href="functions_0x65.html"/>
+        <topic label="f" href="functions_0x66.html"/>
+        <topic label="g" href="functions_0x67.html"/>
+        <topic label="h" href="functions_0x68.html"/>
+        <topic label="i" href="functions_0x69.html"/>
+        <topic label="k" href="functions_0x6b.html"/>
+        <topic label="l" href="functions_0x6c.html"/>
+        <topic label="m" href="functions_0x6d.html"/>
+        <topic label="n" href="functions_0x6e.html"/>
+        <topic label="o" href="functions_0x6f.html"/>
+        <topic label="p" href="functions_0x70.html"/>
+        <topic label="q" href="functions_0x71.html"/>
+        <topic label="r" href="functions_0x72.html"/>
+        <topic label="s" href="functions_0x73.html"/>
+        <topic label="t" href="functions_0x74.html"/>
+        <topic label="u" href="functions_0x75.html"/>
+        <topic label="v" href="functions_0x76.html"/>
+        <topic label="w" href="functions_0x77.html"/>
+        <topic label="z" href="functions_0x7a.html"/>
+      </topic>
+      <topic label="Functions" href="functions_func.html">
+        <topic label="a" href="functions_func.html"/>
+        <topic label="b" href="functions_func_0x62.html"/>
+        <topic label="c" href="functions_func_0x63.html"/>
+        <topic label="d" href="functions_func_0x64.html"/>
+        <topic label="e" href="functions_func_0x65.html"/>
+        <topic label="f" href="functions_func_0x66.html"/>
+        <topic label="g" href="functions_func_0x67.html"/>
+        <topic label="i" href="functions_func_0x69.html"/>
+        <topic label="l" href="functions_func_0x6c.html"/>
+        <topic label="n" href="functions_func_0x6e.html"/>
+        <topic label="o" href="functions_func_0x6f.html"/>
+        <topic label="p" href="functions_func_0x70.html"/>
+        <topic label="q" href="functions_func_0x71.html"/>
+        <topic label="r" href="functions_func_0x72.html"/>
+        <topic label="s" href="functions_func_0x73.html"/>
+        <topic label="t" href="functions_func_0x74.html"/>
+        <topic label="u" href="functions_func_0x75.html"/>
+        <topic label="w" href="functions_func_0x77.html"/>
+      </topic>
+      <topic label="Variables" href="functions_vars.html">
+        <topic label="a" href="functions_vars.html"/>
+        <topic label="b" href="functions_vars_0x62.html"/>
+        <topic label="c" href="functions_vars_0x63.html"/>
+        <topic label="d" href="functions_vars_0x64.html"/>
+        <topic label="e" href="functions_vars_0x65.html"/>
+        <topic label="g" href="functions_vars_0x67.html"/>
+        <topic label="h" href="functions_vars_0x68.html"/>
+        <topic label="i" href="functions_vars_0x69.html"/>
+        <topic label="k" href="functions_vars_0x6b.html"/>
+        <topic label="l" href="functions_vars_0x6c.html"/>
+        <topic label="m" href="functions_vars_0x6d.html"/>
+        <topic label="n" href="functions_vars_0x6e.html"/>
+        <topic label="o" href="functions_vars_0x6f.html"/>
+        <topic label="p" href="functions_vars_0x70.html"/>
+        <topic label="r" href="functions_vars_0x72.html"/>
+        <topic label="s" href="functions_vars_0x73.html"/>
+        <topic label="t" href="functions_vars_0x74.html"/>
+        <topic label="u" href="functions_vars_0x75.html"/>
+        <topic label="v" href="functions_vars_0x76.html"/>
+        <topic label="w" href="functions_vars_0x77.html"/>
+        <topic label="z" href="functions_vars_0x7a.html"/>
+      </topic>
+      <topic label="Properties" href="functions_prop.html"/>
+    </topic>
+  </topic>
+  <topic label="Files">
+    <topic label="File List" href="files.html">
+      <topic label="src" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">
+        <topic label="api" href="dir_da61e3e9a357748887e3ca8d7c5a0c16.html">
+          <topic label="dcps" href="dir_5b5c7e42e71c33b9e43e8fa58a2b8821.html">
+            <topic label="sacs" href="dir_22466fca637773bf673f66d4dc7abc7c.html">
+              <topic label="code" href="dir_00a99fa76fe0c0240a0250516c386661.html">
+                <topic label="DDS" href="dir_39e8632805b9b24f812d44cce798c9be.html">
+                  <topic label="OpenSplice" href="dir_183a864702f66ebd443155b86cebedb9.html">
+                    <topic label="Docs" href="dir_ac6ccc3267fff3217849ce86ddf7a74d.html">
+                      <topic label="Typed.cs" href="a00220.html">
+                        <topic label="Foo" href="a00154.html">
+                          <topic label="Bar" href="a00154.html#a0b76803146d936d73d6f4a3e3d79d357"/>
+                        </topic>
+                        <topic label="FooDataReader" href="a00155.html">
+                          <topic label="GetKeyValue" href="a00155.html#a84cff316f2b9960d71609dc33425aff6"/>
+                          <topic label="LookupInstance" href="a00155.html#a12d814fb0f580727c2879f1cbb9bcbae"/>
+                          <topic label="Read" href="a00155.html#a704c6cd498a82f8845d7112ff9b30aed"/>
+                          <topic label="Read" href="a00155.html#a54888befc610ea4765e610b4668ba753"/>
+                          <topic label="Read" href="a00155.html#a846ea39d9cd25012919ea357c9239aed"/>
+                          <topic label="Read" href="a00155.html#af2a21e12e16b1177f7bbc5b66dffe50b"/>
+                          <topic label="ReadInstance" href="a00155.html#ae2c911a595d2d539c94b1f20d84244e3"/>
+                          <topic label="ReadInstance" href="a00155.html#ada3d5966f9cb0606c2a67ea1672495d8"/>
+                          <topic label="ReadInstance" href="a00155.html#ab4f88651a702f589294462e13d5276a4"/>
+                          <topic label="ReadNextInstance" href="a00155.html#a8c59cb46d0463ef4d3a41c61aac144ce"/>
+                          <topic label="ReadNextInstance" href="a00155.html#ac033d9efe603a2a5d49e3e4ce89c3acb"/>
+                          <topic label="ReadNextInstance" href="a00155.html#a226d2d835f25ec2132192ffe656ddac5"/>
+                          <topic label="ReadNextInstanceWithCondition" href="a00155.html#ae78de8cdd5fc05fe1757971e569744d6"/>
+                          <topic label="ReadNextInstanceWithCondition" href="a00155.html#a10ca70359fd6c98d47ae01afbbf24d44"/>
+                          <topic label="ReadNextSample" href="a00155.html#a71de1ac4c85766023e2796d95d7f82c0"/>
+                          <topic label="ReadWithCondition" href="a00155.html#a7a2aba571913e3edebed7819e94f32e8"/>
+                          <topic label="ReadWithCondition" href="a00155.html#adf3a1efd2900fb94622f6d80bfe8536f"/>
+                          <topic label="ReturnLoan" href="a00155.html#ace1435ab8edc91ed3f7222c4bcadd7b7"/>
+                          <topic label="Take" href="a00155.html#a7d3eb25315d7cf281bf0b516a4894f5b"/>
+                          <topic label="Take" href="a00155.html#ac0fc3095a02e49385977d59d836f2a5d"/>
+                          <topic label="Take" href="a00155.html#a13ce064ad542668b32e246b3f5808dff"/>
+                          <topic label="Take" href="a00155.html#afc490fbe71a9f9468451e395cc538213"/>
+                          <topic label="TakeInstance" href="a00155.html#a386ee3d15146c7b8f84d80b2e672cd7d"/>
+                          <topic label="TakeInstance" href="a00155.html#a3e012a3242652254ac3987df1586a858"/>
+                          <topic label="TakeInstance" href="a00155.html#ad7669bf42a9d88ef7834cf11d8a41671"/>
+                          <topic label="TakeNextInstance" href="a00155.html#a38da9b4b22bb3fa6b684de774471b1d1"/>
+                          <topic label="TakeNextInstance" href="a00155.html#aedb53eda7d1a7edbf1b16202891ab96a"/>
+                          <topic label="TakeNextInstance" href="a00155.html#a09ade5666bb6188450b5564493975acc"/>
+                          <topic label="TakeNextInstanceWithCondition" href="a00155.html#a61d456406095915a62af1c88905bebea"/>
+                          <topic label="TakeNextInstanceWithCondition" href="a00155.html#ab6cca66f106d0b491ee3dac7193cb7e3"/>
+                          <topic label="TakeNextSample" href="a00155.html#ab780b4c8f1fd5e19f879e4cb9d0b64b2"/>
+                          <topic label="TakeWithCondition" href="a00155.html#a1738a258f6a3fd0bdc760cfe277840ef"/>
+                          <topic label="TakeWithCondition" href="a00155.html#ac7bb7c538bacf686ad6950a5a2e302a8"/>
+                        </topic>
+                        <topic label="FooDataWriter" href="a00156.html">
+                          <topic label="Dispose" href="a00156.html#a9bedd589d735c8bfdbf4bd8f04ce0e1d"/>
+                          <topic label="DisposeWithTimestamp" href="a00156.html#ab85edc9d46f04d7abc6014a2221f9fd6"/>
+                          <topic label="GetKeyValue" href="a00156.html#a064a1f4c9733224dfac2de876e104ab3"/>
+                          <topic label="LookupInstance" href="a00156.html#a4075b52fa03ebc12a0267188860704d7"/>
+                          <topic label="RegisterInstance" href="a00156.html#a8d3e0565984546842bfb303324502da8"/>
+                          <topic label="RegisterInstanceWithTimestamp" href="a00156.html#a1c04f566ec605575009d3932acb18880"/>
+                          <topic label="UnregisterInstance" href="a00156.html#a7e7e7220c4dcd7e4b89ae2e8614115fd"/>
+                          <topic label="UnregisterInstanceWithTimestamp" href="a00156.html#a449bd574b28757562bbc611c9c80a6fd"/>
+                          <topic label="Write" href="a00156.html#a9aea188e8235f13194fab3b6329e3dc2"/>
+                          <topic label="Write" href="a00156.html#a131e9bc85b80ac616f7cb4dcf824781d"/>
+                          <topic label="WriteDispose" href="a00156.html#a834e15b8ca9d1b5a74d5cc76c6ca18c0"/>
+                          <topic label="WriteDispose" href="a00156.html#acb65ab4a0bfaecdd86aa856bb04684c4"/>
+                          <topic label="WriteDisposeWithTimestamp" href="a00156.html#a3b35af09dfb5b493e57c19e11eb307ce"/>
+                          <topic label="WriteDisposeWithTimestamp" href="a00156.html#a0786b08601a277854a0c110a4fa5a1b8"/>
+                          <topic label="WriteWithTimestamp" href="a00156.html#a471d1d4f50e377a7676d6fbc11168915"/>
+                          <topic label="WriteWithTimestamp" href="a00156.html#a742283d711acf3f65cc811d2404c9f6d"/>
+                        </topic>
+                        <topic label="FooTypeSupport" href="a00157.html">
+                          <topic label="FooTypeSupport" href="a00157.html#a233afc7355d6e7552071621601626127"/>
+                        </topic>
+                      </topic>
+                    </topic>
+                  </topic>
+                  <topic label="DdsDcpsEnums.cs" href="a00216.html">
+                    <topic label="DestinationOrderQosPolicyKind" href="a00216.html#a45c21f67c64f098b06165cf4762a97ac">
+                      <topic label="ByReceptionTimestampDestinationOrderQos" href="a00216.html#a45c21f67c64f098b06165cf4762a97aca9639f6f31f87987516eeada6dfe27d66"/>
+                      <topic label="BySourceTimestampDestinationOrderQos" href="a00216.html#a45c21f67c64f098b06165cf4762a97aca41ed40389ec1659000536ff211a50976"/>
+                    </topic>
+                    <topic label="DurabilityQosPolicyKind" href="a00216.html#aafec3caf5aaf291f956630299bcf033d">
+                      <topic label="VolatileDurabilityQos" href="a00216.html#aafec3caf5aaf291f956630299bcf033daa7c5e6be47e0cac6a35e68c2c6b5a30a"/>
+                      <topic label="TransientLocalDurabilityQos" href="a00216.html#aafec3caf5aaf291f956630299bcf033dae0858bb5cfa8b073e3c3ed8fdacf8676"/>
+                      <topic label="TransientDurabilityQos" href="a00216.html#aafec3caf5aaf291f956630299bcf033dafd24f9376600f55c14ca2d9da11fe890"/>
+                      <topic label="PersistentDurabilityQos" href="a00216.html#aafec3caf5aaf291f956630299bcf033da8b9910a23157692bc3094c8448fbe8fe"/>
+                    </topic>
+                    <topic label="HistoryQosPolicyKind" href="a00216.html#a191f6fba6b7de45118b062f5cfa918e4">
+                      <topic label="KeepLastHistoryQos" href="a00216.html#a191f6fba6b7de45118b062f5cfa918e4ac193801231f6d7d4a0a3c060625f868f"/>
+                      <topic label="KeepAllHistoryQos" href="a00216.html#a191f6fba6b7de45118b062f5cfa918e4a7ee81b2a314d4adb20e7cf6a32a99353"/>
+                    </topic>
+                    <topic label="InstanceStateKind" href="a00216.html#a7a5f195aabe011e41664ef7a04bd5198">
+                      <topic label="Alive" href="a00216.html#a7a5f195aabe011e41664ef7a04bd5198abd9f7c5d6ab4201b138a3e51dab7056f"/>
+                      <topic label="NotAliveDisposed" href="a00216.html#a7a5f195aabe011e41664ef7a04bd5198a922e6d834d79651304a38c6a33987573"/>
+                      <topic label="NotAliveNoWriters" href="a00216.html#a7a5f195aabe011e41664ef7a04bd5198ac53fc4775cb6cae6de55831c6c46e693"/>
+                      <topic label="NotAlive" href="a00216.html#a7a5f195aabe011e41664ef7a04bd5198aac03a8dbac09e3b3b6e23c9c0e501d0b"/>
+                      <topic label="Any" href="a00216.html#a7a5f195aabe011e41664ef7a04bd5198aed36a1ef76a59ee3f15180e0441188ad"/>
+                    </topic>
+                    <topic label="InvalidSampleVisibilityQosPolicyKind" href="a00216.html#a817ec614ff371daa82a097b579595ab5">
+                      <topic label="NoInvalidSamples" href="a00216.html#a817ec614ff371daa82a097b579595ab5aac1d7597632a68d8cc138e30de883440"/>
+                      <topic label="MinimumInvalidSamples" href="a00216.html#a817ec614ff371daa82a097b579595ab5ab57f1890d2dd58604dd43e87f9a676a0"/>
+                      <topic label="AllInvalidSamples" href="a00216.html#a817ec614ff371daa82a097b579595ab5acbf92cdcb7751780db6090938fdb13a2"/>
+                    </topic>
+                    <topic label="LivelinessQosPolicyKind" href="a00216.html#a97dd170a3c65122685d2037f210b530d">
+                      <topic label="AutomaticLivelinessQos" href="a00216.html#a97dd170a3c65122685d2037f210b530dae82a4cd07979d5103994e3aeb5f00e39"/>
+                      <topic label="ManualByParticipantLivelinessQos" href="a00216.html#a97dd170a3c65122685d2037f210b530da8831bb86ed3a95440fe35d9e12c5b8c9"/>
+                      <topic label="ManualByTopicLivelinessQos" href="a00216.html#a97dd170a3c65122685d2037f210b530daa0effaff0b1b000a2e3e2f2ccafb20f1"/>
+                    </topic>
+                    <topic label="OwnershipQosPolicyKind" href="a00216.html#a3c18228edbac48ee4b63bfd6dc0bd5ed">
+                      <topic label="SharedOwnershipQos" href="a00216.html#a3c18228edbac48ee4b63bfd6dc0bd5edaee4629ede16b89b18d842298224d0e92"/>
+                      <topic label="ExclusiveOwnershipQos" href="a00216.html#a3c18228edbac48ee4b63bfd6dc0bd5eda09e6c07db430458c9f7a5a0421e5a234"/>
+                    </topic>
+                    <topic label="PresentationQosPolicyAccessScopeKind" href="a00216.html#aad269b30c3c7ca6f3d754784549d6773">
+                      <topic label="InstancePresentationQos" href="a00216.html#aad269b30c3c7ca6f3d754784549d6773ad0344bcc60a1cd75e879dc0965881245"/>
+                      <topic label="TopicPresentationQos" href="a00216.html#aad269b30c3c7ca6f3d754784549d6773a65e0e9b6c40e34e8b5b21d0845fb604a"/>
+                      <topic label="GroupPresentationQos" href="a00216.html#aad269b30c3c7ca6f3d754784549d6773a4764f9bdde27318f35c2fedc3a33e0dc"/>
+                    </topic>
+                    <topic label="QosPolicyId" href="a00216.html#a7252b20d20c57ec654776154144bfbb1">
+                      <topic label="InvalidQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a8cd1d3f15166db7ad2e861b8338343ca"/>
+                      <topic label="UserDataQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a3a8be9b9fb8b921caa773e26577ee41b"/>
+                      <topic label="DurabilityQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1aef08b451090d3218b840c8217de45e46"/>
+                      <topic label="PresentationQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a16aac51727332edc982bdd4fd6540dd5"/>
+                      <topic label="DeadlineQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a044b630a15b3f70cf36756529b1402fa"/>
+                      <topic label="LatencyBudgetQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1ad345f47a1e71a72b0ac347d29a0cd638"/>
+                      <topic label="OwnershipQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a5ecc0dcb05c5eeca9178a42941bb9707"/>
+                      <topic label="OwnershipStrengthQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a6708cfc8dec30e2292fe670e68559968"/>
+                      <topic label="LivelinessQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1ad9ced95d6db748066953d6b86e1e6b53"/>
+                      <topic label="TimeBasedFilterQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a767674a0218bc379ba8d7080d60b5ce2"/>
+                      <topic label="PartitionQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a3b4f10dfbd02f37586181259139c34f7"/>
+                      <topic label="ReliabilityQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1afbb6ecae7a72fc7683c90d30e959f063"/>
+                      <topic label="DestinationOrderQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a313ddd6e49e13814b1aa8f928176c58a"/>
+                      <topic label="HistoryQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a52e857d6577055f52fbb38b90bfb09c2"/>
+                      <topic label="ResourceLimitsQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1ab5e67e8503e1638e25137da013d6ed1e"/>
+                      <topic label="EntityFactoryQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a1301ee3f4515b1d58726f97e23d7a013"/>
+                      <topic label="WriterDataLifecycleQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a40ba08ccc9e204160966f5e90001692b"/>
+                      <topic label="ReaderDataLifecycleQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a5571725fe31173c1dc8049e41c833471"/>
+                      <topic label="TopicDataQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1aa52f8c2f6042d20adeb838f166f26f29"/>
+                      <topic label="GroupDataQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a763345d4e40236027c1ad79c116046f8"/>
+                      <topic label="TransportPriorityQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a7d0f771265107a8cbfa17d4ddd9aa4fe"/>
+                      <topic label="LifespanQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1af24923645e711f2d0299d93eacb78de3"/>
+                      <topic label="DurabilityServiceQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1afcc663716c8560857d6be4f22be0a949"/>
+                      <topic label="SchedulingQos" href="a00216.html#a7252b20d20c57ec654776154144bfbb1a6bb9edb37a2d66f17ee268b8ba0d9619"/>
+                    </topic>
+                    <topic label="ReliabilityQosPolicyKind" href="a00216.html#a7fddad75c7fbe0e7f8bcdfe0c5b48a30">
+                      <topic label="BestEffortReliabilityQos" href="a00216.html#a7fddad75c7fbe0e7f8bcdfe0c5b48a30a632d5d4298828c1b97c0bfac699b03fe"/>
+                      <topic label="ReliableReliabilityQos" href="a00216.html#a7fddad75c7fbe0e7f8bcdfe0c5b48a30a52518ac335a39031ecb33b91d4751199"/>
+                    </topic>
+                    <topic label="ReturnCode" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7c">
+                      <topic label="Ok" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7caa60852f204ed8028c1c58808b746d115"/>
+                      <topic label="Error" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7ca902b0d55fddef6f8d651fe1035b7d4bd"/>
+                      <topic label="Unsupported" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7cab4080bdf74febf04d578ff105cce9d3f"/>
+                      <topic label="BadParameter" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7ca1a28be9277afb663979bdba8efccdfa8"/>
+                      <topic label="PreconditionNotMet" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7ca4e155076e8bc33a96a1ae1bf6ba8a0ca"/>
+                      <topic label="OutOfResources" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7ca4bd8e65b6b284b50eacb833c41dfd959"/>
+                      <topic label="NotEnabled" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7ca382542b455122ca37f377b7a66cafc4d"/>
+                      <topic label="ImmutablePolicy" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7cab03ba6d2a5bfb19567bd0a45b9279e3b"/>
+                      <topic label="InconsistentPolicy" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7ca4fea6e96a885f2583e7ad94e86791e4f"/>
+                      <topic label="AlreadyDeleted" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7ca6c82e43a56c5c714346a7fe0ba929b32"/>
+                      <topic label="Timeout" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7cac85a251cc457840f1e032f1b733e9398"/>
+                      <topic label="NoData" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7cacbf169aecd4365561eb6b245659f55d8"/>
+                      <topic label="IllegalOperation" href="a00216.html#a95f657235f84adf3e24ecc08a77c5f7caf1dbc610f9ba6abafd62ae7fc08c1268"/>
+                    </topic>
+                    <topic label="SampleRejectedStatusKind" href="a00216.html#a5ed70be5fbfaa20ddd9bd84dfca8591e">
+                      <topic label="NotRejected" href="a00216.html#a5ed70be5fbfaa20ddd9bd84dfca8591ead0fe7c207929346b9e77f8eba1d3590d"/>
+                      <topic label="RejectedByInstanceLimit" href="a00216.html#a5ed70be5fbfaa20ddd9bd84dfca8591eaff920ac47e1baf73b28407cae1a633e5"/>
+                      <topic label="RejectedBySamplesLimit" href="a00216.html#a5ed70be5fbfaa20ddd9bd84dfca8591ea6f7b5e6d237b0fde3469547e7cb71732"/>
+                      <topic label="RejectedBySamplesPerInstanceLimit" href="a00216.html#a5ed70be5fbfaa20ddd9bd84dfca8591eae96f6b2c7654a94208f1223f563ca31d"/>
+                    </topic>
+                    <topic label="SampleStateKind" href="a00216.html#a974120733ba8c3390fce6c45d78bccf8">
+                      <topic label="Read" href="a00216.html#a974120733ba8c3390fce6c45d78bccf8a7a1a5f3e79fdc91edf2f5ead9d66abb4"/>
+                      <topic label="NotRead" href="a00216.html#a974120733ba8c3390fce6c45d78bccf8a256d7c489d5501800f4e3f3a855790b4"/>
+                      <topic label="Any" href="a00216.html#a974120733ba8c3390fce6c45d78bccf8aed36a1ef76a59ee3f15180e0441188ad"/>
+                    </topic>
+                    <topic label="SchedulingClassQosPolicyKind" href="a00216.html#aa4b1d903a5cea2625718f0c2d732f314">
+                      <topic label="ScheduleDefault" href="a00216.html#aa4b1d903a5cea2625718f0c2d732f314abab508a1e291b93d8ea683258d661d5b"/>
+                      <topic label="ScheduleTimesharing" href="a00216.html#aa4b1d903a5cea2625718f0c2d732f314ac5b1e40ae469d0f119470d4bdf56373f"/>
+                      <topic label="ScheduleRealtime" href="a00216.html#aa4b1d903a5cea2625718f0c2d732f314aa0f4be65c5355c9aba60c75abed6ba57"/>
+                    </topic>
+                    <topic label="SchedulingPriorityQosPolicyKind" href="a00216.html#a979c322b0f921dca28b129d72e337055">
+                      <topic label="PriorityRelative" href="a00216.html#a979c322b0f921dca28b129d72e337055a1ef747659ba3f94167bf504d83a9f9a1"/>
+                      <topic label="PriorityAbsolute" href="a00216.html#a979c322b0f921dca28b129d72e337055aead2a16ae91c4883bb849b165d886a13"/>
+                    </topic>
+                    <topic label="StatusKind" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375">
+                      <topic label="InconsistentTopic" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375ac4151848236055cb9838fb03d3e73775"/>
+                      <topic label="OfferedDeadlineMissed" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a18bf14a94639358e3ba2f21b531c4578"/>
+                      <topic label="RequestedDeadlineMissed" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a2fa2212b0d2ab42d5af99b254d8263b0"/>
+                      <topic label="OfferedIncompatibleQos" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a21edb0e3ff9786a3c8928e4a35c22a5b"/>
+                      <topic label="RequestedIncompatibleQos" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375aea57c9a729ab233ba9d8396458dba72e"/>
+                      <topic label="SampleLost" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a9c620dae5df98ea7e6cf8f11c52a06c1"/>
+                      <topic label="SampleRejected" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a6ba324000704d9758e76cd7a664aba6f"/>
+                      <topic label="DataOnReaders" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a92db0fc0af018eb960b7a82c00ba56c3"/>
+                      <topic label="DataAvailable" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a6388ccbf800eff3e64d60bd322dc8b59"/>
+                      <topic label="LivelinessLost" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375ae9a03efc0225fbe99b463134765b8e35"/>
+                      <topic label="LivelinessChanged" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a6f4e8f49c543c6f2b5c493926628214c"/>
+                      <topic label="PublicationMatched" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a40d0beb100d854ed4d578089d589ea65"/>
+                      <topic label="SubscriptionMatched" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a2b92c0dbbd606c082dd55b8a1f0bbd66"/>
+                      <topic label="AllDataDisposed" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375a745f13c9f757339ef67e8636c62ff93e"/>
+                      <topic label="Any_V1_2" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375abe351cef4467edc1eee5203b69e6b9c1"/>
+                      <topic label="Any" href="a00216.html#ab4e43a114bb372ab6269497ef38a0375aed36a1ef76a59ee3f15180e0441188ad"/>
+                    </topic>
+                    <topic label="ViewStateKind" href="a00216.html#a8974eec74993d4af66bd405b62400387">
+                      <topic label="New" href="a00216.html#a8974eec74993d4af66bd405b62400387a03c2e7e41ffc181a4e84080b4710e81e"/>
+                      <topic label="NotNew" href="a00216.html#a8974eec74993d4af66bd405b62400387a9618348bb844018608275c28e21a95ad"/>
+                      <topic label="Any" href="a00216.html#a8974eec74993d4af66bd405b62400387aed36a1ef76a59ee3f15180e0441188ad"/>
+                    </topic>
+                  </topic>
+                  <topic label="DdsDcpsInterfaces.cs" href="a00217.html">
+                    <topic label="ICondition" href="a00080.html">
+                      <topic label="GetTriggerValue" href="a00080.html#acefc422157a2e4e9827d5e629671a968"/>
+                    </topic>
+                    <topic label="IContentFilteredTopic" href="a00081.html">
+                      <topic label="GetExpressionParameters" href="a00081.html#ad384e6cf2d8055ee67fd7af5e7ccdedf"/>
+                      <topic label="GetFilterExpression" href="a00081.html#a656e973d515183d85bb9ebd609deda50"/>
+                      <topic label="SetExpressionParameters" href="a00081.html#a6b287088722d0e98c7f3cc4e620c5736"/>
+                      <topic label="RelatedTopic" href="a00081.html#aa96287837d1c9aceb3d5c60230aa61b4"/>
+                    </topic>
+                    <topic label="IDataReader" href="a00082.html">
+                      <topic label="CreateQueryCondition" href="a00082.html#acc8aef04c2856a77986781d6f8b03314"/>
+                      <topic label="CreateQueryCondition" href="a00082.html#ae23801512b4dd7e7e0514208b85e8595"/>
+                      <topic label="CreateReadCondition" href="a00082.html#aa4c8a1551824dd65db51f381318c7df1"/>
+                      <topic label="CreateReadCondition" href="a00082.html#aa3ab7e7f7260f99d9702d4eb86a9b511"/>
+                      <topic label="DeleteContainedEntities" href="a00082.html#a5657d88f4f3c9529e4e4dd49ff8a5bb1"/>
+                      <topic label="DeleteReadCondition" href="a00082.html#add2130ab706c233c47eb7c4e2794f6ed"/>
+                      <topic label="GetKeyValue" href="a00082.html#ae7053feb578dcb000fb000f400fabc17"/>
+                      <topic label="GetLivelinessChangedStatus" href="a00082.html#aea50c38cff04f603f1a5aaeb69687cb0"/>
+                      <topic label="GetMatchedPublicationData" href="a00082.html#a809c7cc43a0ee2e37abc3dbf4bb80fa4"/>
+                      <topic label="GetMatchedPublications" href="a00082.html#a3da21b38c68670136d4af57db6a44a35"/>
+                      <topic label="GetQos" href="a00082.html#a47c11be1b34e1fb82203fa212a657942"/>
+                      <topic label="GetRequestedDeadlineMissedStatus" href="a00082.html#a7d8f230be6b58c39a8d535b48655e024"/>
+                      <topic label="GetRequestedIncompatibleQosStatus" href="a00082.html#ab820ecf621aebf04ee304d892ece0de6"/>
+                      <topic label="GetSampleLostStatus" href="a00082.html#a2821f63076704a84382473f135dfc8a3"/>
+                      <topic label="GetSampleRejectedStatus" href="a00082.html#a49df4d19af612949d4c2bebae57af9d2"/>
+                      <topic label="GetSubscriptionMatchedStatus" href="a00082.html#ad0f395e0390808a22448e2513e2c95ce"/>
+                      <topic label="GetTopicDescription" href="a00082.html#aaaf1b85f66b84fa8e854d7ba5eb64589"/>
+                      <topic label="LookupInstance" href="a00082.html#abce1c45b58f60307a730f32521dcc951"/>
+                      <topic label="Read" href="a00082.html#a3bb438b2385a3c93e1299d52683e39ab"/>
+                      <topic label="Read" href="a00082.html#abd08ed697a819fe4001dd5eca3c1b1b0"/>
+                      <topic label="Read" href="a00082.html#a5a1ecf7d9b31e902c1ed5558b7511103"/>
+                      <topic label="Read" href="a00082.html#ac1b092823e4ef3bec1ed172a0a3131e1"/>
+                      <topic label="ReadInstance" href="a00082.html#a61c5981f2143a73f60204512a959163c"/>
+                      <topic label="ReadInstance" href="a00082.html#a5643de801e8ea1b0f2f117ef5509373e"/>
+                      <topic label="ReadInstance" href="a00082.html#a738f080856da3db364d7502435240db2"/>
+                      <topic label="ReadNextInstance" href="a00082.html#abb2da89b632e7f4ba2674ac7845dbbd6"/>
+                      <topic label="ReadNextInstance" href="a00082.html#a29514d92c4ac8ae60d3c3ede7ab4cef7"/>
+                      <topic label="ReadNextInstance" href="a00082.html#abe1b9d9f7ab574d6d5a157f526cae726"/>
+                      <topic label="ReadNextInstanceWithCondition" href="a00082.html#ab50d41fc540d5c0cf92c35750d3998ec"/>
+                      <topic label="ReadNextInstanceWithCondition" href="a00082.html#ae52edea84abeea5ea80a9d65e65e1414"/>
+                      <topic label="ReadNextSample" href="a00082.html#a83f4368e38c17a833ed485f7c45bc08e"/>
+                      <topic label="ReadWithCondition" href="a00082.html#ae775c2e58683a54d11c6e5ac799200b7"/>
+                      <topic label="ReadWithCondition" href="a00082.html#a3bae4b406f6cd2166bb7a7a78e2b2d15"/>
+                      <topic label="ReturnLoan" href="a00082.html#a21657fb51be8dff7600df26e9cecb94f"/>
+                      <topic label="SetListener" href="a00082.html#a94f1e5925ba159fbb16335965874d56a"/>
+                      <topic label="SetQos" href="a00082.html#acb4ca96bfbb1f70d8b0533fb7dd51af7"/>
+                      <topic label="Take" href="a00082.html#a187f5d3f56fff324a99a43c06673b46a"/>
+                      <topic label="Take" href="a00082.html#ac68fefeddb77284e8e23e7ff7f2da7ce"/>
+                      <topic label="Take" href="a00082.html#ae766be8c3218db675ac2cf881ab806c7"/>
+                      <topic label="Take" href="a00082.html#a012098b5e3311112a18383b4a6eccc77"/>
+                      <topic label="TakeInstance" href="a00082.html#af6fc0732cb3fb82100fd5584685d4b22"/>
+                      <topic label="TakeInstance" href="a00082.html#a1437dca8a6da73e603746d81e8d322c2"/>
+                      <topic label="TakeInstance" href="a00082.html#a2462c6da561975559ac28308699e4a04"/>
+                      <topic label="TakeNextInstance" href="a00082.html#a3a4acd1b9038dd08ceeb30730420c34e"/>
+                      <topic label="TakeNextInstance" href="a00082.html#aca27ea1e6a9b0c3622bf93861387f246"/>
+                      <topic label="TakeNextInstance" href="a00082.html#afb8a56396dfe8f2ac82e69f484fa1925"/>
+                      <topic label="TakeNextInstanceWithCondition" href="a00082.html#a7b73534f858a8b1ca04581a28c7c9cc1"/>
+                      <topic label="TakeNextInstanceWithCondition" href="a00082.html#a6f8b1510d9b2045836e978f39a5e612b"/>
+                      <topic label="TakeNextSample" href="a00082.html#a291711f4222435813cb8a79e91520652"/>
+                      <topic label="TakeWithCondition" href="a00082.html#a6cd7e9a3df7554898f161ff6886557ce"/>
+                      <topic label="TakeWithCondition" href="a00082.html#aefd8598db3f902f16208922f3b852067"/>
+                      <topic label="WaitForHistoricalData" href="a00082.html#a5d2864eb26273c752010becfd635e375"/>
+                      <topic label="Listener" href="a00082.html#a48acaca13766398178eacd887d8bdb56"/>
+                      <topic label="Subscriber" href="a00082.html#a6a5207511128c887c7203de62d574b1a"/>
+                    </topic>
+                    <topic label="IDataReaderListener" href="a00083.html">
+                      <topic label="OnDataAvailable" href="a00083.html#ada57bae6f6131648a96e3b6cb9bf877b"/>
+                      <topic label="OnLivelinessChanged" href="a00083.html#a6da5a8955dbd596ab017bf2953d44ea4"/>
+                      <topic label="OnRequestedDeadlineMissed" href="a00083.html#a0786d2d06a46527dbebd9107cb00c807"/>
+                      <topic label="OnRequestedIncompatibleQos" href="a00083.html#a5b4497fa8fd833bcfe36457f4996a40e"/>
+                      <topic label="OnSampleLost" href="a00083.html#af1f16a571dfcc7758ee102c82b578d2f"/>
+                      <topic label="OnSampleRejected" href="a00083.html#a8a5f8eef1f8e0130c0ead9e339873bca"/>
+                      <topic label="OnSubscriptionMatched" href="a00083.html#aef0faa25d08a9ad21edb45218de03fd0"/>
+                    </topic>
+                    <topic label="IDataWriter" href="a00084.html">
+                      <topic label="AssertLiveliness" href="a00084.html#a9f9bc90a86376175280979c70a91a0b5"/>
+                      <topic label="Dispose" href="a00084.html#af74d4513574ed217a83e1affd406353f"/>
+                      <topic label="DisposeWithTimestamp" href="a00084.html#a2d12f4475282a9480826786f3731aad7"/>
+                      <topic label="GetKeyValue" href="a00084.html#aa6229c4bf991c087c0f268c983dcc9ce"/>
+                      <topic label="GetLivelinessLostStatus" href="a00084.html#a1ea18e79fd8099524eedb39ea58fa720"/>
+                      <topic label="GetMatchedSubscriptionData" href="a00084.html#aa2bcd455c6b4e22ba22ea4c223faf346"/>
+                      <topic label="GetMatchedSubscriptions" href="a00084.html#ad10524764442153337390e985f5a3a9f"/>
+                      <topic label="GetOfferedDeadlineMissedStatus" href="a00084.html#ab63229ed6f1ddc6044cc9a380d6a1b87"/>
+                      <topic label="GetOfferedIncompatibleQosStatus" href="a00084.html#a73fa264d8afdbe4bb4a93215d7adfdab"/>
+                      <topic label="GetPublicationMatchedStatus" href="a00084.html#a0b932f4ab68009b6f177524ce329f94f"/>
+                      <topic label="GetQos" href="a00084.html#ae6351881a35f5dc9588c223836c54ea7"/>
+                      <topic label="LookupInstance" href="a00084.html#aaf65baff8d0546630870c29ed50fa3d6"/>
+                      <topic label="RegisterInstance" href="a00084.html#a6c1748f82f9f0741b16742e686c9457d"/>
+                      <topic label="RegisterInstanceWithTimestamp" href="a00084.html#a046a14d414ec514bdb5d1e8bb2af4c0c"/>
+                      <topic label="SetListener" href="a00084.html#a28648c302659960c281f9ed70999205d"/>
+                      <topic label="SetQos" href="a00084.html#aebfe45cf8bf508f5c1ace2a68b423b6b"/>
+                      <topic label="UnregisterInstance" href="a00084.html#a57cc5c317d830c935c34b086b0ec5067"/>
+                      <topic label="UnregisterInstanceWithTimestamp" href="a00084.html#a6ed27d5f30ab0c5de1a7bbf88a469f24"/>
+                      <topic label="WaitForAcknowledgments" href="a00084.html#a0f1eaf6d5f9aefdda853598e73d88157"/>
+                      <topic label="Write" href="a00084.html#afb79e41f274c00c97abf6ba2a673aa77"/>
+                      <topic label="Write" href="a00084.html#a16585547b62fce4c6c25e0f2d7044aab"/>
+                      <topic label="WriteDispose" href="a00084.html#a908c98bfc54569da3b163c3dfa463ae8"/>
+                      <topic label="WriteDispose" href="a00084.html#a9357a574aca7cd26f835f736b05be3a8"/>
+                      <topic label="WriteDisposeWithTimestamp" href="a00084.html#a04effb3e19640155d96d831185f55391"/>
+                      <topic label="WriteDisposeWithTimestamp" href="a00084.html#a2f775329ce2d226ef5430bc4ce7702d7"/>
+                      <topic label="WriteWithTimestamp" href="a00084.html#a5765b0a30b780811b1d41241b5830cbf"/>
+                      <topic label="WriteWithTimestamp" href="a00084.html#ad8fd04cf97d438978bcd278f59f5cf69"/>
+                      <topic label="Listener" href="a00084.html#a2814902ce51c0f2ca9aac60934064ad2"/>
+                      <topic label="Publisher" href="a00084.html#a57a3dac07a70789e37979e52bb6da275"/>
+                      <topic label="Topic" href="a00084.html#aa7a07a0f6af01238aeb5aff9957d1b77"/>
+                    </topic>
+                    <topic label="IDataWriterListener" href="a00085.html">
+                      <topic label="OnLivelinessLost" href="a00085.html#a8593b18d4a80554481e0be1dd48fd550"/>
+                      <topic label="OnOfferedDeadlineMissed" href="a00085.html#a2609ffbc777a070f80820b2c77cf5f91"/>
+                      <topic label="OnOfferedIncompatibleQos" href="a00085.html#af293032c77ec49e87f845a790d2f2ddd"/>
+                      <topic label="OnPublicationMatched" href="a00085.html#a4da5676fa36a5cb28a53c6add76ff9e6"/>
+                    </topic>
+                    <topic label="IDomainParticipant" href="a00086.html">
+                      <topic label="AssertLiveliness" href="a00086.html#a0e97fe1b4e68d1ae29beb3d14af7f7fd"/>
+                      <topic label="ContainsEntity" href="a00086.html#aa87074636c919b8edc79e0a538835133"/>
+                      <topic label="CreateContentFilteredTopic" href="a00086.html#a6ee4871133cf129665d886aec831b272"/>
+                      <topic label="CreateMultiTopic" href="a00086.html#ac745a9feb813e3791e954265001f1f91"/>
+                      <topic label="CreatePublisher" href="a00086.html#a3b67d427aa77a4430f7e4bced76f604f"/>
+                      <topic label="CreatePublisher" href="a00086.html#a778111c4847055159ff890d2e3a69ebc"/>
+                      <topic label="CreatePublisher" href="a00086.html#a58824ef47230f89445fa07f89c7ac420"/>
+                      <topic label="CreatePublisher" href="a00086.html#a3da3238904808efc662cfb4065a78f39"/>
+                      <topic label="CreateSubscriber" href="a00086.html#a1c96553c0b89db629f75145be69b0fd8"/>
+                      <topic label="CreateSubscriber" href="a00086.html#a136ca12b31a98ca8d55c47bab708936c"/>
+                      <topic label="CreateSubscriber" href="a00086.html#a5f4a8d04be1a998cc709b999f1a8e519"/>
+                      <topic label="CreateSubscriber" href="a00086.html#acd9f8f0f83661f4d1f237da9804e287e"/>
+                      <topic label="CreateTopic" href="a00086.html#a83346dafb28e1fe8f7f3aa5c545fe97f"/>
+                      <topic label="CreateTopic" href="a00086.html#a378224b02040c33879a12d82dc2361cb"/>
+                      <topic label="CreateTopic" href="a00086.html#ab01ee787bee04b3fe62d237e7f319ffb"/>
+                      <topic label="CreateTopic" href="a00086.html#a1c8aaf5dd8ca7e71ff68d5145956be78"/>
+                      <topic label="DeleteContainedEntities" href="a00086.html#a0f2afdc0ab5c706248b7d77fb4ceb0fd"/>
+                      <topic label="DeleteContentFilteredTopic" href="a00086.html#a96ad627d2a2a66d152cd23435b21ef99"/>
+                      <topic label="DeleteMultiTopic" href="a00086.html#a9f12399dbba1dda8b8b6c7ffed2b9c0a"/>
+                      <topic label="DeletePublisher" href="a00086.html#ad15e0196701ab9e3f8e0f3894f4cbdee"/>
+                      <topic label="DeleteSubscriber" href="a00086.html#a83c14426aad04ca931f04f208cb55388"/>
+                      <topic label="DeleteTopic" href="a00086.html#aac76120951ce3c5a5f4624b33c44862c"/>
+                      <topic label="FindTopic" href="a00086.html#ae8394bd078e77d35425ba1892ac6ae64"/>
+                      <topic label="GetCurrentTime" href="a00086.html#aedfacbdfa027ea5e430b411829e552df"/>
+                      <topic label="GetDefaultPublisherQos" href="a00086.html#a0aebe5a7b1a1ce92048013fc835484db"/>
+                      <topic label="GetDefaultSubscriberQos" href="a00086.html#ae042525688659a76290bcc2692a4ed69"/>
+                      <topic label="GetDefaultTopicQos" href="a00086.html#a997845080e4fa3e8fd8b6d1f78728fdc"/>
+                      <topic label="GetDiscoveredParticipantData" href="a00086.html#abc1ee491dc8e129beec79f982cbd8fe6"/>
+                      <topic label="GetDiscoveredParticipants" href="a00086.html#abad543c1a77b7eaae87de12d48766cea"/>
+                      <topic label="GetDiscoveredTopicData" href="a00086.html#a9752ca904f8b67bbc32c4b0473b3a81e"/>
+                      <topic label="GetDiscoveredTopics" href="a00086.html#a30758c09aa5ba6e3cfcc3f6499501062"/>
+                      <topic label="GetProperty" href="a00086.html#ad155f64246f3f1c74a3a36dd7d03adb1"/>
+                      <topic label="GetQos" href="a00086.html#acb01d007e052838f940f86f292660890"/>
+                      <topic label="IgnoreParticipant" href="a00086.html#a17164ee6bd18305a7956350a9f25c018"/>
+                      <topic label="IgnorePublication" href="a00086.html#a65c2e280769ef7e5395f9cbfbebaf606"/>
+                      <topic label="IgnoreSubscription" href="a00086.html#ac178268c362caf4f5f9e35457f33db2a"/>
+                      <topic label="IgnoreTopic" href="a00086.html#ac696f94dd6db8ef2a2cc62c2d53e25f3"/>
+                      <topic label="LookupTopicDescription" href="a00086.html#a8b7cee913c4d48bf2587c7e2dc492c62"/>
+                      <topic label="SetDefaultPublisherQos" href="a00086.html#a51861922542d1ba1f560698d4c42767f"/>
+                      <topic label="SetDefaultSubscriberQos" href="a00086.html#a6f70a9f9696938c311d82761532baa9f"/>
+                      <topic label="SetDefaultTopicQos" href="a00086.html#a58e175827b19e5ce0281310e942cde0e"/>
+                      <topic label="SetListener" href="a00086.html#a2075ae532e8392a3e7fa8b7922e728ce"/>
+                      <topic label="SetProperty" href="a00086.html#a2929fc1b4ad0349a22323c37da8507b2"/>
+                      <topic label="SetQos" href="a00086.html#a51d8f539d988adcf8c3b4de329c64091"/>
+                      <topic label="BuiltInSubscriber" href="a00086.html#abfe18aa2dbe451204a3a3ccbe81f5056"/>
+                      <topic label="DomainId" href="a00086.html#a327bfa402549039be806c2c2ec1ef779"/>
+                      <topic label="Listener" href="a00086.html#ace9ee80d168e778177a28a1e304150cb"/>
+                    </topic>
+                    <topic label="IDomainParticipantListener" href="a00087.html"/>
+                    <topic label="IEntity" href="a00088.html">
+                      <topic label="Enable" href="a00088.html#ad9d3aa88052aa304cd12ee2e855f544e"/>
+                      <topic label="InstanceHandle" href="a00088.html#a6668f69bd9ee4cf5851bae35b3ae77f8"/>
+                      <topic label="StatusChanges" href="a00088.html#aa6d0f9ffc9cba64a8abaf593ec28831e"/>
+                      <topic label="StatusCondition" href="a00088.html#af6ec6716fad2f813037afac2e6de0cbf"/>
+                    </topic>
+                    <topic label="IGuardCondition" href="a00089.html">
+                      <topic label="SetTriggerValue" href="a00089.html#a5638ed77592b5b3540356205bdc5fe70"/>
+                    </topic>
+                    <topic label="IListener" href="a00090.html"/>
+                    <topic label="IMultiTopic" href="a00091.html">
+                      <topic label="GetExpressionParameters" href="a00091.html#afb2d7f556803000ec019174b51916556"/>
+                      <topic label="SetExpressionParameters" href="a00091.html#a7f1817c17a474a826ff5a48f86b8cb47"/>
+                      <topic label="SubscriptionExpression" href="a00091.html#abe1143860affc0b0ef9173eaf063d40f"/>
+                    </topic>
+                    <topic label="IPublisher" href="a00095.html">
+                      <topic label="BeginCoherentChanges" href="a00095.html#aba50273d3f60118a4c0cdec6eccf7be5"/>
+                      <topic label="CopyFromTopicQos" href="a00095.html#af38a4f54c99f4f81848861c8f6024bea"/>
+                      <topic label="CreateDataWriter" href="a00095.html#a5c40aa6b96324c95e69de7c655a77fd0"/>
+                      <topic label="CreateDataWriter" href="a00095.html#a4f5e6a186528d2aebd1c0f82a34f450b"/>
+                      <topic label="CreateDataWriter" href="a00095.html#abddd10f89773547e03ca6a81564fc5e3"/>
+                      <topic label="CreateDataWriter" href="a00095.html#a6a192c9d3ea319754e789408320762d6"/>
+                      <topic label="DeleteContainedEntities" href="a00095.html#a4f61df337b61f0dc0453c20558e4a96d"/>
+                      <topic label="DeleteDataWriter" href="a00095.html#ad853738b153db98d117221a9228601e2"/>
+                      <topic label="EndCoherentChanges" href="a00095.html#afdbc8113519af555b4952d2c479f82b1"/>
+                      <topic label="GetDefaultDataWriterQos" href="a00095.html#a2cbec4306a40fa03540a38c66ccde2f4"/>
+                      <topic label="GetParticipant" href="a00095.html#a1c57cec9b842178d3a69890933f41262"/>
+                      <topic label="GetQos" href="a00095.html#a8b99b7f546169d4e142082ff5208de0b"/>
+                      <topic label="LookupDataWriter" href="a00095.html#a6defa1b8d3f0ae284a7fb3e1351a2fc1"/>
+                      <topic label="ResumePublications" href="a00095.html#a829b3485a5028f3e2ad4fd4622ff0675"/>
+                      <topic label="SetDefaultDataWriterQos" href="a00095.html#ad4480b5049a1aecab5e5cc15141cad97"/>
+                      <topic label="SetListener" href="a00095.html#ad1fb54f2c874f19efca2aba10dfc5f31"/>
+                      <topic label="SetQos" href="a00095.html#ac836cc877d51c18bd363585a608afb5c"/>
+                      <topic label="SuspendPublications" href="a00095.html#a566c284e416ed706420a1329472ea12f"/>
+                      <topic label="WaitForAcknowledgments" href="a00095.html#ae708483d6383cd5ea4c54e4b1716e5e5"/>
+                      <topic label="Listener" href="a00095.html#a742e6b8b479344c3f318bd34fe327757"/>
+                    </topic>
+                    <topic label="IPublisherListener" href="a00096.html"/>
+                    <topic label="IQueryCondition" href="a00097.html">
+                      <topic label="GetQueryExpression" href="a00097.html#a3b72d061a48614fb38f1d044747689b3"/>
+                      <topic label="GetQueryParameters" href="a00097.html#a4a74f688dffb7f96321f25d4d578995c"/>
+                      <topic label="SetQueryParameters" href="a00097.html#ac9ba35d3807e479d79a3109ee1e9d0c3"/>
+                    </topic>
+                    <topic label="IReadCondition" href="a00098.html">
+                      <topic label="GetDataReader" href="a00098.html#a9595efa13ef197fa23651165389c4096"/>
+                      <topic label="GetInstanceStateMask" href="a00098.html#a53ca5341e7cd832ff70b9d4965110a19"/>
+                      <topic label="GetSampleStateMask" href="a00098.html#a107ef67f939bd3ae86cc71fa9d157fd8"/>
+                      <topic label="GetViewStateMask" href="a00098.html#a5d25a8f398bc220845f4346845c49de3"/>
+                    </topic>
+                    <topic label="IStatusCondition" href="a00099.html">
+                      <topic label="GetEnabledStatuses" href="a00099.html#a3609464aeb0baaba0167bf698edba9bb"/>
+                      <topic label="GetEntity" href="a00099.html#add3d05dcf8840bbdb163f79d810691e8"/>
+                      <topic label="SetEnabledStatuses" href="a00099.html#a379a50ceab56685e8fe1c8a8eb7bdba5"/>
+                    </topic>
+                    <topic label="ISubscriber" href="a00100.html">
+                      <topic label="BeginAccess" href="a00100.html#a6c20c5d6b409196095623be1655dadf9"/>
+                      <topic label="CopyFromTopicQos" href="a00100.html#aa449d38a871d6bf4b9a51245ff9730ec"/>
+                      <topic label="CreateDataReader" href="a00100.html#ac38f429e13a864418efb8f50323d92c5"/>
+                      <topic label="CreateDataReader" href="a00100.html#a9b2b93220ffc72b5147446938fa08e08"/>
+                      <topic label="CreateDataReader" href="a00100.html#ab26f0f660aed383221743f3086eb7f4b"/>
+                      <topic label="CreateDataReader" href="a00100.html#aa72f2467cbc0b1c93706bb4070afc941"/>
+                      <topic label="DeleteContainedEntities" href="a00100.html#a09ae1e48f022831026fb3bb8108ddb3e"/>
+                      <topic label="DeleteDataReader" href="a00100.html#a642ccace63ba3e40553b16d1b4af2940"/>
+                      <topic label="EndAccess" href="a00100.html#acdb07090f78f22e72367fbc3b6d9fd9c"/>
+                      <topic label="GetDataReaders" href="a00100.html#ab9965c0c7a9f6267f19aa9db590cf10e"/>
+                      <topic label="GetDataReaders" href="a00100.html#a3641bbb057680f7ea23c1853b24292ce"/>
+                      <topic label="GetDefaultDataReaderQos" href="a00100.html#a30f0e841c66259a39fbe9ddeca33ea94"/>
+                      <topic label="GetQos" href="a00100.html#ab81602996819c3b334e84b84f2bc83b7"/>
+                      <topic label="LookupDataReader" href="a00100.html#a6c87815e84c44a4bbd84e1b6f79115d1"/>
+                      <topic label="NotifyDataReaders" href="a00100.html#aeac161cda306c8d76673997d0421b087"/>
+                      <topic label="SetDefaultDataReaderQos" href="a00100.html#a20bbf1725b0f0bcbe25a05a19384857f"/>
+                      <topic label="SetListener" href="a00100.html#a96d0383c3ef413e2d0a0deaf9efce3c5"/>
+                      <topic label="SetQos" href="a00100.html#aa0c9d8b55d4ee3ad1bb11d5ee2b52bf2"/>
+                      <topic label="Listener" href="a00100.html#a415b27d104f3c0577f8c5cc437cfd31a"/>
+                      <topic label="Participant" href="a00100.html#a10fd47930ddc9cda3396c98b8407328f"/>
+                    </topic>
+                    <topic label="ISubscriberListener" href="a00101.html">
+                      <topic label="OnDataOnReaders" href="a00101.html#a0c8b62a655f4d8079ae8b73b67aa6867"/>
+                    </topic>
+                    <topic label="ITopic" href="a00102.html">
+                      <topic label="GetInconsistentTopicStatus" href="a00102.html#ab6c2c2727878a7b5d3fb3824af3d3a63"/>
+                      <topic label="GetQos" href="a00102.html#adc170c5cff9cb4a02a0acd6da24e2f0d"/>
+                      <topic label="SetListener" href="a00102.html#a5f445b8a20f7f501df0f4a9e705e82a8"/>
+                      <topic label="SetQos" href="a00102.html#a192cf83f1f80983ec141dba01e8e5f11"/>
+                      <topic label="Listener" href="a00102.html#ac7343bc54ef00a9c2f84dd74e2054497"/>
+                    </topic>
+                    <topic label="ITopicDescription" href="a00103.html">
+                      <topic label="Name" href="a00103.html#a79861a00a0ac73d055c6b809d6f9c4b9"/>
+                      <topic label="Participant" href="a00103.html#a504a393160a08a723e8c9555b5355749"/>
+                      <topic label="TypeName" href="a00103.html#ab9a7fc55c34b72044ddef3879785439c"/>
+                    </topic>
+                    <topic label="ITopicListener" href="a00104.html">
+                      <topic label="OnInconsistentTopic" href="a00104.html#aafb4e3c26521a1f97efc21f3f2b8d93f"/>
+                    </topic>
+                    <topic label="ITypeSupport" href="a00105.html">
+                      <topic label="RegisterType" href="a00105.html#ad1007be428fd4be347c3bfe628b2b331"/>
+                      <topic label="KeyList" href="a00105.html#a01e6548ff83d111d1b9ee33168baca5d"/>
+                      <topic label="TypeDescriptor" href="a00105.html#a9d73a9491c5838f3235768b517bd001e"/>
+                      <topic label="TypeName" href="a00105.html#a2f4e6ea3ff6cb8d7dea80ac8264e2398"/>
+                    </topic>
+                    <topic label="IWaitSet" href="a00106.html">
+                      <topic label="AttachCondition" href="a00106.html#a775069496c219baef1e339fa74483cd6"/>
+                      <topic label="DetachCondition" href="a00106.html#a47efc24ee7ece1cfe0e623f04cb9f347"/>
+                      <topic label="GetConditions" href="a00106.html#a136440c5509c7177c9cea43b4f0ecd66"/>
+                      <topic label="Wait" href="a00106.html#a4c91227dee1d2df4baefc22e9a2a0f13"/>
+                    </topic>
+                  </topic>
+                  <topic label="DdsDcpsStructs.cs" href="a00218.html">
+                    <topic label="BuiltinTopicKey" href="a00060.html">
+                      <topic label="Value" href="a00060.html#a7e036cd6d6dab58496c7862e3827b088"/>
+                    </topic>
+                    <topic label="CMDataReaderBuiltinTopicData" href="a00061.html">
+                      <topic label="History" href="a00061.html#a9531ea363e7bd52f2396a265bdcd735c"/>
+                      <topic label="Key" href="a00061.html#a4d788d181665f5524473e14322d38f04"/>
+                      <topic label="Name" href="a00061.html#ad08eea7f2b9c81d23dcc28fafa41c0a0"/>
+                      <topic label="Product" href="a00061.html#aecba525439b9d8d247c1f1e06c533d9d"/>
+                      <topic label="ReaderDataLifecycle" href="a00061.html#aa56a6b6dc5517f88b5e6d5edf7467007"/>
+                      <topic label="ReaderLifespan" href="a00061.html#aa82741d1c85d3b3fcb77ca6bd9417cb4"/>
+                      <topic label="ResourceLimits" href="a00061.html#a37d1373b76379ca4822c52253fc48017"/>
+                      <topic label="share" href="a00061.html#a4060197015485e5ffea35e16793c5034"/>
+                      <topic label="SubscriberKey" href="a00061.html#ac25a4688d645343d56e3f2072019acd0"/>
+                      <topic label="SubscriptionKeys" href="a00061.html#ac3d85505afeb0587dbee723718b64848"/>
+                    </topic>
+                    <topic label="CMDataWriterBuiltinTopicData" href="a00062.html">
+                      <topic label="History" href="a00062.html#ad9bf5b80f24a8bd7d16e9533e45098bc"/>
+                      <topic label="Key" href="a00062.html#af3e6e0b607690de7f22e57e7b57660fb"/>
+                      <topic label="Name" href="a00062.html#a63c580f5734a21f3fb1b16d8e5607833"/>
+                      <topic label="Product" href="a00062.html#ad059876dbb72760edfa6d29de859ca4f"/>
+                      <topic label="PublisherKey" href="a00062.html#a841cf54af376a5231f88b2241b903e07"/>
+                      <topic label="ResourceLimits" href="a00062.html#a6c83a683e076b23389fcbf9debd55220"/>
+                      <topic label="WriterDataLifecycle" href="a00062.html#a0698a5e764025efe5f6eed36f9f5723e"/>
+                    </topic>
+                    <topic label="CMParticipantBuiltinTopicData" href="a00063.html">
+                      <topic label="key" href="a00063.html#a16019f9ea79e68656bc6c0c07e734589"/>
+                      <topic label="product" href="a00063.html#ab87e286afc7b499f42f0b9c6bd0f4cc9"/>
+                    </topic>
+                    <topic label="CMPublisherBuiltinTopicData" href="a00064.html">
+                      <topic label="entity_factory" href="a00064.html#aeadaff3f23bde263d1f0934f47e41447"/>
+                      <topic label="key" href="a00064.html#a1faf92994aacdab807c281ff90159516"/>
+                      <topic label="name" href="a00064.html#a5abb5a1ce1d612996f07651b6f2b7c68"/>
+                      <topic label="participant_key" href="a00064.html#a12d90a38325f05adf3e1517b25e315af"/>
+                      <topic label="partition" href="a00064.html#addada1d6ee98f76f2b0c5ed7cd6a4537"/>
+                      <topic label="product" href="a00064.html#aab80c2071d5db8eefdbc4a8a917a3621"/>
+                    </topic>
+                    <topic label="CMSubscriberBuiltinTopicData" href="a00065.html">
+                      <topic label="EntityFactory" href="a00065.html#a0e4a32f0e31f01181e2dcc83ef470218"/>
+                      <topic label="Key" href="a00065.html#a5877ce4cdd16f89b685402d745929f2b"/>
+                      <topic label="Name" href="a00065.html#ab4dc389c5b0e1f11b37baa3d84759995"/>
+                      <topic label="ParticipantKey" href="a00065.html#aa0f32b0d6f20107b78f088a22eede826"/>
+                      <topic label="Partition" href="a00065.html#ac45fba9fd6b8784fbf7c871f101e75fc"/>
+                      <topic label="Product" href="a00065.html#acb85e255c5e0233cc87788706e177945"/>
+                      <topic label="Share" href="a00065.html#a06ff2a8fd0f89a3f355227b3803c075a"/>
+                    </topic>
+                    <topic label="DataReaderQos" href="a00066.html">
+                      <topic label="Deadline" href="a00066.html#a8e93bd6e2c4aac6f5a523542aaaca096"/>
+                      <topic label="DestinationOrder" href="a00066.html#a5280a3d9ab456ab72e63813dbbefc017"/>
+                      <topic label="Durability" href="a00066.html#a4497ccab5d378369dcf1df80debd97be"/>
+                      <topic label="History" href="a00066.html#ab5abec1852ef8efccd6f18486973c799"/>
+                      <topic label="LatencyBudget" href="a00066.html#aa0475e5c260d21dccfb4f97c45396531"/>
+                      <topic label="Liveliness" href="a00066.html#a646bc1dce6cdea1443f73c98a12d56c3"/>
+                      <topic label="Ownership" href="a00066.html#a9f1554c55c7625689ec8071b7cf8f92f"/>
+                      <topic label="ReaderDataLifecycle" href="a00066.html#a76afcb1f3d224d76691232bf48adf878"/>
+                      <topic label="ReaderLifespan" href="a00066.html#a61cfecb20e248eb99b9da3cbe45fd4b7"/>
+                      <topic label="Reliability" href="a00066.html#ae4ebce8ade1e5ad3e0acb518922f68ad"/>
+                      <topic label="ResourceLimits" href="a00066.html#acfa45b6e85e33b9b876276d32a2e3130"/>
+                      <topic label="Share" href="a00066.html#a77682851c389c307834b79266b0120b0"/>
+                      <topic label="SubscriptionKeys" href="a00066.html#a4255230c5a1a8053f10a67a0684eed14"/>
+                      <topic label="TimeBasedFilter" href="a00066.html#a3f34db7ab94d90f21f01de858403b109"/>
+                      <topic label="UserData" href="a00066.html#a902748692ea85f77e25f42bd5be00364"/>
+                    </topic>
+                    <topic label="DataWriterQos" href="a00067.html">
+                      <topic label="Deadline" href="a00067.html#a4fc6b7187f6415a78cb6c4ae28fa89ae"/>
+                      <topic label="DestinationOrder" href="a00067.html#af69b7d0a6022d43c1f6eb5b5c10ae1b5"/>
+                      <topic label="Durability" href="a00067.html#a039d4427ccf9133e3e51ab3f58c2a763"/>
+                      <topic label="History" href="a00067.html#aa419ea7c93acb97870281e76ef74f9fe"/>
+                      <topic label="LatencyBudget" href="a00067.html#a88a67e7a9c01583ccd892d19ce3141ab"/>
+                      <topic label="Lifespan" href="a00067.html#ab82bcd3974e3aa106618f585056da50b"/>
+                      <topic label="Liveliness" href="a00067.html#a90253f31d3926fc359ce717d43c25c7b"/>
+                      <topic label="Ownership" href="a00067.html#a3c2b21e12f944ec7e9d3f206a7dbdaa0"/>
+                      <topic label="OwnershipStrength" href="a00067.html#ae2f89537f150183d6dcc2ff285488e4e"/>
+                      <topic label="Reliability" href="a00067.html#a790a65c8fa1407f85043770cb23898c9"/>
+                      <topic label="ResourceLimits" href="a00067.html#a1f5609741108426c9cb7b3304c7715c6"/>
+                      <topic label="TransportPriority" href="a00067.html#a9f9fed6421c6f21ccc57e0c978721944"/>
+                      <topic label="UserData" href="a00067.html#a3cec9c4ad2fb1226764a48d1188d7337"/>
+                      <topic label="WriterDataLifecycle" href="a00067.html#a3a0068e8534135493feb46bd89c11850"/>
+                    </topic>
+                    <topic label="DeadlineQosPolicy" href="a00068.html">
+                      <topic label="Period" href="a00068.html#a2c4ee945c03970326dda81b224332769"/>
+                    </topic>
+                    <topic label="DestinationOrderQosPolicy" href="a00069.html">
+                      <topic label="Kind" href="a00069.html#a48210da00c018759780b4e81071fc908"/>
+                    </topic>
+                    <topic label="DomainId" href="a00070.html">
+                      <topic label="DomainId" href="a00070.html#a32572996f8e2512b70320420fef7c4bc"/>
+                      <topic label="Equals" href="a00070.html#a69abae25a982166ccbdeee1dc7aa4b22"/>
+                      <topic label="GetHashCode" href="a00070.html#a2bbf0fa8e000d69e271b862a5b33c178"/>
+                      <topic label="operator DomainId" href="a00070.html#acf0d06ebad3c53565e3b7de5060fd3bd"/>
+                      <topic label="operator int" href="a00070.html#a7132ae542e348853ca8a84103c116276"/>
+                      <topic label="operator!=" href="a00070.html#acc0e11b5d2df9b11309a29de7f53b4d1"/>
+                      <topic label="operator==" href="a00070.html#a1990f043ffbf9d0353e46cea92287687"/>
+                      <topic label="ToInt32" href="a00070.html#aeb00d7fdb8663885796118fcc6f29872"/>
+                      <topic label="ToString" href="a00070.html#a42979797aa424113efb4692273677d85"/>
+                      <topic label="ToString" href="a00070.html#a10ad0ad94654f44bf74f09f65689c0b5"/>
+                      <topic label="Default" href="a00070.html#a0473020f666d23469f0007e19dd5f242"/>
+                      <topic label="Invalid" href="a00070.html#acb23039df556be466e12fa7860f88237"/>
+                    </topic>
+                    <topic label="DomainParticipantFactoryQos" href="a00072.html">
+                      <topic label="EntityFactory" href="a00072.html#a66eaf7ce1bcaf178a216050648fbfa8a"/>
+                    </topic>
+                    <topic label="DomainParticipantQos" href="a00073.html">
+                      <topic label="EntityFactory" href="a00073.html#a16a83969909d6020fc41aeff026906f7"/>
+                      <topic label="ListenerScheduling" href="a00073.html#a38a61a59dcaa44f23ad9ddcd90db75ab"/>
+                      <topic label="UserData" href="a00073.html#a0d90784611c48ee2be35a1e342974de7"/>
+                      <topic label="WatchdogScheduling" href="a00073.html#a12f33563ca7c5405353498d834a7492c"/>
+                    </topic>
+                    <topic label="DurabilityQosPolicy" href="a00074.html">
+                      <topic label="Kind" href="a00074.html#aaf8b6f48444065e285c678f857f7ae07"/>
+                    </topic>
+                    <topic label="DurabilityServiceQosPolicy" href="a00075.html">
+                      <topic label="HistoryDepth" href="a00075.html#ad14541558d86bdc029d22a644443e7ce"/>
+                      <topic label="HistoryKind" href="a00075.html#a2d5ceb9be0247c4bbe17bc0f09bc68c0"/>
+                      <topic label="MaxInstances" href="a00075.html#a3ea02d9cbad5b92d2901ada4502cf286"/>
+                      <topic label="MaxSamples" href="a00075.html#a82a7c7549405069ab7408678fce02d6d"/>
+                      <topic label="MaxSamplesPerInstance" href="a00075.html#a08c4fb5cea29404573fad58b30f2801c"/>
+                      <topic label="ServiceCleanupDelay" href="a00075.html#ab6b3d3073f0d298a79819aee734ee481"/>
+                    </topic>
+                    <topic label="Duration" href="a00076.html">
+                      <topic label="Duration" href="a00076.html#a860960124211e4f75a656ae055b4104d"/>
+                      <topic label="Equals" href="a00076.html#ab35ce1b3428412b90474f0a6956f3083"/>
+                      <topic label="FromMilliseconds" href="a00076.html#a0d610a798888d99add270421efaadfd4"/>
+                      <topic label="FromTimeSpan" href="a00076.html#a8beafd588608c7834879e643c40299e2"/>
+                      <topic label="GetHashCode" href="a00076.html#aa1d49fd4f9eb5b3f0475fd604b259652"/>
+                      <topic label="operator!=" href="a00076.html#af94d6d0d8afda387ab61990b5b4e73e3"/>
+                      <topic label="operator==" href="a00076.html#a6640a97904d313cc25af082b21a7f1c6"/>
+                      <topic label="ToString" href="a00076.html#aababaf826dfa9c316e9854099207a646"/>
+                      <topic label="Infinite" href="a00076.html#a4b6311961516bc27d8a52a904691551c"/>
+                      <topic label="Zero" href="a00076.html#adac8f2dc146cb9ce5a1bf6c461c1b7c6"/>
+                      <topic label="NanoSec" href="a00076.html#a4b5fea80c262e6ce6d77b96b2bc9ddf4"/>
+                      <topic label="Sec" href="a00076.html#a491a04dd6a6ff0eeb909a72bc52d177f"/>
+                    </topic>
+                    <topic label="EntityFactoryQosPolicy" href="a00077.html">
+                      <topic label="AutoEnableCreatedEntities" href="a00077.html#a7b3444596bc18e50e11089d474ff0985"/>
+                    </topic>
+                    <topic label="GroupDataQosPolicy" href="a00078.html">
+                      <topic label="Value" href="a00078.html#a1f886e86ac3bb5850f28a51a22b208fe"/>
+                    </topic>
+                    <topic label="HistoryQosPolicy" href="a00079.html">
+                      <topic label="Depth" href="a00079.html#a127e30407b7bd38aea387cfdcdd08411"/>
+                      <topic label="Kind" href="a00079.html#a1864faea82ea340a51ca58e7ebc9c3bc"/>
+                    </topic>
+                    <topic label="InconsistentTopicStatus" href="a00092.html">
+                      <topic label="TotalCount" href="a00092.html#a3f80dc699082d722c86c982562f191fd"/>
+                      <topic label="TotalCountChange" href="a00092.html#a1cd058165e1a6616517daac2b2cb720e"/>
+                    </topic>
+                    <topic label="InstanceHandle" href="a00093.html">
+                      <topic label="InstanceHandle" href="a00093.html#a62936d0ce3f78bbbd5d32dbe75bf64da"/>
+                      <topic label="Equals" href="a00093.html#a37407fb38bfba5471c29be1cf4f1669b"/>
+                      <topic label="GetHashCode" href="a00093.html#a24b1f81a36fddb01660b75e5829d0fb7"/>
+                      <topic label="operator InstanceHandle" href="a00093.html#a32233d852cad79e48304965695fdcaa3"/>
+                      <topic label="operator long" href="a00093.html#a8815a541a1579342fd83d0a8c16b2465"/>
+                      <topic label="operator!=" href="a00093.html#acce9f812d68400084d8a115d7e851c64"/>
+                      <topic label="operator==" href="a00093.html#ad4138edd20f3af65692e41350a22008f"/>
+                      <topic label="ToInt64" href="a00093.html#a666da76aba940e5dc7e29ad07abf5ae9"/>
+                      <topic label="ToString" href="a00093.html#a7e925552d5058f0cd309fe46800f8eae"/>
+                      <topic label="ToString" href="a00093.html#a6dd841c19bd492b1f147b08d745e696a"/>
+                      <topic label="Nil" href="a00093.html#a653c0c26204c31fd87572d9475b41b3e"/>
+                    </topic>
+                    <topic label="InvalidSampleVisibilityQosPolicy" href="a00094.html">
+                      <topic label="Kind" href="a00094.html#af1d3791ce808b62e6de1a4e3e12fdb61"/>
+                    </topic>
+                    <topic label="LatencyBudgetQosPolicy" href="a00107.html">
+                      <topic label="Duration" href="a00107.html#a3bfa8e7b6bce8fb79adb3dbcc486bb92"/>
+                    </topic>
+                    <topic label="Length" href="a00108.html">
+                      <topic label="Unlimited" href="a00108.html#a238380ad48e58acd2d8a616cd5349ac2"/>
+                    </topic>
+                    <topic label="LifespanQosPolicy" href="a00109.html">
+                      <topic label="Duration" href="a00109.html#a681d5566c60455873bc196dec8f08dea"/>
+                    </topic>
+                    <topic label="LivelinessChangedStatus" href="a00110.html">
+                      <topic label="AliveCount" href="a00110.html#a5d2412b7bdf83a7fdfd4469cf2bc9ec3"/>
+                      <topic label="AliveCountChange" href="a00110.html#ab81170e46b3e85c366b615822ad99284"/>
+                      <topic label="LastPublicationHandle" href="a00110.html#a0bdebf39be2640e27cf82082dc55e1b7"/>
+                      <topic label="NotAliveCount" href="a00110.html#ad22faaf1e40dbe5accb371f302272774"/>
+                      <topic label="NotAliveCountChange" href="a00110.html#ac758fb003df250e6db0e1b61f42ad2ba"/>
+                    </topic>
+                    <topic label="LivelinessLostStatus" href="a00111.html">
+                      <topic label="TotalCount" href="a00111.html#adad37b15a444f1c664e20c59f63d2b64"/>
+                      <topic label="TotalCountChange" href="a00111.html#a2232afb94bd42bfc0653b8bdd3c27e8b"/>
+                    </topic>
+                    <topic label="LivelinessQosPolicy" href="a00112.html">
+                      <topic label="Kind" href="a00112.html#a819d4c34ebb26278ccceb4e864e548c7"/>
+                      <topic label="LeaseDuration" href="a00112.html#afcb7b3572c49182a20232c2ea46e77c6"/>
+                    </topic>
+                    <topic label="OfferedDeadlineMissedStatus" href="a00113.html">
+                      <topic label="LastInstanceHandle" href="a00113.html#a10cbb548c16cbc66f2ab7a1fa4231657"/>
+                      <topic label="TotalCount" href="a00113.html#aa3205fc5e73015a8ef73ae7dbd4838cc"/>
+                      <topic label="TotalCountChange" href="a00113.html#abe58b4f74eb4a3051e22c21cb5cec4ad"/>
+                    </topic>
+                    <topic label="OfferedIncompatibleQosStatus" href="a00114.html">
+                      <topic label="LastPolicyId" href="a00114.html#a85d391c5ac616499664bed4ff5702e87"/>
+                      <topic label="Policies" href="a00114.html#a3625237f97f6c8d6d1ae0a8334ce6f0d"/>
+                      <topic label="TotalCount" href="a00114.html#a72708f14391e4c6c96f39526f2cd7ba1"/>
+                      <topic label="TotalCountChange" href="a00114.html#af558f5dba56a27e0962fa19baddcbe23"/>
+                    </topic>
+                    <topic label="OwnershipQosPolicy" href="a00115.html">
+                      <topic label="Kind" href="a00115.html#a55fe6a1d98ea42483faad3513cf5e5a0"/>
+                    </topic>
+                    <topic label="OwnershipStrengthQosPolicy" href="a00116.html">
+                      <topic label="Value" href="a00116.html#a54e32698a088d9ffb73cc4241fe1f700"/>
+                    </topic>
+                    <topic label="ParticipantBuiltinTopicData" href="a00117.html">
+                      <topic label="Key" href="a00117.html#a9b50bfef5d47295c04d6fde6612746e2"/>
+                      <topic label="UserData" href="a00117.html#a49a1608202347ff53b8ab1ac3ba5b08d"/>
+                    </topic>
+                    <topic label="PartitionQosPolicy" href="a00118.html">
+                      <topic label="Name" href="a00118.html#a1d3ef8af00f0834aab220d0e14989bb3"/>
+                    </topic>
+                    <topic label="PresentationQosPolicy" href="a00119.html">
+                      <topic label="AccessScope" href="a00119.html#aca11c5070b0ad0b72a39042e3fcd51c0"/>
+                      <topic label="CoherentAccess" href="a00119.html#adcca9f75eee249e41cb084f693ecf053"/>
+                      <topic label="OrderedAccess" href="a00119.html#aa1869f8d1eae447977a637587403a401"/>
+                    </topic>
+                    <topic label="ProductDataQosPolicy" href="a00120.html">
+                      <topic label="Value" href="a00120.html#ad9082ac995dbe9a2dc7aa0ef0b38b661"/>
+                    </topic>
+                    <topic label="Property" href="a00121.html">
+                      <topic label="Property" href="a00121.html#a964ba2ef6e6b85c263ac9450f92dac18"/>
+                      <topic label="Name" href="a00121.html#a1893c710b486ac2e0f1d363076c65b49"/>
+                      <topic label="Value" href="a00121.html#a2693ad13686500383bb5a28989a1dc83"/>
+                    </topic>
+                    <topic label="PublicationBuiltinTopicData" href="a00122.html">
+                      <topic label="Deadline" href="a00122.html#ae1b464c2decffab088433f530a685b9d"/>
+                      <topic label="Durability" href="a00122.html#aab6224e803393b00a55226975411bd24"/>
+                      <topic label="GroupData" href="a00122.html#a268ed09b53c1435d85d0a6048efa4858"/>
+                      <topic label="Key" href="a00122.html#aa133c98d6ab5070417fb678c7426fb59"/>
+                      <topic label="LatencyBudget" href="a00122.html#aae5d7d3a5016aa8bffe6cf639b394001"/>
+                      <topic label="Lifespan" href="a00122.html#a69d1d76d592849c8c111dd79e273a195"/>
+                      <topic label="Liveliness" href="a00122.html#a873e98814dbb06b5af8a71df08b3a184"/>
+                      <topic label="Ownership" href="a00122.html#aba8c0c891e122a5610617af7247fd570"/>
+                      <topic label="OwnershipStrength" href="a00122.html#a5cbfb3ccdbdcb211a6ce774417830799"/>
+                      <topic label="ParticipantKey" href="a00122.html#a23f418873d283c8486a476e0d30fbfa8"/>
+                      <topic label="Partition" href="a00122.html#a7396ce9509eb370cb69d0cf015faee28"/>
+                      <topic label="Presentation" href="a00122.html#a5420401521979fdba3cf408047324a8e"/>
+                      <topic label="Reliability" href="a00122.html#a8f11f310caf850c197d92fb5bd58644f"/>
+                      <topic label="TopicData" href="a00122.html#a7e7de5a6ba958b0b74817737be3eafe5"/>
+                      <topic label="TopicName" href="a00122.html#ad70140ea23c43d5d85b2167b56097ce1"/>
+                      <topic label="TypeName" href="a00122.html#a787cab75af5e295ec7a75e723b905cd1"/>
+                      <topic label="UserData" href="a00122.html#a8655866c421882d7387c00c3c2cdcd92"/>
+                    </topic>
+                    <topic label="PublicationMatchedStatus" href="a00123.html">
+                      <topic label="CurrentCount" href="a00123.html#a72970fc8688a2e2ac17f12d9b4fc85ce"/>
+                      <topic label="CurrentCountChange" href="a00123.html#ab09e76abff73fe5b6be9d90db921757e"/>
+                      <topic label="LastSubscriptionHandle" href="a00123.html#ab8ce7e597a541110fcb1a9430614667a"/>
+                      <topic label="TotalCount" href="a00123.html#a03da8a52b11053d687268c675dda44ce"/>
+                      <topic label="TotalCountChange" href="a00123.html#a76c0975a44b74d30cc73999b5d946050"/>
+                    </topic>
+                    <topic label="PublisherQos" href="a00124.html">
+                      <topic label="EntityFactory" href="a00124.html#a0ed51adce825f0f70d9316439d191cc6"/>
+                      <topic label="GroupData" href="a00124.html#a5b606a07b6883aea95f89303121fe7aa"/>
+                      <topic label="Partition" href="a00124.html#a1490b1f92936a3bbadc4f36a828906a1"/>
+                      <topic label="Presentation" href="a00124.html#a2e9973ad9730f7669a03f3b4d2a819d7"/>
+                    </topic>
+                    <topic label="QosPolicyCount" href="a00125.html">
+                      <topic label="Count" href="a00125.html#a365cd0c952b7135f26620a55b07fa028"/>
+                      <topic label="PolicyId" href="a00125.html#a0392d995586bcf16d2022a413c53bd02"/>
+                    </topic>
+                    <topic label="QosPolicyName" href="a00126.html">
+                      <topic label="Deadline" href="a00126.html#a5d078cfd412a6f40e75bcbb8d5705afa"/>
+                      <topic label="DestinationOrder" href="a00126.html#afaff68fd02b2eeca85667d0471a36adb"/>
+                      <topic label="Durability" href="a00126.html#a99cc6d761faf76804f437bfe854e7de3"/>
+                      <topic label="DurabilityService" href="a00126.html#a9b2e8eb751836f3f9cf23e4768d610de"/>
+                      <topic label="EntityFactory" href="a00126.html#a61e9ac4499d349e2039265d43bcfaf7e"/>
+                      <topic label="GroupData" href="a00126.html#ab491e1451199fd154ab217445ed9956e"/>
+                      <topic label="History" href="a00126.html#af7daf39021252c9440168ae105a68c50"/>
+                      <topic label="LatencyBudget" href="a00126.html#afac1b1ec109e38a571d662b6eaecacea"/>
+                      <topic label="Lifespan" href="a00126.html#a411c92388e4303257cf81dd4fbf02ae6"/>
+                      <topic label="Liveliness" href="a00126.html#a9fb0ada0e7fbd8bbd4a46589cc8f9552"/>
+                      <topic label="Ownership" href="a00126.html#ae155ac4bf69d333567424a64cb1e6b7f"/>
+                      <topic label="OwnershipStrength" href="a00126.html#a569d6dab21e4a04d6affe2e4eff597dc"/>
+                      <topic label="Partition" href="a00126.html#ad1414f10283024025acbc03a30c9624d"/>
+                      <topic label="Presentation" href="a00126.html#ab56359fd47d7d6bc5252ca614ca61862"/>
+                      <topic label="ReaderDataLifecycle" href="a00126.html#ad7b5bfe67f0d34bc310d6fa971221d79"/>
+                      <topic label="Reliability" href="a00126.html#adddc63a6b6b68ca55fb972f8fd1dc3d5"/>
+                      <topic label="ResourceLimits" href="a00126.html#a4983f6ebbb54ae1516630713fbeb3766"/>
+                      <topic label="Scheduling" href="a00126.html#a45aef91f80c41224d786976759284457"/>
+                      <topic label="TimeBasedFilter" href="a00126.html#a6f22c6d2b34f3522b93e9c071c9acb5a"/>
+                      <topic label="TopicData" href="a00126.html#aeebb8681ea1f3eef5e0a2adb11d8bde6"/>
+                      <topic label="TransportPriority" href="a00126.html#a6f226c093e491db30c8db3636d9fad91"/>
+                      <topic label="UserData" href="a00126.html#abd5293ec16ea94bbd483d0330cdc73c1"/>
+                      <topic label="WriterDataLifecycle" href="a00126.html#a58fb2a70201a1ba42248b3defd1419d9"/>
+                    </topic>
+                    <topic label="ReaderDataLifecycleQosPolicy" href="a00128.html">
+                      <topic label="AutopurgeDisposeAll" href="a00128.html#a499ead48f5542b1a825b6c4bad7b1fd8"/>
+                      <topic label="AutoPurgeDisposedSamplesDelay" href="a00128.html#a4c4ccd4f1d8a25220c01118ef1282d43"/>
+                      <topic label="AutoPurgeNoWriterSamplesDelay" href="a00128.html#a6b4d215d5f19dc0fd35680f29e7f1555"/>
+                      <topic label="EnableInvalidSamples" href="a00128.html#aa4bc8cfebe9426340ca78b4660abd1e8"/>
+                      <topic label="InvalidSampleVisibility" href="a00128.html#ab2d2aeea2faaa5ef37478292d32bf259"/>
+                    </topic>
+                    <topic label="ReaderLifespanQosPolicy" href="a00129.html">
+                      <topic label="Duration" href="a00129.html#abe8a86ae6e6e70a5080601ba1469da9e"/>
+                      <topic label="UseLifespan" href="a00129.html#ae8f7bb37b81f6c26b92db91a0d02d67a"/>
+                    </topic>
+                    <topic label="ReliabilityQosPolicy" href="a00130.html">
+                      <topic label="Kind" href="a00130.html#a44c5af25716440f7f6eb6a38859c3f37"/>
+                      <topic label="MaxBlockingTime" href="a00130.html#ae84c09da3c407230b58884429437877b"/>
+                      <topic label="synchronous" href="a00130.html#a19bc645c52450ba85187105a2703f0f3"/>
+                    </topic>
+                    <topic label="RequestedDeadlineMissedStatus" href="a00131.html">
+                      <topic label="LastInstanceHandle" href="a00131.html#aa06e9a3465f902e12f4f42b3e2ce8c8e"/>
+                      <topic label="TotalCount" href="a00131.html#a225863a0a7ca87c831d830f06f563e86"/>
+                      <topic label="TotalCountChange" href="a00131.html#aecbddd4dc25b3d7bfde32ee54c1998db"/>
+                    </topic>
+                    <topic label="RequestedIncompatibleQosStatus" href="a00132.html">
+                      <topic label="LastPolicyId" href="a00132.html#a0376f2515dc43894ccea836e678a74f5"/>
+                      <topic label="Policies" href="a00132.html#a9016b65c841a7693500405331ccebec9"/>
+                      <topic label="TotalCount" href="a00132.html#a3edb70ec4801c51baf8121bb4307d488"/>
+                      <topic label="TotalCountChange" href="a00132.html#a83399465678634628d8a8a1f7d08cabf"/>
+                    </topic>
+                    <topic label="ResourceLimitsQosPolicy" href="a00133.html">
+                      <topic label="MaxInstances" href="a00133.html#ad68cdc13cf40267f2180af249e62111e"/>
+                      <topic label="MaxSamples" href="a00133.html#a90f38fe2000910ea9655ec67fa739314"/>
+                      <topic label="MaxSamplesPerInstance" href="a00133.html#ae2b674cf7c656048382dc5bf9ff5cad2"/>
+                    </topic>
+                    <topic label="SampleInfo" href="a00134.html">
+                      <topic label="AbsoluteGenerationRank" href="a00134.html#a6276b8dae2611effde1653d37a28f471"/>
+                      <topic label="DisposedGenerationCount" href="a00134.html#a1875a4935db8ac252d747ac86db13bcd"/>
+                      <topic label="GenerationRank" href="a00134.html#a220653a437c4d69cfb81edee06b8c8dc"/>
+                      <topic label="InstanceHandle" href="a00134.html#af89d5cda5414d4ec05e03541c938488c"/>
+                      <topic label="InstanceState" href="a00134.html#a6adddf3e2955b10cd00dc2e908109cbf"/>
+                      <topic label="NoWritersGenerationCount" href="a00134.html#ae79c9b1d3038b205cc0deee1fe0a633e"/>
+                      <topic label="PublicationHandle" href="a00134.html#a427be3c214f312df53b140f067198e31"/>
+                      <topic label="ReceptionTimestamp" href="a00134.html#a1842d828c73fd4f443ebc0f07b1eb7e9"/>
+                      <topic label="SampleRank" href="a00134.html#a9870b04d550ada3b7bf8b05690807ebd"/>
+                      <topic label="SampleState" href="a00134.html#a81279f13f821b553a4d32724db1de852"/>
+                      <topic label="SourceTimestamp" href="a00134.html#aef2425bcf9aef45150b232a2504e1e91"/>
+                      <topic label="ValidData" href="a00134.html#ac4bd00bbc0e196e34af5033831d29839"/>
+                      <topic label="ViewState" href="a00134.html#a4c26f92791a404761667e87458105a4e"/>
+                    </topic>
+                    <topic label="SampleLostStatus" href="a00135.html">
+                      <topic label="TotalCount" href="a00135.html#a995641908f4140f2810c5d9d73a983ec"/>
+                      <topic label="TotalCountChange" href="a00135.html#ad5e5bf0e3b6e87d69b80c587272a3da4"/>
+                    </topic>
+                    <topic label="SampleRejectedStatus" href="a00136.html">
+                      <topic label="LastInstanceHandle" href="a00136.html#af3a8ab7ee9901fe08bbd3ec5373033bb"/>
+                      <topic label="LastReason" href="a00136.html#a723f7863b7e6703e069a2939e8b97be3"/>
+                      <topic label="TotalCount" href="a00136.html#a9adaf331a54fcec4237b034553483c27"/>
+                      <topic label="TotalCountChange" href="a00136.html#a8e59b249e8b894c7412fa85fdccd3984"/>
+                    </topic>
+                    <topic label="SchedulingClassQosPolicy" href="a00137.html">
+                      <topic label="Kind" href="a00137.html#aa56b00adfd6a5297b3932da6ca768749"/>
+                    </topic>
+                    <topic label="SchedulingPriorityQosPolicy" href="a00138.html">
+                      <topic label="Kind" href="a00138.html#a328270f41a64474bcc6c916b53c0fefb"/>
+                    </topic>
+                    <topic label="SchedulingQosPolicy" href="a00139.html">
+                      <topic label="SchedulingClass" href="a00139.html#a2c2d23e51d9007d3b790b5f8254811c7"/>
+                      <topic label="SchedulingPriority" href="a00139.html#affdf55ac2eb699e0bd15a6ec7afcf18a"/>
+                      <topic label="SchedulingPriorityKind" href="a00139.html#a4f361f7ad7f5ac579c9dd786d119b056"/>
+                    </topic>
+                    <topic label="ShareQosPolicy" href="a00140.html">
+                      <topic label="Enable" href="a00140.html#ac321ac72a692f0f6e67dbab5924a6b12"/>
+                      <topic label="Name" href="a00140.html#a0ba9789947f7cea322854f679094e81e"/>
+                    </topic>
+                    <topic label="SubscriberQos" href="a00141.html">
+                      <topic label="EntityFactory" href="a00141.html#a55147689f8ab915c5f2603cf69be7442"/>
+                      <topic label="GroupData" href="a00141.html#aba9b8f22fc0545e8e112a090487522d4"/>
+                      <topic label="Partition" href="a00141.html#aa8eb5139b22a23400f690f203a6078fa"/>
+                      <topic label="Presentation" href="a00141.html#a5fa1cff9b9cbd088593ba2786001a716"/>
+                      <topic label="Share" href="a00141.html#a82b2331cd8da3a40347f08469b4e0c4e"/>
+                    </topic>
+                    <topic label="SubscriptionBuiltinTopicData" href="a00142.html">
+                      <topic label="Deadline" href="a00142.html#ab3017827113477ca79d51bba3df52c5a"/>
+                      <topic label="DestinationOrder" href="a00142.html#a160727954f687a06a3a671333062ca66"/>
+                      <topic label="Durability" href="a00142.html#aada7a19780f3559dfd10c3d3ca723c51"/>
+                      <topic label="GroupData" href="a00142.html#a18939eddd33f4b23a3b6a6a9350ba221"/>
+                      <topic label="Key" href="a00142.html#a59109dcf118de43a4ed09fe104ebaa69"/>
+                      <topic label="LatencyBudget" href="a00142.html#aff7d4b0f459953879c8f0b239eff13f7"/>
+                      <topic label="Liveliness" href="a00142.html#a3dbbd2895f1475c257d35f452baa8c1e"/>
+                      <topic label="Ownership" href="a00142.html#a58babb3048d3c3d0d518da9d89573199"/>
+                      <topic label="ParticipantKey" href="a00142.html#ac853e67352734f89326acbc78a7e86e3"/>
+                      <topic label="Partition" href="a00142.html#a840ebd9c3282cd7dfd696be0adfe9778"/>
+                      <topic label="Presentation" href="a00142.html#ad992970ff038e1e5877597180b1e376c"/>
+                      <topic label="Reliability" href="a00142.html#ae1d1382338e3e842f8e56d4a881364fa"/>
+                      <topic label="TimeBasedFilter" href="a00142.html#a75aadfb568f6c5a0d07da0d0a726dba7"/>
+                      <topic label="TopicData" href="a00142.html#a8d16c910019e209dc600e2132ef90190"/>
+                      <topic label="TopicName" href="a00142.html#abd4338d29082f5e0b0b0befe237959ab"/>
+                      <topic label="TypeName" href="a00142.html#a5048fa39ec09f8df78e602f568345fe5"/>
+                      <topic label="UserData" href="a00142.html#adee6ecb3baa2ecd92138dcfe918bab78"/>
+                    </topic>
+                    <topic label="SubscriptionKeyQosPolicy" href="a00143.html">
+                      <topic label="KeyList" href="a00143.html#a5b9fc587a010e8903ffefbc023bfd654"/>
+                      <topic label="UseKeyList" href="a00143.html#a9f125458517e5e7fd22f49806d09304d"/>
+                    </topic>
+                    <topic label="SubscriptionMatchedStatus" href="a00144.html">
+                      <topic label="CurrentCount" href="a00144.html#a6d433c509d8860bd88a248007b749450"/>
+                      <topic label="CurrentCountChange" href="a00144.html#ada7a2df24e51a8e2a04af0eaec63fcd2"/>
+                      <topic label="LastPublicationHandle" href="a00144.html#a4d270f36a57e6c80de5555afffa7c5fd"/>
+                      <topic label="TotalCount" href="a00144.html#a6cda034067e33ffe740d9942471725d1"/>
+                      <topic label="TotalCountChange" href="a00144.html#ace9e77b963ddb2b383255a8ff1eb11bd"/>
+                    </topic>
+                    <topic label="Time" href="a00145.html">
+                      <topic label="Time" href="a00145.html#ac23cebb5310a0cbd265f63bb22f1c4dd"/>
+                      <topic label="Equals" href="a00145.html#ad4d614c59c05cff9cb3453bfeac75cf4"/>
+                      <topic label="FromDateTime" href="a00145.html#a28a1d8eb28599a7e8c1f214aa7866e4c"/>
+                      <topic label="GetHashCode" href="a00145.html#aedfc5d5cef137eb40fcaf49436134238"/>
+                      <topic label="operator!=" href="a00145.html#a292860e8332c29d3135ee5157fd69181"/>
+                      <topic label="operator&lt;" href="a00145.html#a8faad03a3eecffcc0e028d2e241de4e1"/>
+                      <topic label="operator&lt;=" href="a00145.html#ae86acd9038a65fd0fb32c8da8369995e"/>
+                      <topic label="operator==" href="a00145.html#a80f7aad29d1e86dabb62d13b0574cb7d"/>
+                      <topic label="operator&gt;" href="a00145.html#aa11e88ca04ec421d6d6995a1e71edb61"/>
+                      <topic label="operator&gt;=" href="a00145.html#ac6ddc30025287b894d9d32f9ca4f6cf9"/>
+                      <topic label="ToDatetime" href="a00145.html#a44ae760bfff9a1a470818e1142be16b6"/>
+                      <topic label="ToString" href="a00145.html#ab1f257a36b6c25c10c7f1e5a5be7f626"/>
+                      <topic label="Current" href="a00145.html#aba1e11dcc6ff800989bd91980fb10810"/>
+                      <topic label="Invalid" href="a00145.html#ac33bd06a3cecc55d8418a662b9c435ca"/>
+                      <topic label="Zero" href="a00145.html#afa5ac7704cf4e0eb8bb8e318a8f3ba4e"/>
+                      <topic label="NanoSec" href="a00145.html#ac08c2647befa6ff963802f66ce7bff3f"/>
+                      <topic label="Sec" href="a00145.html#a3eeb9aa25496b8dc9d1363a1f798f7f2"/>
+                    </topic>
+                    <topic label="TimeBasedFilterQosPolicy" href="a00146.html">
+                      <topic label="MinimumSeparation" href="a00146.html#a8ff3c27fcb18854bea49bc41a2cfcb78"/>
+                    </topic>
+                    <topic label="TopicBuiltinTopicData" href="a00147.html">
+                      <topic label="Deadline" href="a00147.html#a0c2dc63cb12d99f8933c340f730bac7c"/>
+                      <topic label="DestinationOrder" href="a00147.html#a4084de9ba88e3629120390d7e1246528"/>
+                      <topic label="Durability" href="a00147.html#ac4008258cd1d47869af39278d9501115"/>
+                      <topic label="DurabilityService" href="a00147.html#ae2fd4079f9c368d30e6fe0b1ba84a828"/>
+                      <topic label="History" href="a00147.html#a4bf00b61f145af2024f0dfa49f474ac7"/>
+                      <topic label="Key" href="a00147.html#a64cbe9d4ce598141df5bb84cc81b753c"/>
+                      <topic label="LatencyBudget" href="a00147.html#a1340bd79b20d3fb041bacbd77adb8b01"/>
+                      <topic label="Lifespan" href="a00147.html#a22f9b8bb39a5233a06488a982791e170"/>
+                      <topic label="Liveliness" href="a00147.html#a2dda79103779b58f843775d8c5e65769"/>
+                      <topic label="Name" href="a00147.html#aa142380d876492f515daa9dc2b65654c"/>
+                      <topic label="Ownership" href="a00147.html#ab84b96bd60e8b5a153758debd769e3c5"/>
+                      <topic label="Reliability" href="a00147.html#a9d5eab8376428d9f8caecb0ef14530f8"/>
+                      <topic label="ResourceLimits" href="a00147.html#a673831aa91fa480021f0ea7abdae08e4"/>
+                      <topic label="TopicData" href="a00147.html#aa5180eef46b91a359ac9195aa4890e36"/>
+                      <topic label="TransportPriority" href="a00147.html#aa21ebc4df5548c89e2ce778c77f0f024"/>
+                      <topic label="TypeName" href="a00147.html#af36df4245188854453b4a647a796a06a"/>
+                    </topic>
+                    <topic label="TopicDataQosPolicy" href="a00148.html">
+                      <topic label="Value" href="a00148.html#a955f8762d8b58cc9a8d6dfc884b1473a"/>
+                    </topic>
+                    <topic label="TopicQos" href="a00149.html">
+                      <topic label="Deadline" href="a00149.html#a98ef1c539ec0baeff97bac997c2b938d"/>
+                      <topic label="DestinationOrder" href="a00149.html#a384569e69051520c3dc7af5ea688e144"/>
+                      <topic label="Durability" href="a00149.html#a8aaf42435db4aebd72a76de59fe4a1b3"/>
+                      <topic label="DurabilityService" href="a00149.html#ab24f87dce7dd173e676777e1cb8ee4fa"/>
+                      <topic label="History" href="a00149.html#a1b305e51687787548650e85614b39254"/>
+                      <topic label="LatencyBudget" href="a00149.html#ae171141550ebf0ec8cf13e6a9dc95d59"/>
+                      <topic label="Lifespan" href="a00149.html#a1b2a0c4b5f25e933d6989841334dd888"/>
+                      <topic label="Liveliness" href="a00149.html#a7658f8a405ba82635135ea23c150919b"/>
+                      <topic label="Ownership" href="a00149.html#ae2c5aa2cfa990477877f76234e52f308"/>
+                      <topic label="Reliability" href="a00149.html#ac10cbfc2e7157bca0fc18251468a2a24"/>
+                      <topic label="ResourceLimits" href="a00149.html#a2769cfb8b32c4da3dbe367bf69c89541"/>
+                      <topic label="TopicData" href="a00149.html#ac1c49d8f0f7ae36773989eead0632279"/>
+                      <topic label="TransportPriority" href="a00149.html#a8cfd654c12f5e4b0c4629138908f5611"/>
+                    </topic>
+                    <topic label="TransportPriorityQosPolicy" href="a00150.html">
+                      <topic label="Value" href="a00150.html#a249fe59126cc7477145a551b6006759c"/>
+                    </topic>
+                    <topic label="UserDataQosPolicy" href="a00151.html">
+                      <topic label="Value" href="a00151.html#af7cc07d3d2d72d0247d9b66103304fe9"/>
+                    </topic>
+                    <topic label="UserKeyQosPolicy" href="a00152.html">
+                      <topic label="Enable" href="a00152.html#adfb443058eda7bbc53b8b13fafc48c84"/>
+                      <topic label="Expression" href="a00152.html#a1fa3648813be18b5688b3b912e397bcc"/>
+                    </topic>
+                    <topic label="WriterDataLifecycleQosPolicy" href="a00153.html">
+                      <topic label="AutoDisposeUnregisteredInstances" href="a00153.html#a627d708d2ce10fe93bde79eaf9307253"/>
+                      <topic label="AutopurgeSuspendedSamplesDelay" href="a00153.html#a0b92c47701ea7dd04570661ea91a48a5"/>
+                      <topic label="AutounregisterInstanceDelay" href="a00153.html#a38c59fecbfba79cad6791014d21f3d2c"/>
+                    </topic>
+                  </topic>
+                  <topic label="DomainParticipantFactory.cs" href="a00219.html">
+                    <topic label="DomainParticipantFactory" href="a00071.html">
+                      <topic label="CreateParticipant" href="a00071.html#aac070b5bef3f60ae5ce308271486cbb0"/>
+                      <topic label="CreateParticipant" href="a00071.html#a400c13c7b34cca1eeed4dae639c2cfcc"/>
+                      <topic label="CreateParticipant" href="a00071.html#a370867fdea892189615cd006b157d6bb"/>
+                      <topic label="CreateParticipant" href="a00071.html#a263813b3cdc7623beca1457ed63affea"/>
+                      <topic label="DeleteContainedEntities" href="a00071.html#a47c22951c6803d0db04b7a028219c48f"/>
+                      <topic label="DeleteParticipant" href="a00071.html#a741652cbe4ea995b65aefc0cf3d4d2f9"/>
+                      <topic label="DetachAllDomains" href="a00071.html#a7aeb0ce1f0159b02a3248b7b17073f25"/>
+                      <topic label="GetDefaultParticipantQos" href="a00071.html#aab2bc45a23c997dcacf20b8dc1a8e28c"/>
+                      <topic label="GetQos" href="a00071.html#af4c3fc94d47dc5843d957c989257f9f8"/>
+                      <topic label="LookupParticipant" href="a00071.html#af8e0bf66e04e26e20f0bc16137263196"/>
+                      <topic label="SetDefaultParticipantQos" href="a00071.html#a34ee0db773de8caeba8619e4c2994548"/>
+                      <topic label="SetQos" href="a00071.html#a66e133ec04967d86ecb3bb789d53c673"/>
+                      <topic label="Instance" href="a00071.html#aa29acea65b085bde83e48b5137dfe484"/>
+                    </topic>
+                  </topic>
+                  <topic label="QosProvider.cs" href="a00221.html">
+                    <topic label="QosProvider" href="a00127.html">
+                      <topic label="QosProvider" href="a00127.html#acc352c40cb6ac07cfa339d226e10cabf"/>
+                      <topic label="GetDataReaderQos" href="a00127.html#a53673131c805d6648f7ae479f583e6f5"/>
+                      <topic label="GetDataWriterQos" href="a00127.html#ae9db8ef04cdebb1b52b3ae335d1b0ca6"/>
+                      <topic label="GetParticipantQos" href="a00127.html#a3db9ad1c8247a78d6213aa53538c0032"/>
+                      <topic label="GetPublisherQos" href="a00127.html#a948ba3c1b9bf49649683aaffeb01c00f"/>
+                      <topic label="GetSubscriberQos" href="a00127.html#ae23fff577b7ba9685a18fbfb451e6a87"/>
+                      <topic label="GetTopicQos" href="a00127.html#a23b3ceec8be881a2c875cced7c1c7a79"/>
+                    </topic>
+                  </topic>
+                </topic>
+              </topic>
+            </topic>
+          </topic>
+        </topic>
+      </topic>
+    </topic>
+  </topic>
+</toc>

@@ -1,0 +1,3 @@
+<map id="org.opensplice.dds.sub.QueryConditionImpl&lt; TYPE &gt;" name="org.opensplice.dds.sub.QueryConditionImpl&lt; TYPE &gt;">
+<area shape="rect" id="node2" href="$a00315.html" title="{org.opensplice.dds.sub.Read\lConditionImpl\&lt; TYPE \&gt;\n|# environment\l# old\l# parent\l# state\l|+ ReadConditionImpl()\l+ ReadConditionImpl()\l+ ReadConditionImpl()\l+ ReadConditionImpl()\l+ ReadConditionImpl()\l+ close()\l+ getEnvironment()\l+ getInstanceStates()\l+ getOld()\l+ getOldCondition()\l+ getParent()\l+ getSampleStates()\l+ getState()\l+ getTriggerValue()\l+ getViewStates()\l}" alt="" coords="73,173,263,571"/>
+</map>

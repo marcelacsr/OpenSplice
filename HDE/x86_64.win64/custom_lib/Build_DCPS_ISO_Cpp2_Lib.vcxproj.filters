@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-225B-4D88D6FE7ADE}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-225B-4D88D6FE7ADE}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Typesupport Files">
+      <UniqueIdentifier>{B7B4DD38-FECA-1BAD-225B-4D88D6FE7ADE}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{B14BBA74-FECA-1BAD-225B-4D88D6FE7ADE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="isocpp2\dds\core\dds_builtinTopicsSplDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\dds_dcps_builtintopicsSplDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Duration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\policy\CorePolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Reference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\status\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\core\Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\domain\discovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\domain\find.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\pub\discovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\sub\discovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\sub\find.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\sub\status\DataState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\dds\topic\discovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\generatedIoTData\dds_IoTData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\generatedIoTData\dds_IoTDataSplDcps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\ConditionDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\GuardConditionDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\StatusConditionDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\cond\WaitSetDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\EntityDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\EntitySet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\InstanceHandleDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ListenerDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ObjectDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ObjectSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\policy\PolicyDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\QosProviderDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\ReportUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\status\StatusUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\TimeUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\core\UserObjectDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\Domain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\DomainParticipantDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\DomainParticipantRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\domain\qos\DomainParticipantQosDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\AnyDataWriterDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\CoherentSetDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\PublisherDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\qos\DataWriterQosDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\qos\PublisherQosDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\pub\SuspendedPublicationDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\AnyDataReaderDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\BuiltinSubscriberDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\CoherentAccessDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\cond\QueryConditionDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\cond\ReadConditionDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\qos\DataReaderQosDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\qos\SubscriberQosDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\QueryDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\sub\SubscriberDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\AnyTopicDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\BuiltinTopicCopy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\FilterDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\find.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\qos\TopicQosConst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\qos\TopicQosDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isocpp2\org\opensplice\topic\TopicDescriptionDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\array.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\BuiltinTopicTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\Condition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\Condition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\GuardCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\StatusCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TConditionImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TGuardConditionImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TStatusConditionImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\TWaitSetImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\detail\WaitSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\GuardCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\StatusCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TGuardCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TStatusCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\TWaitSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\cond\WaitSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\conformance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\ddscore.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\array.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\BuiltinTopicTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\conformance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_builtinTopics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_builtinTopics_DCPS.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_builtinTopicsSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_dcps_builtintopics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_dcps_builtintopics_DCPS.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\dds_dcps_builtintopicsSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ddscore.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\Entity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\InstanceHandle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\inttypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\macros.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\module_docs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\old_win_stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ProprietaryApi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\QosProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ref_traits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\ReferenceImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TEntityImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TEntityQosImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TInstanceHandleImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\TQosProviderImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\Value.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\detail\WeakReferenceImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Duration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Entity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Exception.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\InstanceHandle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\LengthUnlimited.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\macros.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Optional.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\CorePolicy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\CorePolicy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\QosPolicyCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\TCorePolicyImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\detail\TQosPolicyCountImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\PolicyKind.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\QosPolicyCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\TCorePolicy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\policy\TQosPolicyCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\QosProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\ref_traits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Reference.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\refmacros.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\SafeEnumeration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\detail\Status.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\detail\TStatusImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\State.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\Status.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\status\TStatus.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TBuiltinTopicTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TEntity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TEntityQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Time.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TInstanceHandle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\TQosProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\Value.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\WeakReference.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\Annotations.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\CollectionTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\Annotation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\CollectionTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\DynamicData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\DynamicType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\MemberType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\PrimitiveTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\StructType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\TypeProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\UnionCase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\detail\UnionType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\DynamicData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\DynamicType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\MemberType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\PrimitiveTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\StructType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TAnnotation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TCollectionTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TDynamicData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TDynamicType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TMemberType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TStructType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TTypeProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TypeKind.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\TypeProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\UnionCase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\core\xtypes\UnionType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\dds.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\ddsdomain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\detail\ddsdomain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\detail\DomainParticipant.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\detail\TDomainParticipantImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\DomainParticipant.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\DomainParticipantListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\qos\detail\DomainParticipantQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\qos\DomainParticipantQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\domain\TDomainParticipant.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\AnyDataWriter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\AnyDataWriterListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\CoherentSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\DataWriter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\DataWriterListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\ddspub.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\AnyDataWriter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\CoherentSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\DataWriter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\DataWriterImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\ddspub.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\Publisher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\SuspendedPublication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TAnyDataWriterImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TCoherentSetImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TPublisherImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\detail\TSuspendedPublicationImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\Publisher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\PublisherListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\DataWriterQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\detail\DataWriterQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\detail\PublisherQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\qos\PublisherQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\SuspendedPublication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TAnyDataWriter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TCoherentSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TPublisher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\pub\TSuspendedPublication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\AnyDataReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\AnyDataReaderListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\CoherentAccess.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\QueryCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\QueryConditionImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\ReadCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\TQueryConditionImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\detail\TReadConditionImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\QueryCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\ReadCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\TQueryCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\cond\TReadCondition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\DataReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\DataReaderListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\ddssub.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\AnyDataReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\CoherentAccess.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\DataReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\ddssub.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\GenerationCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\LoanedSamples.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\LoanedSamplesImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Manipulators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Query.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Rank.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Sample.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SampleInfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SamplesHolder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SharedSamples.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\SharedSamplesImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\Subscriber.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TAnyDataReaderImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TCoherentAccessImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TDataReaderImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TGenerationCountImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TQueryImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TRankImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TSampleImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TSampleInfoImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\detail\TSubscriberImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\GenerationCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\LoanedSamples.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\DataReaderQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\detail\DataReaderQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\detail\SubscriberQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\qos\SubscriberQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Query.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Rank.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Sample.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\SampleInfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\SharedSamples.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\status\DataState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\status\detail\DataStateImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\Subscriber.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\SubscriberListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TAnyDataReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TCoherentAccess.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TDataReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TGenerationCount.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TQuery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TRank.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TSample.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TSampleInfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\sub\TSubscriber.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\AnyTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\AnyTopicListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\BuiltinTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\BuiltinTopicKey.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\ContentFilteredTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\ddstopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\AnyTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\BuiltinTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\BuiltinTopicKey.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\ContentFilteredTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\ddstopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\Filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\MultiTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TAnyTopicImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TBuiltinTopicImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TBuiltinTopicKeyImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TContentFilteredTopicImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TFilterImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\Topic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TopicDescription.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TopicInstanceImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TTopicDescriptionImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\detail\TTopicImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\Filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\MultiTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\qos\detail\TopicQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\qos\TopicQos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TAnyTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TBuiltinTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TBuiltinTopicKey.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TContentFilteredTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TFilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TMultiTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\Topic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicDescription.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicInstance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TopicTraits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\dds\topic\TTopicDescription.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\ConditionDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\FunctorHolder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\GuardConditionDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\StatusConditionDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\cond\WaitSetDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\EntityDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\EntityRegistry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\EntitySet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\InstanceHandleDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ListenerDispatcher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\Mutex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ObjectDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ObjectSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\Policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\PolicyDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\ProprietaryPolicyKind.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\QosPolicyCountDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\policy\TPolicy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\QosProviderDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ReportUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\ScopedLock.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\Status.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\StatusDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\StatusUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\status\TStatus.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\TimeHelper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\TimeUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\UserObjectDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\core\WeakReferenceSet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\dds_IoTData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\dds_IoTData_DCPS.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\dds_IoTDataSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\dds\iot\IoTData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\Domain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\DomainParticipantDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\DomainParticipantListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\DomainParticipantRegistry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\domain\qos\DomainParticipantQosDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\ForwardDeclarations.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\AnyDataWriterDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\CoherentSetDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\PublisherDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\qos\DataWriterQosDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\qos\PublisherQosDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\pub\SuspendedPublicationDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\AnyDataReaderDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\BuiltinSubscriberDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\CoherentAccessDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\cond\QueryConditionDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\cond\ReadConditionDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\GenerationCountImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\qos\DataReaderQosDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\qos\SubscriberQosDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\QueryDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\RankImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\SampleInfoImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\sub\SubscriberDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\AnyTopicDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\AnyTopicListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicCopy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicKeyDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\BuiltinTopicTraits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\DataRepresentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\discovery.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\FilterDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\find.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\qos\TopicQosConst.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\qos\TopicQosDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TBuiltinTopic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TopicDescriptionDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TopicListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TopicTraits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\dcps\C++\isocpp2\org\opensplice\topic\TypeHash.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isocpp2\generated\dds_builtinTopicsSplType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isocpp2\generated\dds_dcps_builtintopicsSplType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isocpp2\generated\dds_namedQosTypesSplType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isocpp2\generatedIoTData\dds_IoTData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isocpp2\generatedIoTData\dds_IoTData_DCPS.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isocpp2\generatedIoTData\dds_IoTDataSplDcps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\etc\idl\dds_builtinTopics.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_dcps_builtintopics.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_IoTData.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\etc\idl\dds_namedQosTypes.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="isocpp2\README.md">
+      <Filter>Documentation</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

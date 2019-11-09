@@ -1,0 +1,260 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node3" href="$a00160.html" title="This class is the abstract base class for all the DCPS objects that support QoS policies, a listener and a status condition." alt="" coords="383,48,620,112"/>
+<area shape="rect" id="node5" href="$a00314.html" title="ReadCondition objects are conditions specifically dedicated to read operations and attached to one or..." alt="" coords="691,135,899,182"/>
+<area shape="rect" id="node9" href="$a00401.html" title="This interface is the base for org.omg.dds.topic.Topic, org.omg.dds.topic.ContentFilteredTopic, and org.omg.dds.topic.MultiTopic." alt="" coords="388,135,615,182"/>
+<area shape="rect" id="node7" href="$a00312.html" title="QueryCondition objects are specialized org.omg.dds.sub.ReadCondition objects that allow the applicati..." alt="" coords="985,135,1199,182"/>
+<area shape="rect" id="node11" href="$a00091.html" title="ContentFilteredTopic is a specialization of TopicDescription that allows for content&#45;based subscripti..." alt="" coords="707,66,883,113"/>
+<area shape="rect" id="node13" href="$a00254.html" title="MultiTopic is a specialization of TopicDescription that allows subscriptions to combine/filter/rearra..." alt="" coords="700,205,889,251"/>
+<area shape="rect" id="node15" href="$a00393.html" title="Topic is the most basic description of the data to be published and subscribed." alt="" coords="713,2301,876,2347"/>
+<area shape="rect" id="node17" href="$a00394.html" title="Topic provides OpenSplice&#45;specific extensions to org.omg.dds.topic.Topic." alt="" coords="1009,2115,1175,2162"/>
+<area shape="rect" id="node19" href="$a00065.html" title="org.opensplice.dds.topic.\lAbstractTopic\&lt; TYPE \&gt;" alt="" coords="1305,3345,1471,3391"/>
+<area shape="rect" id="node21" href="$a00403.html" title="org.opensplice.dds.topic.\lTopicImpl\&lt; TYPE \&gt;" alt="" coords="1579,3978,1744,4025"/>
+<area shape="rect" id="node24" href="$a00092.html" title="org.opensplice.dds.topic.\lContentFilteredTopicImpl\l\&lt; TYPE \&gt;" alt="" coords="1304,3960,1472,4024"/>
+<area shape="rect" id="node27" href="$a00116.html" title="DataWriter allows the application to set the value of the data to be published under a given org..." alt="" coords="701,4455,888,4502"/>
+<area shape="rect" id="node35" href="$a00298.html" title="A Publisher is the object responsible for the actual dissemination of publications." alt="" coords="707,4403,883,4432"/>
+<area shape="rect" id="node39" href="$a00102.html" title="A DataReader allows the application (1) to declare the data it wishes to receive (i.e., make a subscription) and (2) to access the data received by the attached org.omg.dds.sub.Subscriber." alt="" coords="699,4525,891,4571"/>
+<area shape="rect" id="node47" href="$a00372.html" title="A Subscriber is the object responsible for the actual reception of the data resulting from its subscr..." alt="" coords="703,4349,887,4379"/>
+<area shape="rect" id="node29" href="$a00115.html" title="OpenSplice&#45;specific extension of org.omg.dds.pub.DataWriter with support for writing atomic writing o..." alt="" coords="999,4681,1185,4727"/>
+<area shape="rect" id="node31" href="$a00062.html" title="org.opensplice.dds.pub.Abstract\lDataWriter\&lt; TYPE \&gt;" alt="" coords="1284,4681,1492,4727"/>
+<area shape="rect" id="node33" href="$a00118.html" title="org.opensplice.dds.pub.Data\lWriterImpl\&lt; TYPE \&gt;" alt="" coords="1568,4681,1755,4727"/>
+<area shape="rect" id="node37" href="$a00300.html" title="org.opensplice.dds.pub.PublisherImpl" alt="" coords="1269,4577,1507,4607"/>
+<area shape="rect" id="node41" href="$a00101.html" title="org.opensplice.dds.sub.Data\lReader\&lt; TYPE \&gt;" alt="" coords="999,4750,1185,4797"/>
+<area shape="rect" id="node43" href="$a00061.html" title="org.opensplice.dds.sub.Abstract\lDataReader\&lt; TYPE \&gt;" alt="" coords="1284,4750,1492,4797"/>
+<area shape="rect" id="node45" href="$a00104.html" title="org.opensplice.dds.sub.Data\lReaderImpl\&lt; TYPE \&gt;" alt="" coords="1568,4750,1755,4797"/>
+<area shape="rect" id="node49" href="$a00374.html" title="org.opensplice.dds.sub.SubscriberImpl" alt="" coords="1265,4524,1511,4553"/>
+<area shape="rect" id="node59" href="$a00119.html" title="Since a org.omg.dds.pub.DataWriter is a kind of org.omg.dds.core.Entity, it has the ability to have a..." alt="" coords="408,4871,595,4918"/>
+<area shape="rect" id="node63" href="$a00301.html" title="Since a org.omg.dds.pub.Publisher is a kind of org.omg.dds.core.Entity, it has the ability to have a ..." alt="" coords="413,4663,589,4710"/>
+<area shape="rect" id="node76" href="$a00105.html" title="Since a org.omg.dds.sub.DataReader is a kind of org.omg.dds.core.Entity, it has the ability to have a..." alt="" coords="405,4733,597,4779"/>
+<area shape="rect" id="node80" href="$a00375.html" title="Since a org.omg.dds.sub.Subscriber is a kind of org.omg.dds.core.Entity, it has the ability to have a..." alt="" coords="409,4594,593,4641"/>
+<area shape="rect" id="node85" href="$a00404.html" title="Since org.omg.dds.topic.Topic is a kind of org.omg.dds.core.Entity, it has the ability to have an ass..." alt="" coords="397,4802,605,4849"/>
+<area shape="rect" id="node94" href="$a00219.html" title="org.opensplice.dds.core.\lListener\&lt; T \&gt;" alt="" coords="420,3831,583,3878"/>
+<area shape="rect" id="node61" href="$a00117.html" title="A convenience class DataWriterAdapter is offered which has an empty implementation of all org..." alt="" coords="701,5010,888,5057"/>
+<area shape="rect" id="node65" href="$a00144.html" title="This is the interface that can be implemented by an application&#45;provided class and then registered wi..." alt="" coords="700,4663,889,4710"/>
+<area shape="rect" id="node74" href="$a00299.html" title="A convenience class PublisherAdapter is offered which has an empty implementation of all org..." alt="" coords="707,4733,883,4779"/>
+<area shape="rect" id="node67" href="$a00136.html" title="A convenience class DomainParticipantAdapter is offered which has an empty implementation of all org..." alt="" coords="997,4819,1187,4866"/>
+<area shape="rect" id="node69" href="$a00135.html" title="Extension of org.omg.dds.domain.DomainParticipantAdapter to provide empty implementation for onAllDat..." alt="" coords="1297,4883,1479,4930"/>
+<area shape="rect" id="node72" href="$a00143.html" title="Extension of org.omg.dds.domain.DomainParticipantListener to provide callback to notify AllDataDispos..." alt="" coords="1001,4889,1183,4935"/>
+<area shape="rect" id="node78" href="$a00103.html" title="A convenience class DataReaderAdapter is offered which has an empty implementation of all org..." alt="" coords="699,4802,891,4849"/>
+<area shape="rect" id="node83" href="$a00373.html" title="A convenience class SubscriberAdapter is offered which has an empty implementation of all org..." alt="" coords="703,4594,887,4641"/>
+<area shape="rect" id="node87" href="$a00395.html" title="A convenience class TopicAdapter is offered which has an empty implementation of all org..." alt="" coords="692,4871,897,4918"/>
+<area shape="rect" id="node91" href="$a00405.html" title="Extension of org.omg.dds.topic.TopicListener to provide callback to notify AllDataDisposedEvent as we..." alt="" coords="712,4941,877,4987"/>
+<area shape="rect" id="node89" href="$a00396.html" title="Extension of org.omg.dds.topic.TopicAdapter to provide empty implementation for onAllDataDisposed as ..." alt="" coords="1009,5009,1175,5055"/>
+<area shape="rect" id="node97" href="$a00365.html" title="The status of an Entity changed." alt="" coords="388,205,615,269"/>
+<area shape="rect" id="node100" href="$a00145.html" title="org.opensplice.dds.domain.\lDomainParticipantListenerImpl" alt="" coords="401,4117,601,4163"/>
+<area shape="rect" id="node102" href="$a00120.html" title="org.opensplice.dds.pub.Data\lWriterListenerImpl\&lt; TYPE \&gt;" alt="" coords="408,4941,595,4987"/>
+<area shape="rect" id="node104" href="$a00302.html" title="org.opensplice.dds.pub.Publisher\lListenerImpl" alt="" coords="395,5010,608,5057"/>
+<area shape="rect" id="node106" href="$a00106.html" title="org.opensplice.dds.sub.Data\lReaderListenerImpl\&lt; TYPE \&gt;" alt="" coords="404,5079,599,5126"/>
+<area shape="rect" id="node108" href="$a00376.html" title="org.opensplice.dds.sub.Subscriber\lListenerImpl" alt="" coords="391,5149,612,5195"/>
+<area shape="rect" id="node110" href="$a00406.html" title="org.opensplice.dds.topic.\lTopicListenerImpl\&lt; TYPE \&gt;" alt="" coords="409,5218,593,5265"/>
+<area shape="rect" id="node113" href="$a00164.html" title="The Data&#45;Distribution Service (DDS) relies on the use of QoS." alt="" coords="409,3255,593,3302"/>
+<area shape="rect" id="node116" href="$a00153.html" title="A span of elapsed time expressed with nanosecond precision." alt="" coords="413,3325,589,3355"/>
+<area shape="rect" id="node121" href="$a00196.html" title="An opaque handle that can be used to refer to a local or remote entity." alt="" coords="413,3378,589,3425"/>
+<area shape="rect" id="node125" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="419,2858,584,2905"/>
+<area shape="rect" id="node336" href="$a00307.html" title="Objects of this type are immutable." alt="" coords="419,2927,584,2974"/>
+<area shape="rect" id="node340" href="$a00364.html" title="Status is the abstract root class for all communication status objects." alt="" coords="419,3117,584,3163"/>
+<area shape="rect" id="node398" href="$a00388.html" title="A moment in time expressed with nanosecond precision (though not necessarily nanosecond accuracy)..." alt="" coords="424,3448,579,3477"/>
+<area shape="rect" id="node406" href="$a00337.html" title="A Sample represents an atom of data information (i.e., one value for one instance) as returned by a o..." alt="" coords="419,709,584,755"/>
+<area shape="rect" id="node412" href="$a00086.html" title="org.omg.dds.topic.Builtin\lTopicKey" alt="" coords="419,778,584,825"/>
+<area shape="rect" id="node416" href="$a00276.html" title="Class that contains information about available DomainParticipants within the system." alt="" coords="405,847,597,894"/>
+<area shape="rect" id="node420" href="$a00292.html" title="The DCPSPublication topic communicates the existence of datawriters by means of the PublicationBuilti..." alt="" coords="404,917,599,963"/>
+<area shape="rect" id="node424" href="$a00380.html" title="The DCPSSubscription topic communicates the existence of datareaders by means of the SubscriptionBuil..." alt="" coords="400,986,603,1033"/>
+<area shape="rect" id="node428" href="$a00397.html" title="The DCPSTopic topic communicates the existence of topics by means of the TopicBuiltinTopicData dataty..." alt="" coords="403,1055,600,1102"/>
+<area shape="rect" id="node432" href="$a00203.html" title="org.omg.dds.type.builtin.\lKeyedBytes" alt="" coords="419,1298,584,1345"/>
+<area shape="rect" id="node434" href="$a00204.html" title="org.omg.dds.type.builtin.\lKeyedString" alt="" coords="419,1367,584,1414"/>
+<area shape="rect" id="node436" href="$a00075.html" title="Objects of this type are immutable." alt="" coords="412,2183,591,2230"/>
+<area shape="rect" id="node438" href="$a00233.html" title="Objects of this type are immutable." alt="" coords="412,2253,591,2299"/>
+<area shape="rect" id="node440" href="$a00415.html" title="Objects of this type are immutable." alt="" coords="412,2322,591,2369"/>
+<area shape="rect" id="node442" href="$a00077.html" title="The literal value of an annotation member: either the default value in its definition or the value ap..." alt="" coords="407,2391,596,2438"/>
+<area shape="rect" id="node444" href="$a00079.html" title="The application of an annotation to some type or type member." alt="" coords="407,2461,596,2507"/>
+<area shape="rect" id="node446" href="$a00080.html" title="The assignment of a value to a member of an annotation." alt="" coords="407,2530,596,2577"/>
+<area shape="rect" id="node448" href="$a00082.html" title="Objects of this type are immutable." alt="" coords="399,3501,604,3531"/>
+<area shape="rect" id="node450" href="$a00166.html" title="Objects of this type are immutable." alt="" coords="407,2599,596,2646"/>
+<area shape="rect" id="node452" href="$a00232.html" title="Objects of this type are immutable." alt="" coords="407,3186,596,3233"/>
+<area shape="rect" id="node458" href="$a00250.html" title="Objects of this type are immutable." alt="" coords="407,2114,596,2161"/>
+<area shape="rect" id="node460" href="$a00253.html" title="Objects of this type are immutable." alt="" coords="700,1618,889,1665"/>
+<area shape="rect" id="node462" href="$a00412.html" title="Objects of this type are immutable." alt="" coords="685,1027,904,1056"/>
+<area shape="rect" id="node486" href="$a00419.html" title="Objects of this type are immutable." alt="" coords="407,2669,596,2715"/>
+<area shape="rect" id="node488" href="$a00421.html" title="Objects of this type are immutable." alt="" coords="407,2738,596,2785"/>
+<area shape="rect" id="node490" href="$a00422.html" title="Objects of this type are immutable." alt="" coords="407,2045,596,2091"/>
+<area shape="rect" id="node118" href="$a00154.html" title="org.opensplice.dds.core.\lDurationImpl" alt="" coords="713,4157,876,4203"/>
+<area shape="rect" id="node123" href="$a00197.html" title="org.opensplice.dds.core.\lInstanceHandleImpl" alt="" coords="713,4226,876,4273"/>
+<area shape="rect" id="node127" href="$a00169.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.DataReader Entities." alt="" coords="708,2382,881,2429"/>
+<area shape="rect" id="node201" href="$a00170.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.pub.DataWriter Entities." alt="" coords="711,2739,879,2786"/>
+<area shape="rect" id="node237" href="$a00171.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.domain.DomainParticipant Entities." alt="" coords="689,1775,900,1822"/>
+<area shape="rect" id="node253" href="$a00172.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.domain.DomainParticipantFactory objects." alt="" coords="689,1688,900,1752"/>
+<area shape="rect" id="node256" href="$a00173.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.pub.Publisher Entities." alt="" coords="712,1845,877,1891"/>
+<area shape="rect" id="node271" href="$a00174.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.Subscriber Entities." alt="" coords="712,1914,877,1961"/>
+<area shape="rect" id="node278" href="$a00175.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.topic.Topic Entities." alt="" coords="712,2670,877,2717"/>
+<area shape="rect" id="node298" href="$a00306.html" title="org.opensplice.dds.core.policy.\lQosPolicy" alt="" coords="693,2231,896,2278"/>
+<area shape="rect" id="node300" href="$a00176.html" title="org.opensplice.dds.core.policy.\lQosPolicy.ForView" alt="" coords="693,2002,896,2049"/>
+<area shape="rect" id="node306" href="$a00309.html" title="org.opensplice.dds.core.policy.\lQosPolicyImpl" alt="" coords="991,2046,1193,2093"/>
+<area shape="rect" id="node129" href="$a00111.html" title="org.omg.dds.core.policy.\lDataRepresentation" alt="" coords="1009,2601,1175,2647"/>
+<area shape="rect" id="node133" href="$a00127.html" title="org.omg.dds.sub.DataReader expects a new sample updating the value of each instance at least once eve..." alt="" coords="1009,2185,1175,2231"/>
+<area shape="rect" id="node137" href="$a00129.html" title="Controls the criteria used to determine the logical order among changes made by org.omg.dds.pub.Publisher entities to the same instance of data (i.e., matching Topic and key)." alt="" coords="1009,2254,1175,2301"/>
+<area shape="rect" id="node141" href="$a00149.html" title="This policy expresses if the data should &quot;outlive&quot; their writing time." alt="" coords="1009,2323,1175,2370"/>
+<area shape="rect" id="node145" href="$a00181.html" title="Specifies the behavior of the Service in the case where the value of a sample changes (one or more ti..." alt="" coords="1009,2670,1175,2717"/>
+<area shape="rect" id="node149" href="$a00215.html" title="Specifies the maximum acceptable delay from the time the data is written until the data is inserted i..." alt="" coords="1009,2393,1175,2439"/>
+<area shape="rect" id="node153" href="$a00221.html" title="Determines the mechanism and parameters used by the application to determine whether an org..." alt="" coords="1009,2462,1175,2509"/>
+<area shape="rect" id="node157" href="$a00272.html" title="This QosPolicy specifies whether a DataWriter exclusively may own an instance." alt="" coords="1009,2531,1175,2578"/>
+<area shape="rect" id="node161" href="$a00317.html" title="Specifies the behavior of the org.omg.dds.sub.DataReader with regards to the life cycle of the data i..." alt="" coords="1009,1699,1175,1746"/>
+<area shape="rect" id="node167" href="$a00323.html" title="This policy indicates the level of reliability requested by a org.omg.dds.sub.DataReader or offered b..." alt="" coords="1009,2739,1175,2786"/>
+<area shape="rect" id="node173" href="$a00335.html" title="Specifies the resources that the Service can consume in order to meet the requested QoS..." alt="" coords="1009,2878,1175,2925"/>
+<area shape="rect" id="node177" href="$a00389.html" title="Filter that allows a org.omg.dds.sub.DataReader to specify that it is interested only in (potentially..." alt="" coords="1009,1977,1175,2023"/>
+<area shape="rect" id="node181" href="$a00413.html" title="org.omg.dds.core.policy.\lTypeConsistencyEnforcement" alt="" coords="993,2809,1191,2855"/>
+<area shape="rect" id="node185" href="$a00431.html" title="User data not known by the middleware, but distributed by means of built&#45;in topics." alt="" coords="1009,1838,1175,1885"/>
+<area shape="rect" id="node189" href="$a00319.html" title="This org.omg.dds.core.policy.QosPolicy is similar to the org.omg.dds.core.policy.Lifespan (applicable..." alt="" coords="991,1769,1193,1815"/>
+<area shape="rect" id="node193" href="$a00361.html" title="This QosPolicy allows sharing of entities by multiple processes or threads." alt="" coords="991,1630,1193,1677"/>
+<area shape="rect" id="node197" href="$a00382.html" title="By using the SubscriptionKey QosPolicy, a DataReader can force its own key&#45;list definition on data sa..." alt="" coords="991,1907,1193,1954"/>
+<area shape="rect" id="node131" href="$a00112.html" title="org.opensplice.dds.core.policy.\lDataRepresentationImpl" alt="" coords="1287,2582,1489,2629"/>
+<area shape="rect" id="node135" href="$a00128.html" title="org.opensplice.dds.core.policy.\lDeadlineImpl" alt="" coords="1287,2166,1489,2213"/>
+<area shape="rect" id="node139" href="$a00130.html" title="org.opensplice.dds.core.policy.\lDestinationOrderImpl" alt="" coords="1287,2235,1489,2282"/>
+<area shape="rect" id="node143" href="$a00150.html" title="org.opensplice.dds.core.policy.\lDurabilityImpl" alt="" coords="1287,2305,1489,2351"/>
+<area shape="rect" id="node147" href="$a00182.html" title="org.opensplice.dds.core.policy.\lHistoryImpl" alt="" coords="1287,2651,1489,2698"/>
+<area shape="rect" id="node151" href="$a00216.html" title="org.opensplice.dds.core.policy.\lLatencyBudgetImpl" alt="" coords="1287,2374,1489,2421"/>
+<area shape="rect" id="node155" href="$a00226.html" title="org.opensplice.dds.core.policy.\lLivelinessImpl" alt="" coords="1287,2443,1489,2490"/>
+<area shape="rect" id="node159" href="$a00273.html" title="org.opensplice.dds.core.policy.\lOwnershipImpl" alt="" coords="1287,2513,1489,2559"/>
+<area shape="rect" id="node163" href="$a00316.html" title="This class provides OpenSplice&#45;specific extensions to the org.omg.dds.core.policy.ReaderDataLifecycle policy." alt="" coords="1287,1422,1489,1469"/>
+<area shape="rect" id="node165" href="$a00318.html" title="org.opensplice.dds.core.policy.\lReaderDataLifecycleImpl" alt="" coords="1287,1769,1489,1815"/>
+<area shape="rect" id="node169" href="$a00324.html" title="OpenSplice&#45;specific extension to org.omg.dds.core.policy.Reliability That specifies whether a DataWri..." alt="" coords="1287,2790,1489,2837"/>
+<area shape="rect" id="node171" href="$a00325.html" title="org.opensplice.dds.core.policy.\lReliabilityImpl" alt="" coords="1287,2721,1489,2767"/>
+<area shape="rect" id="node175" href="$a00336.html" title="org.opensplice.dds.core.policy.\lResourceLimitsImpl" alt="" coords="1287,2859,1489,2906"/>
+<area shape="rect" id="node179" href="$a00390.html" title="org.opensplice.dds.core.policy.\lTimeBasedFilterImpl" alt="" coords="1287,2046,1489,2093"/>
+<area shape="rect" id="node183" href="$a00414.html" title="org.opensplice.dds.core.policy.\lTypeConsistencyEnforcementImpl" alt="" coords="1277,3414,1499,3461"/>
+<area shape="rect" id="node187" href="$a00432.html" title="org.opensplice.dds.core.policy.\lUserDataImpl" alt="" coords="1287,1907,1489,1954"/>
+<area shape="rect" id="node191" href="$a00320.html" title="org.opensplice.dds.core.policy.\lReaderLifespanImpl" alt="" coords="1287,1838,1489,1885"/>
+<area shape="rect" id="node195" href="$a00363.html" title="org.opensplice.dds.core.policy.\lShareImpl" alt="" coords="1287,1699,1489,1746"/>
+<area shape="rect" id="node199" href="$a00383.html" title="org.opensplice.dds.core.policy.\lSubscriptionKeysImpl" alt="" coords="1287,1977,1489,2023"/>
+<area shape="rect" id="node207" href="$a00151.html" title="Specifies the configuration of the durability service." alt="" coords="1009,3086,1175,3133"/>
+<area shape="rect" id="node213" href="$a00217.html" title="Specifies the maximum duration of validity of the data written by the org.omg.dds.pub.DataWriter." alt="" coords="1009,3155,1175,3202"/>
+<area shape="rect" id="node219" href="$a00274.html" title="[optional] Specifies the value of the &quot;strength&quot; used to arbitrate among multiple org..." alt="" coords="1009,3225,1175,3271"/>
+<area shape="rect" id="node225" href="$a00410.html" title="This policy is a hint to the infrastructure as to how to set the priority of the underlying transport..." alt="" coords="1009,3017,1175,3063"/>
+<area shape="rect" id="node231" href="$a00444.html" title="Specifies the behavior of the org.omg.dds.pub.DataWriter with regards to the life cycle of the data i..." alt="" coords="1009,3294,1175,3341"/>
+<area shape="rect" id="node209" href="$a00152.html" title="org.opensplice.dds.core.policy.\lDurabilityServiceImpl" alt="" coords="1287,3067,1489,3114"/>
+<area shape="rect" id="node215" href="$a00218.html" title="org.opensplice.dds.core.policy.\lLifespanImpl" alt="" coords="1287,3137,1489,3183"/>
+<area shape="rect" id="node221" href="$a00275.html" title="org.opensplice.dds.core.policy.\lOwnershipStrengthImpl" alt="" coords="1287,3206,1489,3253"/>
+<area shape="rect" id="node227" href="$a00411.html" title="org.opensplice.dds.core.policy.\lTransportPriorityImpl" alt="" coords="1287,2998,1489,3045"/>
+<area shape="rect" id="node233" href="$a00445.html" title="This QosPolicy provides OpenSplice&#45;specific extensions to the org.omg.dds.core.policy.WriterDataLifecycle." alt="" coords="1287,3483,1489,3530"/>
+<area shape="rect" id="node235" href="$a00446.html" title="org.opensplice.dds.core.policy.\lWriterDataLifecycleImpl" alt="" coords="1287,3275,1489,3322"/>
+<area shape="rect" id="node239" href="$a00161.html" title="Controls the behavior of the org.omg.dds.core.Entity when acting as a factory for other entities..." alt="" coords="1009,1283,1175,1330"/>
+<area shape="rect" id="node244" href="$a00349.html" title="This QosPolicy specifies the scheduling parameters that will be used for a thread that is spawned by ..." alt="" coords="991,1214,1193,1261"/>
+<area shape="rect" id="node241" href="$a00162.html" title="org.opensplice.dds.core.policy.\lEntityFactoryImpl" alt="" coords="1287,1283,1489,1330"/>
+<area shape="rect" id="node246" href="$a00220.html" title="Scheduling for the Listener thread of a org.omg.dds.domain.DomainParticipant." alt="" coords="1287,1214,1489,1261"/>
+<area shape="rect" id="node250" href="$a00443.html" title="Scheduling for the Watchdog thread of a org.omg.dds.domain.DomainParticipant." alt="" coords="1281,1145,1495,1191"/>
+<area shape="rect" id="node248" href="$a00351.html" title="org.opensplice.dds.core.policy.\lSchedulingImpl" alt="" coords="1560,1214,1763,1261"/>
+<area shape="rect" id="node259" href="$a00177.html" title="User data not known by the middleware, but distributed by means of built&#45;in topics." alt="" coords="1009,1353,1175,1399"/>
+<area shape="rect" id="node263" href="$a00278.html" title="This policy allows the introduction of a logical partition concept inside the &quot;physical&quot; partition in..." alt="" coords="1009,1422,1175,1469"/>
+<area shape="rect" id="node267" href="$a00289.html" title="Specifies how the samples representing changes to data instances are presented to the subscribing app..." alt="" coords="1009,1491,1175,1538"/>
+<area shape="rect" id="node261" href="$a00178.html" title="org.opensplice.dds.core.policy.\lGroupDataImpl" alt="" coords="1287,1353,1489,1399"/>
+<area shape="rect" id="node265" href="$a00279.html" title="org.opensplice.dds.core.policy.\lPartitionImpl" alt="" coords="1287,1491,1489,1538"/>
+<area shape="rect" id="node269" href="$a00290.html" title="org.opensplice.dds.core.policy.\lPresentationImpl" alt="" coords="1287,1561,1489,1607"/>
+<area shape="rect" id="node292" href="$a00399.html" title="User data not known by the middleware, but distributed by means of built&#45;in topics." alt="" coords="1009,2947,1175,2994"/>
+<area shape="rect" id="node294" href="$a00400.html" title="org.opensplice.dds.core.policy.\lTopicDataImpl" alt="" coords="1287,2929,1489,2975"/>
+<area shape="rect" id="node302" href="$a00438.html" title="This QosPolicy is used to set the key list of a DataReaderView." alt="" coords="991,1561,1193,1607"/>
+<area shape="rect" id="node304" href="$a00439.html" title="org.opensplice.dds.core.policy.\lViewKeysImpl" alt="" coords="1287,1630,1489,1677"/>
+<area shape="rect" id="node338" href="$a00308.html" title="org.opensplice.dds.core.policy.\lQosPolicyCountImpl" alt="" coords="693,2925,896,2971"/>
+<area shape="rect" id="node342" href="$a00095.html" title="There is new data in the DataReader." alt="" coords="712,3117,877,3163"/>
+<area shape="rect" id="node346" href="$a00099.html" title="There is new data in one of the DataReaders of the Subscriber." alt="" coords="712,3186,877,3233"/>
+<area shape="rect" id="node350" href="$a00194.html" title="Another topic exists with the same name but different characteristics." alt="" coords="712,3255,877,3302"/>
+<area shape="rect" id="node354" href="$a00224.html" title="The liveliness of one or more org.omg.dds.pub.DataWriters that were writing instances read through th..." alt="" coords="709,3325,880,3371"/>
+<area shape="rect" id="node358" href="$a00229.html" title="The liveliness that the org.omg.dds.pub.DataWriter has committed through its org.omg.dds.core.policy.Liveliness was not respected; thus org.omg.dds.sub.DataReader entities will consider the DataWriter as no longer &quot;active.&quot;." alt="" coords="712,3394,877,3441"/>
+<area shape="rect" id="node362" href="$a00261.html" title="The deadline that the org.omg.dds.pub.DataWriter has committed through its org.omg.dds.core.policy.Deadline was not respected for a specific instance." alt="" coords="697,3463,892,3510"/>
+<area shape="rect" id="node366" href="$a00265.html" title="A org.omg.dds.core.policy.QosPolicy value was incompatible with what was requested." alt="" coords="695,3533,895,3579"/>
+<area shape="rect" id="node370" href="$a00296.html" title="This class contains the statistics about the discovered number of org.omg.dds.sub.DataReaders that are compatible with the org.omg.dds.pub.DataWriter to which the Status is attached." alt="" coords="708,3602,881,3649"/>
+<area shape="rect" id="node374" href="$a00328.html" title="The deadline that the org.omg.dds.sub.DataReader was expecting through its org.omg.dds.core.policy.Deadline was not respected for a specific instance." alt="" coords="687,3671,903,3718"/>
+<area shape="rect" id="node378" href="$a00332.html" title="A org.omg.dds.core.policy.QosPolicy value was incompatible with what is offered." alt="" coords="684,3741,905,3787"/>
+<area shape="rect" id="node382" href="$a00342.html" title="A sample has been lost (never received)." alt="" coords="712,3810,877,3857"/>
+<area shape="rect" id="node386" href="$a00346.html" title="A (received) sample has been rejected." alt="" coords="712,3879,877,3926"/>
+<area shape="rect" id="node390" href="$a00386.html" title="This class contains the statistics about the discovered number of org.omg.dds.pub.DataWriters that are compatible with the org.omg.dds.sub.DataReader to which the Status is attached." alt="" coords="704,3949,885,3995"/>
+<area shape="rect" id="node394" href="$a00071.html" title="All instances for one or more org.omg.dds.topic.Topics have been disposed through org..." alt="" coords="693,3047,896,3094"/>
+<area shape="rect" id="node344" href="$a00096.html" title="org.opensplice.dds.core.status.\lDataAvailableStatusImpl" alt="" coords="991,3502,1193,3549"/>
+<area shape="rect" id="node348" href="$a00100.html" title="org.opensplice.dds.core.status.\lDataOnReadersStatusImpl" alt="" coords="991,3571,1193,3618"/>
+<area shape="rect" id="node352" href="$a00195.html" title="org.opensplice.dds.core.status.\lInconsistentTopicStatusImpl" alt="" coords="991,3641,1193,3687"/>
+<area shape="rect" id="node356" href="$a00225.html" title="org.opensplice.dds.core.status.\lLivelinessChangedStatusImpl" alt="" coords="991,3710,1193,3757"/>
+<area shape="rect" id="node360" href="$a00230.html" title="org.opensplice.dds.core.status.\lLivelinessLostStatusImpl" alt="" coords="991,3779,1193,3826"/>
+<area shape="rect" id="node364" href="$a00262.html" title="org.opensplice.dds.core.status.\lOfferedDeadlineMissedStatusImpl" alt="" coords="981,3849,1203,3895"/>
+<area shape="rect" id="node368" href="$a00266.html" title="org.opensplice.dds.core.status.\lOfferedIncompatibleQosStatusImpl" alt="" coords="979,3918,1205,3965"/>
+<area shape="rect" id="node372" href="$a00297.html" title="org.opensplice.dds.core.status.\lPublicationMatchedStatusImpl" alt="" coords="991,3987,1193,4034"/>
+<area shape="rect" id="node376" href="$a00329.html" title="org.opensplice.dds.core.status.\lRequestedDeadlineMissedStatusImpl" alt="" coords="972,4057,1212,4103"/>
+<area shape="rect" id="node380" href="$a00333.html" title="org.opensplice.dds.core.status.\lRequestedIncompatibleQosStatusImpl" alt="" coords="969,4126,1215,4173"/>
+<area shape="rect" id="node384" href="$a00343.html" title="org.opensplice.dds.core.status.\lSampleLostStatusImpl" alt="" coords="991,4195,1193,4242"/>
+<area shape="rect" id="node388" href="$a00347.html" title="org.opensplice.dds.core.status.\lSampleRejectedStatusImpl" alt="" coords="991,4265,1193,4311"/>
+<area shape="rect" id="node392" href="$a00387.html" title="org.opensplice.dds.core.status.\lSubscriptionMatchedStatusImpl" alt="" coords="989,4334,1195,4381"/>
+<area shape="rect" id="node396" href="$a00072.html" title="org.opensplice.dds.core.status.\lAllDataDisposedStatusImpl" alt="" coords="991,3433,1193,3479"/>
+<area shape="rect" id="node400" href="$a00251.html" title="org.omg.dds.core.ModifiableTime" alt="" coords="688,4296,901,4325"/>
+<area shape="rect" id="node402" href="$a00252.html" title="org.opensplice.dds.core.\lModifiableTimeImpl" alt="" coords="1011,4457,1173,4503"/>
+<area shape="rect" id="node404" href="$a00391.html" title="org.opensplice.dds.core.\lTimeImpl" alt="" coords="1307,4454,1469,4501"/>
+<area shape="rect" id="node408" href="$a00338.html" title="OpenSplice&#45;specific extension of org.omg.dds.sub.Sample with support for obtaining the key value in c..." alt="" coords="693,471,896,518"/>
+<area shape="rect" id="node410" href="$a00339.html" title="org.opensplice.dds.sub.Sample\lImpl\&lt; TYPE \&gt;" alt="" coords="991,471,1193,518"/>
+<area shape="rect" id="node414" href="$a00087.html" title="org.opensplice.dds.topic.\lBuiltinTopicKeyImpl" alt="" coords="712,541,877,587"/>
+<area shape="rect" id="node418" href="$a00277.html" title="org.opensplice.dds.topic.\lParticipantBuiltinTopicDataImpl" alt="" coords="692,610,897,657"/>
+<area shape="rect" id="node422" href="$a00293.html" title="org.opensplice.dds.topic.\lPublicationBuiltinTopicDataImpl" alt="" coords="692,679,897,726"/>
+<area shape="rect" id="node426" href="$a00381.html" title="org.opensplice.dds.topic.\lSubscriptionBuiltinTopicDataImpl" alt="" coords="688,749,901,795"/>
+<area shape="rect" id="node430" href="$a00398.html" title="org.opensplice.dds.topic.\lTopicBuiltinTopicDataImpl" alt="" coords="708,818,881,865"/>
+<area shape="rect" id="node454" href="$a00076.html" title="org.omg.dds.type.typeobject.\lAnnotationMember" alt="" coords="700,4087,889,4134"/>
+<area shape="rect" id="node456" href="$a00427.html" title="org.omg.dds.type.typeobject.\lUnionMember" alt="" coords="700,4018,889,4065"/>
+<area shape="rect" id="node464" href="$a00068.html" title="org.omg.dds.type.typeobject.\lAliasType" alt="" coords="997,659,1187,706"/>
+<area shape="rect" id="node466" href="$a00078.html" title="org.omg.dds.type.typeobject.\lAnnotationType" alt="" coords="997,729,1187,775"/>
+<area shape="rect" id="node468" href="$a00085.html" title="org.omg.dds.type.typeobject.\lBitSetType" alt="" coords="997,798,1187,845"/>
+<area shape="rect" id="node470" href="$a00088.html" title="org.omg.dds.type.typeobject.\lCollectionType" alt="" coords="997,867,1187,914"/>
+<area shape="rect" id="node480" href="$a00167.html" title="org.omg.dds.type.typeobject.\lEnumerationType" alt="" coords="997,937,1187,983"/>
+<area shape="rect" id="node482" href="$a00371.html" title="org.omg.dds.type.typeobject.\lStructureType" alt="" coords="997,1006,1187,1053"/>
+<area shape="rect" id="node484" href="$a00429.html" title="org.omg.dds.type.typeobject.\lUnionType" alt="" coords="997,590,1187,637"/>
+<area shape="rect" id="node472" href="$a00081.html" title="org.omg.dds.type.typeobject.\lArrayType" alt="" coords="1293,902,1483,949"/>
+<area shape="rect" id="node474" href="$a00231.html" title="org.omg.dds.type.typeobject.\lMapType" alt="" coords="1293,971,1483,1018"/>
+<area shape="rect" id="node476" href="$a00355.html" title="org.omg.dds.type.typeobject.\lSequenceType" alt="" coords="1293,763,1483,810"/>
+<area shape="rect" id="node478" href="$a00370.html" title="org.omg.dds.type.typeobject.\lStringType" alt="" coords="1293,833,1483,879"/>
+<area shape="rect" id="node500" href="$a00367.html" title="org.opensplice.dds.core.\lStatusConditionImpl\&lt; T\l extends Entity\&lt;?,?\&gt; \&gt;" alt="" coords="713,1184,876,1248"/>
+<area shape="rect" id="node503" href="$a00402.html" title="org.opensplice.dds.topic.\lTopicDescriptionExt\&lt; TYPE \&gt;" alt="" coords="993,3363,1191,3410"/>
+<area shape="rect" id="node510" href="$a00113.html" title="A DataState encapsulates sets of sample states, view states, and instance states as a convenience..." alt="" coords="407,362,596,409"/>
+<area shape="rect" id="node519" href="$a00155.html" title="org.omg.dds.type.dynamic.\lDynamicData" alt="" coords="412,431,591,478"/>
+<area shape="rect" id="node521" href="$a00157.html" title="org.omg.dds.type.dynamic.\lDynamicType" alt="" coords="412,293,591,339"/>
+<area shape="rect" id="node526" href="$a00334.html" title="This interface is implemented by QoS policies that enforce a Request/Offer contract between publicati..." alt="" coords="409,3762,593,3809"/>
+<area shape="rect" id="node533" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="139,1847,333,1876"/>
+<area shape="rect" id="node535" href="$a00089.html" title="A Condition is a root interface for all the conditions that may be attached to a org.omg.dds.core.WaitSet." alt="" coords="411,1125,592,1155"/>
+<area shape="rect" id="node548" href="$a00124.html" title="DDS recognizes a number of ways in which an operation may return, which are mapped to exceptions in t..." alt="" coords="395,5292,608,5321"/>
+<area shape="rect" id="node585" href="$a00281.html" title="org.omg.dds.core.policy.\lPolicyFactory" alt="" coords="419,1229,584,1275"/>
+<area shape="rect" id="node593" href="$a00310.html" title="The QoS provider API allows users to specify the QoS settings of their DCPS entities outside of appli..." alt="" coords="403,1437,600,1467"/>
+<area shape="rect" id="node597" href="$a00358.html" title="DDS implementations are rooted in this class, a concrete subclass of which can be instantiated based ..." alt="" coords="416,1490,587,1537"/>
+<area shape="rect" id="node603" href="$a00441.html" title="A WaitSet object allows an application to wait until one or more of the attached org.omg.dds.core.Condition objects has a triggerValue of true or else until the timeout expires." alt="" coords="415,1629,588,1659"/>
+<area shape="rect" id="node607" href="$a00138.html" title="The sole purpose of this class is to allow the creation and destruction of org.omg.dds.domain.DomainParticipant objects." alt="" coords="407,1925,596,1971"/>
+<area shape="rect" id="node611" href="$a00353.html" title="Selector class encapsulates different ways of selecting samples from a org.omg.dds.sub.DataReader." alt="" coords="405,1682,597,1729"/>
+<area shape="rect" id="node625" href="$a00156.html" title="org.omg.dds.type.dynamic.\lDynamicDataFactory" alt="" coords="412,1751,591,1798"/>
+<area shape="rect" id="node628" href="$a00158.html" title="org.omg.dds.type.dynamic.\lDynamicTypeFactory" alt="" coords="412,501,591,547"/>
+<area shape="rect" id="node630" href="$a00159.html" title="org.omg.dds.type.dynamic.\lDynamicTypeMember" alt="" coords="412,570,591,617"/>
+<area shape="rect" id="node644" href="$a00420.html" title="A marker interface." alt="" coords="407,1559,596,1606"/>
+<area shape="rect" id="node650" href="$a00423.html" title="TypeSupport is an abstract interface that has to be specialized for each concrete type that will be u..." alt="" coords="401,639,601,686"/>
+<area shape="rect" id="node652" href="$a00185.html" title="org.opensplice.dds.core.\lIllegalArgumentExceptionImpl" alt="" coords="404,3554,599,3601"/>
+<area shape="rect" id="node654" href="$a00322.html" title="org.opensplice.dds.pub.Reflection\lDataWriter\&lt; TYPE \&gt;" alt="" coords="392,3623,611,3670"/>
+<area shape="rect" id="node656" href="$a00321.html" title="org.opensplice.dds.sub.Reflection\lDataReader\&lt; TYPE, OUT_TYPE \&gt;" alt="" coords="387,3693,616,3739"/>
+<area shape="rect" id="node537" href="$a00179.html" title="A GuardCondition object is a specific Condition whose triggerValue is completely under the control of..." alt="" coords="687,1080,903,1109"/>
+<area shape="rect" id="node539" href="$a00180.html" title="org.opensplice.dds.core.\lGuardConditionImpl" alt="" coords="1011,1075,1173,1122"/>
+<area shape="rect" id="node541" href="$a00366.html" title="A StatusCondition object is an immutable object that specifies Condition that is associated with each..." alt="" coords="685,887,904,934"/>
+<area shape="rect" id="node544" href="$a00090.html" title="org.opensplice.dds.core.\lCondition\&lt; T extends DDS.Condition \&gt;" alt="" coords="669,957,920,1003"/>
+<area shape="rect" id="node550" href="$a00073.html" title="The target object was previously closed and therefore cannot process the operation." alt="" coords="709,5218,880,5265"/>
+<area shape="rect" id="node554" href="$a00186.html" title="org.omg.dds.core.Illegal\lOperationException" alt="" coords="715,5287,875,5334"/>
+<area shape="rect" id="node558" href="$a00188.html" title="org.omg.dds.core.Immutable\lPolicyException" alt="" coords="701,5357,888,5403"/>
+<area shape="rect" id="node562" href="$a00190.html" title="org.omg.dds.core.Inconsistent\lPolicyException" alt="" coords="696,5426,893,5473"/>
+<area shape="rect" id="node566" href="$a00257.html" title="org.omg.dds.core.NotEnabled\lException" alt="" coords="697,5495,892,5542"/>
+<area shape="rect" id="node570" href="$a00270.html" title="org.omg.dds.core.OutOfResources\lException" alt="" coords="683,5565,907,5611"/>
+<area shape="rect" id="node574" href="$a00287.html" title="org.omg.dds.core.Precondition\lNotMetException" alt="" coords="696,5079,893,5126"/>
+<area shape="rect" id="node578" href="$a00125.html" title="org.opensplice.dds.core.\lDDSExceptionImpl" alt="" coords="713,5149,876,5195"/>
+<area shape="rect" id="node552" href="$a00074.html" title="org.opensplice.dds.core.\lAlreadyClosedExceptionImpl" alt="" coords="997,5218,1187,5265"/>
+<area shape="rect" id="node556" href="$a00187.html" title="org.opensplice.dds.core.\lIllegalOperationExceptionImpl" alt="" coords="995,5287,1189,5334"/>
+<area shape="rect" id="node560" href="$a00189.html" title="org.opensplice.dds.core.\lImmutablePolicyExceptionImpl" alt="" coords="991,5357,1193,5403"/>
+<area shape="rect" id="node564" href="$a00191.html" title="org.opensplice.dds.core.\lInconsistentPolicyExceptionImpl" alt="" coords="987,5426,1197,5473"/>
+<area shape="rect" id="node568" href="$a00258.html" title="org.opensplice.dds.core.\lNotEnabledExceptionImpl" alt="" coords="1005,5495,1179,5542"/>
+<area shape="rect" id="node572" href="$a00271.html" title="org.opensplice.dds.core.\lOutOfResourcesExceptionImpl" alt="" coords="991,5565,1193,5611"/>
+<area shape="rect" id="node576" href="$a00288.html" title="org.opensplice.dds.core.\lPreconditionNotMetExceptionImpl" alt="" coords="983,5079,1201,5126"/>
+<area shape="rect" id="node587" href="$a00282.html" title="OpenSplice&#45;specific extension of org.omg.dds.core.policy.PolicyFactory that supports an extra set of ..." alt="" coords="693,1271,896,1318"/>
+<area shape="rect" id="node589" href="$a00283.html" title="org.opensplice.dds.core.policy.\lPolicyFactoryImpl" alt="" coords="991,1145,1193,1191"/>
+<area shape="rect" id="node595" href="$a00311.html" title="org.opensplice.dds.core.\lQosProviderImpl" alt="" coords="713,1341,876,1387"/>
+<area shape="rect" id="node599" href="$a00269.html" title="org.opensplice.dds.core.\lOsplServiceEnvironment" alt="" coords="712,1410,877,1457"/>
+<area shape="rect" id="node605" href="$a00442.html" title="org.opensplice.dds.core.\lWaitSetImpl" alt="" coords="713,1479,876,1526"/>
+<area shape="rect" id="node609" href="$a00139.html" title="org.opensplice.dds.domain.\lDomainParticipantFactoryImpl" alt="" coords="696,1549,893,1595"/>
+<area shape="rect" id="node659" href="$a00131.html" title="DomainEntity is the abstract base class for all DCPS entities, except for the org.omg.dds.domain.DomainParticipant." alt="" coords="383,5503,620,5567"/>
+<area shape="rect" id="node661" href="$a00163.html" title="org.opensplice.dds.core.\lEntityImpl\&lt; OLD extends\l DDS.Entity, OLDPARENT,\l QOS extends EntityQos\&lt;?\&gt;\l, LISTENER extends EventListener,\l LISTENERIMPL extends Listener\l\&lt; LISTENER \&gt; \&gt;" alt="" coords="384,5345,619,5479"/>
+<area shape="rect" id="node670" href="$a00063.html" title="org.opensplice.dds.core.\lAbstractDDSObject" alt="" coords="155,3762,317,3809"/>
+<area shape="rect" id="node675" href="$a00291.html" title="This type is implemented by all OpenSplice org.omg.dds.core.Entity classes to allow setting and getti..." alt="" coords="155,5389,317,5435"/>
+<area shape="rect" id="node693" href="$a00357.html" title="Indicates that a DDS implementation could not be loaded because the either the request to do so or th..." alt="" coords="416,5590,587,5637"/>
+<area shape="rect" id="node695" href="$a00359.html" title="Indicates that a DDS implementation could not be initialized due to an error that occurred within tha..." alt="" coords="416,5659,587,5706"/>
+</map>

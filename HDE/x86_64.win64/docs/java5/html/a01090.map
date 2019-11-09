@@ -1,0 +1,8 @@
+<map id="org.omg.dds.core.policy.ResourceLimits" name="org.omg.dds.core.policy.ResourceLimits">
+<area shape="rect" id="node17" href="$a00336.html" title="{org.opensplice.dds.core.policy.\lResourceLimitsImpl\n||+ ResourceLimitsImpl()\l+ ResourceLimitsImpl()\l+ equals()\l+ getMaxInstances()\l+ getMaxSamples()\l+ getMaxSamplesPerInstance()\l+ getPolicyClass()\l+ hashCode()\l+ withMaxInstances()\l+ withMaxSamples()\l+ withMaxSamplesPerInstance()\l}" alt="" coords="176,681,387,957"/>
+<area shape="rect" id="node2" href="$a00175.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.topic.Topic Entities." alt="" coords="5,291,171,394"/>
+<area shape="rect" id="node4" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="199,139,364,242"/>
+<area shape="rect" id="node10" href="$a00169.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.DataReader Entities." alt="" coords="195,291,368,394"/>
+<area shape="rect" id="node13" href="$a00170.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.pub.DataWriter Entities." alt="" coords="392,291,560,394"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="267,5,461,91"/>
+</map>

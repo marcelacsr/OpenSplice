@@ -1,0 +1,5 @@
+<map id="dds::core::xtypes::CollectionType" name="dds::core::xtypes::CollectionType">
+<area shape="rect" id="node5" href="$a00165.html" title="{dds::core::xtypes::\lMapType\n||+ MapType()\l+ MapType()\l+ key_type()\l+ value_type()\l}" alt="" coords="5,291,136,445"/>
+<area shape="rect" id="node7" href="$a00239.html" title="{dds::core::xtypes::\lSequenceType\n||+ SequenceType()\l+ SequenceType()\l+ key_type()\l}" alt="" coords="160,299,291,437"/>
+<area shape="rect" id="node9" href="$a00250.html" title="{dds::core::xtypes::\lStringType\&lt; CHAR_T,\l DELEGATE \&gt;\n||+ StringType()\l}" alt="" coords="315,308,469,428"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="DDS.SubscriberQos" name="DDS.SubscriberQos">
+<area shape="rect" id="node2" href="$a00119.html" title="{DDS.PresentationQosPolicy\n|+ AccessScope\l+ CoherentAccess\l+ OrderedAccess\l|}" alt="" coords="5,5,192,125"/>
+<area shape="rect" id="node4" href="$a00118.html" title="{DDS.PartitionQosPolicy\n|+ Name\l|}" alt="" coords="216,23,379,108"/>
+<area shape="rect" id="node6" href="$a00077.html" title="{DDS.EntityFactoryQosPolicy\n|+ AutoEnableCreatedEntities\l|}" alt="" coords="403,23,595,108"/>
+<area shape="rect" id="node8" href="$a00140.html" title="This QosPolicy allows sharing of entities by multiple processes or threads. " alt="" coords="619,14,768,117"/>
+<area shape="rect" id="node10" href="$a00078.html" title="{DDS.GroupDataQosPolicy\n|+ Value\l|}" alt="" coords="792,23,971,108"/>
+</map>

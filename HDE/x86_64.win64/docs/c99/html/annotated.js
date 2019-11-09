@@ -1,0 +1,25 @@
+var annotated =
+[
+    [ "dds_condition_seq", "a00058.html", "a00058" ],
+    [ "dds_history_qospolicy_t", "a00059.html", "a00059" ],
+    [ "dds_inconsistent_topic_status_t", "a00060.html", "a00060" ],
+    [ "dds_liveliness_changed_status_t", "a00061.html", "a00061" ],
+    [ "dds_liveliness_lost_status_t", "a00062.html", "a00062" ],
+    [ "dds_offered_deadline_missed_status_t", "a00063.html", "a00063" ],
+    [ "dds_offered_incompatible_qos_status_t", "a00064.html", "a00064" ],
+    [ "dds_participantlistener_t", "a00065.html", "a00065" ],
+    [ "dds_publication_matched_status_t", "a00066.html", "a00066" ],
+    [ "dds_publisherlistener_t", "a00067.html", "a00067" ],
+    [ "dds_readerlistener_t", "a00068.html", "a00068" ],
+    [ "dds_requested_deadline_missed_status_t", "a00069.html", "a00069" ],
+    [ "dds_requested_incompatible_qos_status_t", "a00070.html", "a00070" ],
+    [ "dds_resource_limits_qospolicy_t", "a00071.html", "a00071" ],
+    [ "dds_sample_info_t", "a00072.html", "a00072" ],
+    [ "dds_sample_lost_status_t", "a00073.html", "a00073" ],
+    [ "dds_sample_rejected_status_t", "a00074.html", "a00074" ],
+    [ "dds_subscriberlistener_t", "a00075.html", "a00075" ],
+    [ "dds_subscription_matched_status_t", "a00076.html", "a00076" ],
+    [ "dds_topic_descriptor_t", "a00077.html", "a00077" ],
+    [ "dds_topiclistener_t", "a00078.html", "a00078" ],
+    [ "dds_writerlistener_t", "a00079.html", "a00079" ]
+];

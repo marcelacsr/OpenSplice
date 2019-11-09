@@ -1,0 +1,27 @@
+var a00201 =
+[
+    [ "CONNECTION_DIRECTION_TYPE", "a00063.html", "a00063" ],
+    [ "CONNECTION_DIRECTION_TYPEHolder", "a00064.html", "a00064" ],
+    [ "CONNECTION_DOMAIN_TYPE", "a00065.html", "a00065" ],
+    [ "CONNECTION_DOMAIN_TYPEHolder", "a00066.html", "a00066" ],
+    [ "CONNECTION_TYPE", "a00067.html", "a00067" ],
+    [ "CONNECTION_TYPEHolder", "a00068.html", "a00068" ],
+    [ "INF_TIME_VALUE", "a00073.html", "a00073" ],
+    [ "MESSAGING_PATTERN_TYPE", "a00075.html", "a00075" ],
+    [ "MESSAGING_PATTERN_TYPEHolder", "a00076.html", "a00076" ],
+    [ "QUEUING_DISCIPLINE_TYPE", "a00078.html", "a00078" ],
+    [ "QUEUING_DISCIPLINE_TYPEHolder", "a00079.html", "a00079" ],
+    [ "RECEIVE_FLAG_TYPE", "a00083.html", "a00083" ],
+    [ "RECEIVE_FLAG_TYPEHolder", "a00084.html", "a00084" ],
+    [ "RETURN_CODE_TYPE", "a00085.html", "a00085" ],
+    [ "RETURN_CODE_TYPEHolder", "a00086.html", "a00086" ],
+    [ "SEND_FLAG_TYPE", "a00087.html", "a00087" ],
+    [ "SEND_FLAG_TYPEHolder", "a00088.html", "a00088" ],
+    [ "SOCKET_TYPE", "a00089.html", "a00089" ],
+    [ "SOCKET_TYPEHolder", "a00090.html", "a00090" ],
+    [ "TRANSPORT_CONNECTION_STATUS_TYPE", "a00092.html", "a00092" ],
+    [ "TRANSPORT_CONNECTION_STATUS_TYPEHolder", "a00093.html", "a00093" ],
+    [ "VALIDITY_TYPE", "a00098.html", "a00098" ],
+    [ "VALIDITY_TYPEHolder", "a00099.html", "a00099" ],
+    [ "WAITSET_TYPEHolder", "a00100.html", "a00100" ]
+];

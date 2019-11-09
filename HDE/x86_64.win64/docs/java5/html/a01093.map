@@ -1,0 +1,6 @@
+<map id="org.omg.dds.core.policy.TimeBasedFilter" name="org.omg.dds.core.policy.TimeBasedFilter">
+<area shape="rect" id="node11" href="$a00390.html" title="{org.opensplice.dds.core.policy.\lTimeBasedFilterImpl\n||+ TimeBasedFilterImpl()\l+ TimeBasedFilterImpl()\l+ equals()\l+ getMinimumSeparation()\l+ getPolicyClass()\l+ hashCode()\l+ withMinimumSeparation()\l+ withMinimumSeparation()\l}" alt="" coords="31,629,233,853"/>
+<area shape="rect" id="node2" href="$a00169.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.DataReader Entities." alt="" coords="45,291,219,394"/>
+<area shape="rect" id="node4" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="49,139,215,242"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="117,5,312,91"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="FACE.RECEIVE_FLAG_TYPEHolder" name="FACE.RECEIVE_FLAG_TYPEHolder">
+<area shape="rect" id="node2" href="$a00083.html" title="{FACE.RECEIVE_FLAG_TYPE\n|+ _NOT_DEFINED_RECEIVE\l_FLAG_TYPE\l+ _OOB_RECEIVE_FLAG_TYPE\l+ _PEEK\l+ _WAITALL\l|+ value()\l+ from_int()\l# RECEIVE_FLAG_TYPE()\l}" alt="" coords="17,5,236,195"/>
+</map>

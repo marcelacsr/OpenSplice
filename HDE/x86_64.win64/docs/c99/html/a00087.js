@@ -1,0 +1,38 @@
+var a00087 =
+[
+    [ "dds_inconsistent_topic_status_t", "a00060.html", "a00060" ],
+    [ "dds_liveliness_changed_status_t", "a00061.html", "a00061" ],
+    [ "dds_liveliness_lost_status_t", "a00062.html", "a00062" ],
+    [ "dds_offered_deadline_missed_status_t", "a00063.html", "a00063" ],
+    [ "dds_offered_incompatible_qos_status_t", "a00064.html", "a00064" ],
+    [ "dds_participantlistener_t", "a00065.html", "a00065" ],
+    [ "dds_publication_matched_status_t", "a00066.html", "a00066" ],
+    [ "dds_publisherlistener_t", "a00067.html", "a00067" ],
+    [ "dds_readerlistener_t", "a00068.html", "a00068" ],
+    [ "dds_requested_deadline_missed_status_t", "a00069.html", "a00069" ],
+    [ "dds_requested_incompatible_qos_status_t", "a00070.html", "a00070" ],
+    [ "dds_sample_lost_status_t", "a00073.html", "a00073" ],
+    [ "dds_sample_rejected_status_t", "a00074.html", "a00074" ],
+    [ "dds_subscriberlistener_t", "a00075.html", "a00075" ],
+    [ "dds_subscription_matched_status_t", "a00076.html", "a00076" ],
+    [ "dds_topiclistener_t", "a00078.html", "a00078" ],
+    [ "dds_writerlistener_t", "a00079.html", "a00079" ],
+    [ "DDS_EXPORT", "a00087.html#ade1779b7a325b3c53ca2a529a667c1d8", null ],
+    [ "dds_sample_rejected_status_kind", "a00087.html#af0b69a9cb68027e5b84a509b8809c5ed", [
+      [ "DDS_SRST_READ", "a00087.html#af0b69a9cb68027e5b84a509b8809c5eda83c6e4ae84658fcf4f669a5b9304328d", null ],
+      [ "DDS_SRST_REJECTED_BY_INSTANCES_LIMIT", "a00087.html#af0b69a9cb68027e5b84a509b8809c5eda6687eb610baed28d4e42e0104faf827b", null ],
+      [ "DDS_SRST_REJECTED_BY_SAMPLES_LIMIT", "a00087.html#af0b69a9cb68027e5b84a509b8809c5edaba3c1284c056a78dbe3af87c56700396", null ],
+      [ "DDS_SRST_REJECTED_BY_SAMPLES_PER_INSTANCE_LIMIT", "a00087.html#af0b69a9cb68027e5b84a509b8809c5eda95e4e2fab9076251c3bc917718e9487f", null ]
+    ] ],
+    [ "dds_get_inconsistent_topic_status", "a00087.html#a142da90aa52e32ad0a8f958db0934f94", null ],
+    [ "dds_get_liveliness_changed_status", "a00087.html#a5ddccdca3a19e096b20225827d9c92fb", null ],
+    [ "dds_get_liveliness_lost_status", "a00087.html#a594ce608604a546f77d93ee90e2fedb0", null ],
+    [ "dds_get_offered_deadline_missed_status", "a00087.html#a5a5ae646734ae6c92863e004d613afd4", null ],
+    [ "dds_get_offered_incompatible_qos_status", "a00087.html#a87b988f5d59901fe1e5fa96ec651c4ec", null ],
+    [ "dds_get_publication_matched_status", "a00087.html#a96123ea8b2c139fc39f0724e8c34a021", null ],
+    [ "dds_get_requested_deadline_missed_status", "a00087.html#a4b379929ffc02a99bab1e7b00c152d97", null ],
+    [ "dds_get_requested_incompatible_qos_status", "a00087.html#a8d74ea1f239e63bb57eccc5297a3344c", null ],
+    [ "dds_get_sample_lost_status", "a00087.html#ac8be746b2b43441054cf0a24b8d7cc63", null ],
+    [ "dds_get_sample_rejected_status", "a00087.html#a97222603b5cefeeebdb225714e09b80a", null ],
+    [ "dds_get_subscription_matched_status", "a00087.html#ae10e3940aa68d0b0e8a2663e11e170d6", null ]
+];

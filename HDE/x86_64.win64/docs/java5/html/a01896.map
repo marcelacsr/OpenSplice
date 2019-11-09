@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.sub.Sample&lt; TYPE &gt;" name="org.opensplice.dds.sub.Sample&lt; TYPE &gt;">
+<area shape="rect" id="node11" href="$a00339.html" title="{org.opensplice.dds.sub.Sample\lImpl\&lt; TYPE \&gt;\n||+ SampleImpl()\l+ clone()\l+ getAbsoluteGenerationRank()\l+ getData()\l+ getDisposedGenerationCount()\l+ getEnvironment()\l+ getGenerationRank()\l+ getInfo()\l+ getInstanceHandle()\l+ getInstanceState()\land 10 more...\l}" alt="" coords="47,651,260,927"/>
+<area shape="rect" id="node2" href="$a00337.html" title="A Sample represents an atom of data information (i.e., one value for one instance) as returned by a o..." alt="" coords="45,139,261,450"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="221,5,416,91"/>
+</map>

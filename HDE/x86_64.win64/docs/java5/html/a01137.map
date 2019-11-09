@@ -1,0 +1,5 @@
+<map id="org.omg.dds.core.status.RequestedDeadlineMissedStatus" name="org.omg.dds.core.status.RequestedDeadlineMissedStatus">
+<area shape="rect" id="node9" href="$a00329.html" title="{org.opensplice.dds.core.status.\lRequestedDeadlineMissedStatusImpl\n||+ RequestedDeadlineMissedStatusImpl()\l+ getEnvironment()\l+ getLastInstanceHandle()\l+ getTotalCount()\l+ getTotalCountChange()\l}" alt="" coords="5,494,267,666"/>
+<area shape="rect" id="node2" href="$a00364.html" title="Status is the abstract root class for all communication status objects." alt="" coords="53,139,219,259"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="121,5,316,91"/>
+</map>

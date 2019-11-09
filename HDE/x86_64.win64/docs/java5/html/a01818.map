@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.pub.DataWriter&lt; TYPE &gt;" name="org.opensplice.dds.pub.DataWriter&lt; TYPE &gt;">
+<area shape="rect" id="node7" href="$a00062.html" title="{org.opensplice.dds.pub.Abstract\lDataWriter\&lt; TYPE \&gt;\n||+ AbstractDataWriter()\l+ getParent()\l# destroy()\l}" alt="" coords="19,737,227,874"/>
+<area shape="rect" id="node2" href="$a00116.html" title="DataWriter allows the application to set the value of the data to be published under a given org..." alt="" coords="17,174,228,450"/>
+<area shape="rect" id="node9" href="$a00118.html" title="{org.opensplice.dds.pub.Data\lWriterImpl\&lt; TYPE \&gt;\n||+ DataWriterImpl()\l+ assertLiveliness()\l+ dispose()\l+ dispose()\l+ dispose()\l+ dispose()\l+ getKeyValue()\l+ getKeyValue()\l+ getLivelinessLostStatus()\l+ getMatchedSubscriptionData()\land 33 more...\l~ cast()\l# destroy()\l}" alt="" coords="17,923,228,1234"/>
+</map>

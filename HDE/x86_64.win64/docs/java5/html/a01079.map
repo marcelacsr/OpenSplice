@@ -1,0 +1,7 @@
+<map id="org.omg.dds.core.policy.ReaderDataLifecycle" name="org.omg.dds.core.policy.ReaderDataLifecycle">
+<area shape="rect" id="node11" href="$a00316.html" title="This class provides OpenSplice&#45;specific extensions to the org.omg.dds.core.policy.ReaderDataLifecycle policy." alt="" coords="5,932,211,1087"/>
+<area shape="rect" id="node13" href="$a00318.html" title="{org.opensplice.dds.core.policy.\lReaderDataLifecycleImpl\n||+ ReaderDataLifecycleImpl()\l+ ReaderDataLifecycleImpl()\l+ equals()\l+ getAutoPurgeDisposeAll()\l+ getAutoPurgeDisposedSamples\lDelay()\l+ getAutoPurgeNoWriterSamples\lDelay()\l+ getInvalidSampleInvisibility()\l+ getPolicyClass()\l+ hashCode()\l+ withAutoPurgeDisposeAll()\l+ withAutoPurgeDisposedSamples\lDelay()\l+ withAutoPurgeDisposedSamples\lDelay()\l+ withAutoPurgeNoWriterSamples\lDelay()\l+ withAutoPurgeNoWriterSamples\lDelay()\l+ withInvalidSampleInvisibility()\l}" alt="" coords="235,785,459,1234"/>
+<area shape="rect" id="node2" href="$a00169.html" title="A QosPolicy interface that implements this marker interface applies to org.omg.dds.sub.DataReader Entities." alt="" coords="140,291,313,394"/>
+<area shape="rect" id="node4" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="144,139,309,242"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="212,5,407,91"/>
+</map>

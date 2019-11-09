@@ -1,0 +1,11 @@
+<map id="org.omg.dds.core.policy.QosPolicy.ForDomainParticipant" name="org.omg.dds.core.policy.QosPolicy.ForDomainParticipant">
+<area shape="rect" id="node9" href="$a00161.html" title="Controls the behavior of the org.omg.dds.core.Entity when acting as a factory for other entities..." alt="" coords="15,477,236,597"/>
+<area shape="rect" id="node13" href="$a00431.html" title="User data not known by the middleware, but distributed by means of built&#45;in topics." alt="" coords="269,477,435,597"/>
+<area shape="rect" id="node17" href="$a00349.html" title="This QosPolicy specifies the scheduling parameters that will be used for a thread that is spawned by ..." alt="" coords="477,443,680,632"/>
+<area shape="rect" id="node2" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="269,139,435,242"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="337,5,532,91"/>
+<area shape="rect" id="node11" href="$a00162.html" title="{org.opensplice.dds.core.policy.\lEntityFactoryImpl\n||+ EntityFactoryImpl()\l+ EntityFactoryImpl()\l+ equals()\l+ getPolicyClass()\l+ hashCode()\l+ isAutoEnableCreatedEntities()\l+ toString()\l+ withAutoEnableCreatedEntities()\l}" alt="" coords="5,680,227,904"/>
+<area shape="rect" id="node15" href="$a00432.html" title="{org.opensplice.dds.core.policy.\lUserDataImpl\n||+ UserDataImpl()\l+ UserDataImpl()\l+ equals()\l+ getPolicyClass()\l+ getValue()\l+ hashCode()\l+ withValue()\l}" alt="" coords="251,689,453,895"/>
+<area shape="rect" id="node19" href="$a00220.html" title="Scheduling for the Listener thread of a org.omg.dds.domain.DomainParticipant." alt="" coords="477,741,680,843"/>
+<area shape="rect" id="node21" href="$a00443.html" title="Scheduling for the Watchdog thread of a org.omg.dds.domain.DomainParticipant." alt="" coords="704,741,917,843"/>
+</map>

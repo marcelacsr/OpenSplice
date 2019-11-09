@@ -1,0 +1,5 @@
+<map id="dds::pub::AnyDataWriter" name="dds::pub::AnyDataWriter">
+<area shape="rect" id="node7" href="$a00098.html" title="DataWriter allows the application to set the value of the sample to be published under a given Topic..." alt="" coords="19,909,192,1168"/>
+<area shape="rect" id="node2" href="$a00121.html" title="This class is the abstract base class for all the DCPS objects." alt="" coords="37,331,173,485"/>
+<area shape="rect" id="node4" href="$a00221.html" title="Base class for reference&#45;counted objects." alt="" coords="33,6,177,282"/>
+</map>

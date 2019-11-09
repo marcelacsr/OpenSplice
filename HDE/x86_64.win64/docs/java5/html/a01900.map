@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.sub.SampleImpl&lt; TYPE &gt;" name="org.opensplice.dds.sub.SampleImpl&lt; TYPE &gt;">
+<area shape="rect" id="node2" href="$a00338.html" title="OpenSplice&#45;specific extension of org.omg.dds.sub.Sample with support for obtaining the key value in c..." alt="" coords="52,499,255,602"/>
+<area shape="rect" id="node4" href="$a00337.html" title="A Sample represents an atom of data information (i.e., one value for one instance) as returned by a o..." alt="" coords="45,139,261,450"/>
+<area shape="rect" id="node10" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="221,5,416,91"/>
+</map>

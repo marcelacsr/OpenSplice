@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.core.AlreadyClosedExceptionImpl" name="org.opensplice.dds.core.AlreadyClosedExceptionImpl">
+<area shape="rect" id="node2" href="$a00073.html" title="The target object was previously closed and therefore cannot process the operation." alt="" coords="69,325,253,480"/>
+<area shape="rect" id="node4" href="$a00124.html" title="DDS recognizes a number of ways in which an operation may return, which are mapped to exceptions in t..." alt="" coords="55,139,268,277"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="157,5,352,91"/>
+</map>

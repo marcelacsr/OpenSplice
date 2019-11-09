@@ -1,0 +1,6 @@
+<map id="org.opensplice.dds.core.policy.QosPolicy.ForView" name="org.opensplice.dds.core.policy.QosPolicy.ForView">
+<area shape="rect" id="node9" href="$a00438.html" title="This QosPolicy is used to set the key list of a DataReaderView." alt="" coords="31,443,233,597"/>
+<area shape="rect" id="node2" href="$a00305.html" title="This class is the abstract root for all the QoS policies." alt="" coords="49,139,215,242"/>
+<area shape="rect" id="node6" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="117,5,312,91"/>
+<area shape="rect" id="node11" href="$a00439.html" title="{org.opensplice.dds.core.policy.\lViewKeysImpl\n||+ ViewKeysImpl()\l+ ViewKeysImpl()\l+ equals()\l+ getKey()\l+ getPolicyClass()\l+ hashCode()\l+ withKey()\l+ withKey()\l+ withKey()\l}" alt="" coords="31,646,233,887"/>
+</map>

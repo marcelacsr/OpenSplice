@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.pub.DataWriterImpl&lt; TYPE &gt;" name="org.opensplice.dds.pub.DataWriterImpl&lt; TYPE &gt;">
+<area shape="rect" id="node2" href="$a00062.html" title="{org.opensplice.dds.pub.Abstract\lDataWriter\&lt; TYPE \&gt;\n||+ AbstractDataWriter()\l+ getParent()\l# destroy()\l}" alt="" coords="157,737,365,874"/>
+<area shape="rect" id="node6" href="$a00115.html" title="OpenSplice&#45;specific extension of org.omg.dds.pub.DataWriter with support for writing atomic writing o..." alt="" coords="293,499,480,688"/>
+<area shape="rect" id="node8" href="$a00116.html" title="DataWriter allows the application to set the value of the data to be published under a given org..." alt="" coords="281,174,492,450"/>
+</map>

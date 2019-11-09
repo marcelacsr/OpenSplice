@@ -1,0 +1,4 @@
+<map id="org::opensplice::core::policy::WatchdogScheduling" name="org::opensplice::core::policy::WatchdogScheduling">
+<area shape="rect" id="node2" href="$a00234.html" title="QoS Policy base class for scheduling policies." alt="" coords="12,208,193,397"/>
+<area shape="rect" id="node4" href="$a00292.html" title="This class is the base for various value&#45;type dds objects." alt="" coords="28,5,177,160"/>
+</map>

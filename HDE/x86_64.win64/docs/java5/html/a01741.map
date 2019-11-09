@@ -1,0 +1,5 @@
+<map id="org.opensplice.dds.core.status.AllDataDisposedStatusImpl" name="org.opensplice.dds.core.status.AllDataDisposedStatusImpl">
+<area shape="rect" id="node2" href="$a00071.html" title="All instances for one or more org.omg.dds.topic.Topics have been disposed through org..." alt="" coords="31,307,233,427"/>
+<area shape="rect" id="node4" href="$a00364.html" title="Status is the abstract root class for all communication status objects." alt="" coords="49,139,215,259"/>
+<area shape="rect" id="node8" href="$a00126.html" title="A supertype of all DDS classes and interfaces." alt="" coords="117,5,312,91"/>
+</map>
