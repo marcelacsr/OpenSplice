@@ -96,7 +96,7 @@ public class HelloCoreServer implements UDIDataReaderListener<ApplicationObject>
   
   public static void CSVWriterExample(ArrayList<String> arg) throws IOException {
   
-	  String csvFile = "C:/Users/Erica/Documents/smartfallGeradoServer2.csv";	 	
+	  String csvFile = "C:/OpenSplice/HDE/x86_64.win64/smartfallGeradoServer2.csv";	 	
 	  System.out.println(arg);
 	  
 	  

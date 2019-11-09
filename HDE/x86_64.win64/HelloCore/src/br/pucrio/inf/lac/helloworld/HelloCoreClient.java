@@ -65,7 +65,7 @@ public class HelloCoreClient implements NodeConnectionListener {
   
   private ArrayList<String> CSVReaderExample() {
 	// TODO Auto-generated method stub
-	  String csvFile = "C:/Users/Erica/Documents/smartfall.csv";
+	  String csvFile = "C:/OpenSplice/HDE/x86_64.win64/smartfall.csv";
       
 	  String line2 = null;
       CSVReader reader = null;
